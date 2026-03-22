@@ -1,0 +1,8 @@
+"$schema": https://driftsys.github.io/schemas/project/v1.json
+name: io.driftsys.refhub
+version: 0.1.0
+category: manifest
+description: DriftSys reference registry — standards, regulations, and process models
+license: MIT
+homepage: https://driftsys.github.io/refhub
+repository: https://github.com/driftsys/refhub

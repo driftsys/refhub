@@ -1,0 +1,6 @@
+scheme = "semver"
+strict = true
+scopes = ["repo", "ci", "refs"]
+
+[versioning]
+tag_prefix = "v"

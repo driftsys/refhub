@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "tamasfe.even-better-toml",
+    "davidanson.vscode-markdownlint",
+    "dprint.dprint",
+    "nefrob.vscode-just-syntax"
+  ]
+}
