@@ -29,7 +29,7 @@ just verify                     # Validate commits + build
 
 ## Structure
 
-- `references.md` — all entries, grouped by domain
+- `registry/references.md` — all entries, grouped by domain
 - `project.yaml` — project manifest
 
 ## Workflow
