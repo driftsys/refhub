@@ -198,6 +198,67 @@
   Document: RFC 8259 (2017)\
   URL: https://www.rfc-editor.org/rfc/rfc8259
 
+## API and Data Exchange
+
+- [OpenAPI] OpenAPI Specification
+
+  Standard for describing HTTP APIs in a machine-readable format. Defines
+  endpoints, request/response schemas, authentication, and parameters. Enables
+  automatic code generation, documentation, and testing of REST APIs.
+
+  Document: OpenAPI 3.1.0 (2021)\
+  URL: https://spec.openapis.org/oas/v3.1.0
+
+- [OAuth-2] The OAuth 2.0 Authorization Framework
+
+  Framework for delegated authorisation enabling third-party applications to
+  obtain limited access to HTTP services. Defines grant types (authorization
+  code, client credentials, device code) and token-based access control.
+
+  Document: RFC 6749 (2012) / RFC 9068 (2022)\
+  URL: https://www.rfc-editor.org/rfc/rfc6749
+
+- [OIDC] OpenID Connect
+
+  Identity layer built on OAuth 2.0 for authentication. Provides ID tokens,
+  UserInfo endpoint, and discovery mechanisms enabling single sign-on (SSO) and
+  federated identity across web and mobile applications.
+
+  Document: OpenID Connect Core 1.0 (2014)\
+  URL: https://openid.net/specs/openid-connect-core-1_0.html\
+  Derived-from: OAuth-2
+
+## Software Supply Chain
+
+- [SPDX] Software Package Data Exchange
+
+  ISO standard for communicating software bill of materials (SBOM) information
+  including component names, versions, licences, and security references.
+  Enables automated compliance checking and vulnerability tracking across
+  software supply chains.
+
+  Document: ISO/IEC 5962:2021 (SPDX 2.3)\
+  URL: https://spdx.dev/
+
+- [CycloneDX] CycloneDX Software Bill of Materials Standard
+
+  OWASP standard for creating software, hardware, and service bills of
+  materials. Supports vulnerability tracking, licence compliance, and dependency
+  analysis with native integration into CI/CD pipelines.
+
+  Document: CycloneDX 1.6 (2024)\
+  URL: https://cyclonedx.org/specification/overview/
+
+- [SLSA] Supply-chain Levels for Software Artifacts
+
+  Framework defining levels of software supply chain security assurance.
+  Specifies requirements for source integrity, build integrity, and provenance
+  at four levels from basic to hardened, preventing tampering and ensuring
+  reproducibility.
+
+  Document: SLSA v1.0 (2023)\
+  URL: https://slsa.dev/spec/v1.0/
+
 ## Coding Standards
 
 - [CERT-C] SEI CERT C Coding Standard
