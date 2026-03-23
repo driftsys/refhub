@@ -19,6 +19,26 @@
   Status: Superseded\
   Superseded-by: ISO-33001
 
+- [ISO-25010] Systems and software engineering — Systems and software Quality
+  Requirements and Evaluation (SQuaRE)
+
+  Defines quality models for software product quality and quality in use.
+  Establishes eight characteristics: functional suitability, performance
+  efficiency, compatibility, usability, reliability, security, maintainability,
+  and portability.
+
+  Document: ISO/IEC 25010:2023\
+  URL: https://www.iso.org/standard/78176.html
+
+- [ISO-25001] Systems and software engineering — SQuaRE — Planning and
+  management
+
+  Requirements and guidance for managing the evaluation of software product
+  quality. Defines the framework for applying the SQuaRE series in practice.
+
+  Document: ISO/IEC 25001:2014\
+  URL: https://www.iso.org/standard/64016.html
+
 - [RFC-2119] Key words for use in RFCs to Indicate Requirement Levels
 
   Defines the precise meaning of MUST, SHALL, SHOULD, MAY, and their negatives
@@ -36,3 +56,13 @@
   Document: RFC 8174 (2017)\
   URL: https://www.rfc-editor.org/rfc/rfc8174\
   Derived-from: RFC-2119
+
+- [ISO-33001] Information technology — Process assessment — Concepts and
+  terminology
+
+  Replacement for ISO/IEC 15504. Defines concepts, terminology, and framework
+  for process assessment. The current normative basis for process capability
+  determination.
+
+  Document: ISO/IEC 33001:2015\
+  URL: https://www.iso.org/standard/54175.html
