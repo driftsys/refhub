@@ -71,6 +71,28 @@
   Document: OMG DDS 1.4 (2015)\
   URL: <https://www.omg.org/spec/DDS/>
 
+- [DDS-RTPS] DDS Interoperability Wire Protocol (RTPS)
+
+  Defines the wire protocol enabling interoperability between DDS
+  implementations from different vendors. Specifies discovery, data
+  serialisation, and reliable/best-effort delivery over UDP multicast. Ensures
+  plug-and-play communication across heterogeneous DDS systems.
+
+  Document: OMG DDSI-RTPS 2.5 (2022)\
+  URL: <https://www.omg.org/spec/DDSI-RTPS/>\
+  Derived-from: DDS
+
+- [DDS-Security] DDS Security Specification
+
+  Defines a plugin architecture for authentication, access control,
+  cryptographic operations, and logging in DDS systems. Enables secure
+  publish-subscribe communication for defense, autonomous vehicles, and critical
+  infrastructure applications.
+
+  Document: OMG DDS Security 1.1 (2018)\
+  URL: <https://www.omg.org/spec/DDS-SECURITY/>\
+  Derived-from: DDS
+
 - [ROS-2] Robot Operating System 2
 
   Open-source middleware framework for robot software development. Provides
