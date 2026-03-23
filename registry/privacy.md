@@ -38,6 +38,27 @@
   Document: Regulation (EU) 2016/679\
   URL: https://eur-lex.europa.eu/eli/reg/2016/679/oj
 
+- [ISO-27018] Information technology — Code of practice for protection of
+  personally identifiable information (PII) in public clouds
+
+  Code of practice for protecting PII processed by public cloud service
+  providers. Extends ISO 27002 with cloud-specific PII protection controls
+  covering consent, data minimization, and cross-border transfers.
+
+  Document: ISO/IEC 27018:2019\
+  URL: https://www.iso.org/standard/76559.html\
+  Derived-from: ISO-27001
+
+- [HIPAA] Health Insurance Portability and Accountability Act
+
+  U.S. federal law establishing privacy and security requirements for protected
+  health information (PHI). Includes the Privacy Rule, Security Rule, and Breach
+  Notification Rule governing healthcare providers, insurers, and their business
+  associates.
+
+  Document: Public Law 104-191 (1996)\
+  URL: https://www.hhs.gov/hipaa/index.html
+
 - [CCPA] California Consumer Privacy Act
 
   California state law granting consumers rights over personal information
@@ -46,3 +67,30 @@
 
   Document: Cal. Civ. Code 1798.100-1798.199.100\
   URL: https://oag.ca.gov/privacy/ccpa
+
+- [LGPD] Lei Geral de Protecao de Dados Pessoais
+
+  Brazil's general data protection law modelled on the GDPR. Establishes
+  principles, data subject rights, and obligations for data controllers and
+  processors. Enforced by the Autoridade Nacional de Protecao de Dados (ANPD).
+
+  Document: Lei 13.709/2018\
+  URL: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+
+- [PIPEDA] Personal Information Protection and Electronic Documents Act
+
+  Canadian federal privacy law governing how private-sector organizations
+  collect, use, and disclose personal information in the course of commercial
+  activities. Based on ten fair information principles.
+
+  Document: S.C. 2000, c. 5\
+  URL: https://laws-lois.justice.gc.ca/eng/acts/p-8.6/
+
+- [UK-DPA-2018] Data Protection Act 2018
+
+  UK domestic implementation of data protection law post-Brexit. Supplements the
+  UK GDPR with provisions for law enforcement processing, intelligence services,
+  and specific UK derogations from GDPR requirements.
+
+  Document: Data Protection Act 2018\
+  URL: https://www.legislation.gov.uk/ukpga/2018/12/contents
