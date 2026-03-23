@@ -52,7 +52,7 @@
   principles.
 
   Document: ISO 9241 (series)\
-  URL: https://www.iso.org/standard/77520.html
+  URL: https://www.iso.org/standard/63785.html
 
 - [IEC-63008] Household and similar electrical appliances — Accessibility of
   control elements, doors and lids, and drawers

@@ -32,8 +32,8 @@
   safety case demonstration and independent safety assessment.
 
   Document: EN 50129:2018\
-  URL: https://standards.iteh.ai/catalog/standards/cen/9a08e555-d
-  tried-4e5a-ae6e-dc29d9ea14ee/en-50129-2018\
+  URL:
+  https://standards.iteh.ai/catalog/standards/cen/9a08e555-4e5a-ae6e-dc29d9ea14ee/en-50129-2018\
   Derived-from: IEC-61508
 
 - [EN-50159] Railway applications — Communication, signalling and processing
@@ -81,16 +81,6 @@
 
   Document: IEC 61375 (series, 2012)\
   URL: https://webstore.iec.ch/en/publication/5398
-
-- [IEC-61162] Maritime navigation and radiocommunication equipment and systems —
-  Digital interfaces (adapted for rail NMEA-like protocols)
-
-  While primarily maritime, IEC 61162 serial protocols are referenced in rail
-  for GNSS and positioning data exchange. Rail positioning systems commonly
-  implement NMEA 0183 sentence formats for location and timing data.
-
-  Document: IEC 61162 (series)\
-  URL: https://webstore.iec.ch/en/publication/4713
 
 ## Signalling and Train Control
 

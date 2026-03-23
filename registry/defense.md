@@ -67,11 +67,14 @@
 - [DO-178C] Software Considerations in Airborne Systems and Equipment
   Certification
 
-  Primary software certification standard for civil and military aviation. Also
-  referenced in defense procurement for safety-critical airborne software. See
-  aerospace domain for full description.
+  Defines objectives for software development and verification in airborne
+  systems, organised by five design assurance levels (DAL A-E). In defense
+  contexts, it is mandated or referenced by military airworthiness authorities
+  (e.g., MIL-HDBK-516C) for safety-critical software on military aircraft, UAVs,
+  and weapon systems.
 
-  Derived-from: DO-178C
+  Document: DO-178C / ED-12C (2011)\
+  URL: https://www.rtca.org/products/do-178c/
 
 - [MIL-STD-498] Software Development and Documentation
 
@@ -81,6 +84,7 @@
   and user manuals.
 
   Document: MIL-STD-498 (1994)\
+  URL: https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36351\
   Status: Superseded\
   Superseded-by: ISO-12207
 

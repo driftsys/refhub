@@ -17,7 +17,7 @@
   systems (SIS) including sensors, logic solvers, and final elements.
 
   Document: IEC 61511:2016 (Edition 2.0)\
-  URL: <https://webstore.iec.ch/en/publication/24241>\
+  URL: https://webstore.iec.ch/en/publication/24241\
   Derived-from: IEC-61508
 
 - [IEC-62061] Safety of machinery — Functional safety of safety-related control
@@ -28,7 +28,7 @@
   electronic control systems used in machinery.
 
   Document: IEC 62061:2021 (Edition 2.0)\
-  URL: <https://webstore.iec.ch/en/publication/62340>\
+  URL: https://webstore.iec.ch/en/publication/62340\
   Derived-from: IEC-61508
 
 - [ISO-12100] Safety of machinery — General principles for design
@@ -48,18 +48,8 @@
   machinery, industrial automation, and process control.
 
   Document: IEC 61800-5-2:2016\
-  URL: <https://webstore.iec.ch/en/publication/25498>\
+  URL: https://webstore.iec.ch/en/publication/25498\
   Derived-from: IEC-61508
-
-- [IEC-62443] Industrial communication networks — IT security for networks and
-  systems
-
-  Comprehensive series for industrial automation and control system (IACS)
-  cybersecurity. Defines security levels (SL 1-4), zones and conduits,
-  requirements for operators, integrators, and component suppliers.
-
-  Document: IEC 62443 (series)\
-  URL: https://webstore.iec.ch/en/publication/33615
 
 - [ISO-13849-1] Safety of machinery — Safety-related parts of control systems —
   Part 1
@@ -69,7 +59,7 @@
   SIL-based assessment for machinery applications.
 
   Document: ISO 13849-1:2023\
-  URL: <https://www.iso.org/standard/73481.html>\
+  URL: https://www.iso.org/standard/73481.html\
   Derived-from: ISO-12100
 
 ## Nuclear
@@ -82,7 +72,7 @@
   safety-classified systems in nuclear power plants.
 
   Document: IEC 61513:2011\
-  URL: <https://webstore.iec.ch/en/publication/5533>\
+  URL: https://webstore.iec.ch/en/publication/5533\
   Derived-from: IEC-61508
 
 - [IEC-60880] Nuclear power plants — Instrumentation and control systems
@@ -95,7 +85,7 @@
   systems.
 
   Document: IEC 60880:2006+AMD1:2022\
-  URL: <https://webstore.iec.ch/en/publication/67281>\
+  URL: https://webstore.iec.ch/en/publication/67281\
   Derived-from: IEC-61513
 
 ## Regulation
