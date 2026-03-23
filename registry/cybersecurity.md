@@ -158,6 +158,26 @@
   Document: NIST SP 800-82 Rev. 3 (2023)\
   URL: https://csrc.nist.gov/pubs/sp/800/82/r3/final
 
+- [SOC-2] Service Organization Control 2
+
+  AICPA audit framework for evaluating service organisations' controls relevant
+  to security, availability, processing integrity, confidentiality, and privacy.
+  SOC 2 Type II reports cover control effectiveness over a period. Required by
+  enterprise customers for cloud and SaaS providers.
+
+  Document: AICPA SOC 2 (TSP Section 100)\
+  URL:
+  https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
+
+- [FedRAMP] Federal Risk and Authorization Management Program
+
+  U.S. government programme standardising security assessment and authorisation
+  of cloud services used by federal agencies. Defines three impact levels (Low,
+  Moderate, High) with controls based on NIST SP 800-53.
+
+  Document: FedRAMP Authorization Framework\
+  URL: https://www.fedramp.gov/
+
 ## Threat Intelligence and Assessment
 
 - [MITRE-ATTCK] MITRE ATT&CK — Adversarial Tactics, Techniques, and Common
