@@ -106,7 +106,7 @@
   AI-based systems.
 
   Document: ISO/IEC 25059:2023\
-  URL: <https://www.iso.org/standard/80655.html>\
+  URL: https://www.iso.org/standard/80655.html\
   Derived-from: ISO-25010
 
 - [ISO-24029] Artificial intelligence — Assessment of the robustness of neural

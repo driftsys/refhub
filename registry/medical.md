@@ -8,7 +8,7 @@
   management, and configuration management.
 
   Document: IEC 62304:2006+AMD1:2015\
-  URL: <https://webstore.iec.ch/en/publication/22794>\
+  URL: https://webstore.iec.ch/en/publication/22794\
   Derived-from: IEC-61508
 
 - [ISO-14971] Medical devices — Application of risk management to medical
@@ -30,7 +30,7 @@
   traceability, and regulatory compliance.
 
   Document: ISO 13485:2016\
-  URL: <https://www.iso.org/standard/59752.html>\
+  URL: https://www.iso.org/standard/59752.html\
   Derived-from: ISO-9001
 
 - [IEC-62366] Medical devices — Application of usability engineering to medical
