@@ -1,38 +1,36 @@
 # Typography
 
-## Font Formats
+Standards for typographic systems covering font formats, web font delivery,
+variable fonts, display legibility, technical lettering, accessible content
+presentation, and unit symbols used in technical documentation.
 
-- [OpenType] OpenType Font Format
+**Contents:** [Standard](#standard)
 
-  Joint Microsoft/Adobe font format supporting advanced typographic features.
-  Defines glyph outlines (TrueType or CFF), OpenType Layout tables for
-  ligatures, kerning, alternates, and contextual substitution. The dominant font
-  format across all platforms.
+## Standard
 
-  Document: ISO/IEC 14496-22:2019 (OFF) / OpenType 1.9.1\
-  URL: <https://learn.microsoft.com/en-us/typography/opentype/spec/>
+- [IEEE-260] IEEE Standard Letter Symbols for Units of Measurement
 
-- [WOFF2] Web Open Font Format 2.0
+  Defines letter symbols for SI and non-SI units used in electrical and
+  electronics engineering. Specifies formatting rules for unit symbols,
+  prefixes, and quantities in technical documents and software displays.
 
-  W3C standard for compressed font delivery on the web. Uses Brotli compression
-  achieving 30% smaller files than WOFF 1.0. Supported by all modern browsers
-  enabling custom web typography without bandwidth penalties.
+  Document: IEEE 260.1-2004\
+  URL: <https://standards.ieee.org/ieee/260.1/1262/>\
+  Label: Standard\
+  Keywords: unit symbols, SI units, letter symbols, measurement units, prefixes,
+  electrical engineering, formatting rules
 
-  Document: W3C Recommendation (2018)\
-  URL: <https://www.w3.org/TR/WOFF2/>
+- [ISO-3098] Technical product documentation — Lettering
 
-- [Variable-Fonts] OpenType Font Variations
+  Defines character dimensions, proportions, and spacing for technical drawings
+  and documentation. Specifies ISO Type A and Type B lettering with height, line
+  width, and spacing ratios ensuring legibility on engineering drawings.
 
-  Extension to OpenType enabling a single font file to contain a continuous
-  range of weights, widths, slants, and custom axes. Reduces font file count and
-  enables responsive typography adapting to screen size, reading distance, and
-  user preferences.
-
-  Document: OpenType 1.8+ (2016)\
-  URL:
-  <https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview>
-
-## Typographic Standards
+  Document: ISO 3098 (series, 2015)\
+  URL: <https://www.iso.org/standard/63403.html>\
+  Label: Standard\
+  Keywords: technical lettering, character dimensions, engineering drawings,
+  Type A, Type B, spacing ratios, legibility
 
 - [ISO-9241-303] Ergonomics of human-system interaction — Requirements for
   electronic visual displays
@@ -43,18 +41,10 @@
   standards.
 
   Document: ISO 9241-303:2011\
-  URL: <https://www.iso.org/standard/40097.html>
-
-- [ISO-3098] Technical product documentation — Lettering
-
-  Defines character dimensions, proportions, and spacing for technical drawings
-  and documentation. Specifies ISO Type A and Type B lettering with height, line
-  width, and spacing ratios ensuring legibility on engineering drawings.
-
-  Document: ISO 3098 (series, 2015)\
-  URL: <https://www.iso.org/standard/63403.html>
-
-## Accessibility and Readability
+  URL: <https://www.iso.org/standard/40097.html>\
+  Label: Standard\
+  Keywords: display quality, character size, luminance contrast, stroke width,
+  legibility, visual displays, ergonomics
 
 - [ISO-24751] Information technology — Individualized adaptability and
   accessibility in e-learning, education and training
@@ -64,9 +54,10 @@
   representations enabling accessible digital content delivery.
 
   Document: ISO/IEC 24751 (series, 2008)\
-  URL: <https://www.iso.org/standard/41521.html>
-
-## Units and Symbols
+  URL: <https://www.iso.org/standard/41521.html>\
+  Label: Standard\
+  Keywords: accessibility, e-learning, adaptability, font size, colour contrast,
+  text-to-speech, digital content, inclusive design
 
 - [ISO-80000] Quantities and units
 
@@ -76,7 +67,23 @@
   for SI unit usage in technical documentation.
 
   Document: ISO 80000 (series, 2019)\
-  URL: <https://www.iso.org/standard/76921.html>
+  URL: <https://www.iso.org/standard/76921.html>\
+  Label: Standard\
+  Keywords: quantities, units, SI, symbols, mechanics, thermodynamics,
+  electricity, technical documentation
+
+- [OpenType] OpenType Font Format
+
+  Joint Microsoft/Adobe font format supporting advanced typographic features.
+  Defines glyph outlines (TrueType or CFF), OpenType Layout tables for
+  ligatures, kerning, alternates, and contextual substitution. The dominant font
+  format across all platforms.
+
+  Document: ISO/IEC 14496-22:2019 (OFF) / OpenType 1.9.1\
+  URL: <https://learn.microsoft.com/en-us/typography/opentype/spec/>\
+  Label: Standard\
+  Keywords: OpenType, font format, TrueType, CFF, ligatures, kerning, contextual
+  substitution, glyph outlines
 
 - [SI] The International System of Units
 
@@ -85,13 +92,33 @@
   international trade. See metrology domain for full entry.
 
   Document: SI Brochure (9th Edition, 2019)\
-  URL: <https://www.bipm.org/en/publications/si-brochure>
+  URL: <https://www.bipm.org/en/publications/si-brochure>\
+  Label: Standard\
+  Keywords: SI units, base units, measurement system, fundamental constants,
+  metrology, international trade
 
-- [IEEE-260] IEEE Standard Letter Symbols for Units of Measurement
+- [Variable-Fonts] OpenType Font Variations
 
-  Defines letter symbols for SI and non-SI units used in electrical and
-  electronics engineering. Specifies formatting rules for unit symbols,
-  prefixes, and quantities in technical documents and software displays.
+  Extension to OpenType enabling a single font file to contain a continuous
+  range of weights, widths, slants, and custom axes. Reduces font file count and
+  enables responsive typography adapting to screen size, reading distance, and
+  user preferences.
 
-  Document: IEEE 260.1-2004\
-  URL: <https://standards.ieee.org/ieee/260.1/1262/>
+  Document: OpenType 1.8+ (2016)\
+  URL:
+  <https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview>\
+  Label: Standard\
+  Keywords: variable fonts, font variations, weight axis, width axis, responsive
+  typography, OpenType, custom axes
+
+- [WOFF2] Web Open Font Format 2.0
+
+  W3C standard for compressed font delivery on the web. Uses Brotli compression
+  achieving 30% smaller files than WOFF 1.0. Supported by all modern browsers
+  enabling custom web typography without bandwidth penalties.
+
+  Document: W3C Recommendation (2018)\
+  URL: <https://www.w3.org/TR/WOFF2/>\
+  Label: Standard\
+  Keywords: web fonts, WOFF, Brotli compression, font delivery, web typography,
+  W3C, browser support

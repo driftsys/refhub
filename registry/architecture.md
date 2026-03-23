@@ -1,16 +1,13 @@
 # Architecture
 
-## Enterprise Architecture Frameworks
+Frameworks, patterns, and reference models for structuring software, enterprise,
+and data systems. Covers enterprise architecture methodologies, software design
+patterns, distributed systems patterns, reference architectures, and data
+architecture approaches.
 
-- [TOGAF] The Open Group Architecture Framework
+**Contents:** [Standard](#standard) | [Publication](#publication)
 
-  Enterprise architecture methodology providing a structured approach to
-  designing, planning, implementing, and governing IT architecture. Defines the
-  Architecture Development Method (ADM), content framework, and enterprise
-  continuum. The most widely adopted EA framework globally.
-
-  Document: TOGAF 10th Edition (2022)\
-  URL: <https://www.opengroup.org/togaf>
+## Standard
 
 - [ArchiMate] ArchiMate Enterprise Architecture Modeling Language
 
@@ -19,208 +16,10 @@
   layers with standardised viewpoints. Companion language to TOGAF.
 
   Document: ArchiMate 3.2 (2022)\
-  URL: <https://www.opengroup.org/archimate-forum/archimate-overview>
-
-- [Zachman] Zachman Framework for Enterprise Architecture
-
-  Classification scheme for enterprise architecture artifacts organised as a
-  two-dimensional matrix. Rows represent stakeholder perspectives (planner
-  through operator), columns represent interrogatives (what, how, where, who,
-  when, why). Foundational taxonomy for EA.
-
-  Document: Zachman Framework (Version 3.0)\
-  URL: <https://zachman.com/about-the-zachman-framework>
-
-## Defense and Government Architecture
-
-- [DODAF] Department of Defense Architecture Framework
-
-  U.S. DoD framework for architecture description. Defines viewpoints
-  (operational, systems, services, standards, capability) and data models for
-  describing military systems, their interconnections, and alignment with joint
-  capabilities.
-
-  Document: DoDAF 2.02 (2010)\
-  URL: <https://dodcio.defense.gov/library/dod-architecture-framework/>
-
-- [NAF] NATO Architecture Framework
-
-  NATO framework for developing architecture descriptions across allied nations.
-  Defines viewpoints covering concepts, services, systems, standards, and
-  programmes enabling interoperability assessment of coalition systems and
-  capabilities.
-
-  Document: NAF v4 (2018)\
-  URL: <https://www.nato.int/cps/en/natohq/topics_157575.htm>
-
-## Software Architecture
-
-- [ISO-42010] Systems and software engineering — Architecture description
-
-  Defines a conceptual model for architecture descriptions. Establishes
-  viewpoints, views, and concerns as the basis for documenting system and
-  software architectures. See systems engineering domain for full entry.
-
-  Document: ISO/IEC/IEEE 42010:2022\
-  URL: <https://www.iso.org/standard/74393.html>
-
-- [C4-Model] C4 Model for Visualising Software Architecture
-
-  Hierarchical approach to software architecture diagramming using four levels
-  of abstraction: Context, Containers, Components, and Code. Provides a common
-  vocabulary and notation for communicating architecture to both technical and
-  non-technical stakeholders.
-
-  Document: C4 Model (Simon Brown)\
-  URL: <https://c4model.com/>
-
-- [4plus1] 4+1 Architectural View Model
-
-  Software architecture framework organising documentation into five views:
-  Logical (functionality), Development (implementation), Process (concurrency),
-  Physical (deployment), and Scenarios (use cases). Widely referenced in
-  UML-based architecture documentation.
-
-  Document: Philippe Kruchten, IEEE Software (1995)\
-  URL: <https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf>
-
-## Architecture Patterns
-
-- [SOA] Service-Oriented Architecture Reference Model
-
-  OASIS reference model defining the concepts and relationships of service-
-  oriented architecture. Covers service description, visibility, interaction,
-  real-world effects, and contracts. Foundation for enterprise integration and
-  web services.
-
-  Document: OASIS SOA Reference Model V1.0 (2006)\
-  URL: <https://docs.oasis-open.org/soa-rm/v1.0/>
-
-- [Microservices] Microservices Architecture Style
-
-  Architectural approach decomposing applications into independently deployable
-  services organised around business capabilities. Each service owns its data,
-  communicates via APIs, and can be developed, deployed, and scaled
-  independently.
-
-  Document: Martin Fowler / Sam Newman (2014)\
-  URL: <https://martinfowler.com/articles/microservices.html>
-
-- [EDA] Event-Driven Architecture
-
-  Architectural pattern where components communicate through asynchronous
-  events. Supports event notification, event-carried state transfer, and event
-  sourcing patterns. Enables loose coupling, scalability, and real-time
-  responsiveness in distributed systems.
-
-  Document: Reactive Manifesto (2014) / CloudEvents (CNCF)\
-  URL: <https://www.reactivemanifesto.org/>
-
-- [Hexagonal] Hexagonal Architecture (Ports and Adapters)
-
-  Architectural pattern isolating core business logic from external dependencies
-  through ports (interfaces) and adapters (implementations). Enables
-  technology-independent domain models with interchangeable infrastructure.
-  Foundation for Clean Architecture and Onion Architecture.
-
-  Document: Alistair Cockburn (2005)\
-  URL: <https://alistair.cockburn.us/hexagonal-architecture/>
-
-- [CQRS] Command Query Responsibility Segregation
-
-  Architectural pattern separating read and write models into distinct paths.
-  Commands modify state through a write model while queries serve data from an
-  optimised read model. Often combined with Event Sourcing for audit trails and
-  temporal queries.
-
-  Document: Martin Fowler / Greg Young (2010)\
-  URL: <https://martinfowler.com/bliki/CQRS.html>
-
-- [DDD] Domain-Driven Design
-
-  Approach to software design centring the architecture on the business domain.
-  Defines Bounded Contexts, Aggregates, Entities, Value Objects, Domain Events,
-  and Ubiquitous Language. The dominant design methodology for complex
-  enterprise and microservice systems.
-
-  Document: Eric Evans (2003) / Vaughn Vernon (2013)\
-  URL: <https://www.domainlanguage.com/ddd/>
-
-## Distributed Systems
-
-- [Saga] Saga Pattern
-
-  Pattern for managing data consistency across microservices without distributed
-  transactions. Defines a sequence of local transactions with compensating
-  actions for rollback. Implemented as choreography (event- driven) or
-  orchestration (coordinator-driven).
-
-  Document: Hector Garcia-Molina / Kenneth Salem (1987)\
-  URL: <https://microservices.io/patterns/data/saga.html>
-
-- [Circuit-Breaker] Circuit Breaker Pattern
-
-  Resilience pattern preventing cascading failures in distributed systems.
-  Monitors remote call failures and trips open after a threshold, failing fast
-  instead of waiting for timeouts. Defined states: Closed, Open, Half-Open.
-  Implemented by Resilience4j, Hystrix, Polly.
-
-  Document: Michael Nygard, Release It! (2007)\
-  URL: <https://martinfowler.com/bliki/CircuitBreaker.html>
-
-- [API-Gateway] API Gateway Pattern
-
-  Architectural pattern providing a single entry point for client requests to a
-  microservice system. Handles cross-cutting concerns: authentication, rate
-  limiting, request routing, protocol translation, and response aggregation.
-  Implemented by Kong, Envoy, AWS API Gateway.
-
-  Document: Chris Richardson, Microservices Patterns (2018)\
-  URL: <https://microservices.io/patterns/apigateway.html>
-
-## Reference Architectures
-
-- [RAMI-4-0] Reference Architecture Model for Industrie 4.0
-
-  Three-dimensional reference architecture for Industry 4.0 combining hierarchy
-  levels (product through connected world), lifecycle phases (development
-  through usage), and architecture layers (asset through business). The European
-  framework for smart manufacturing.
-
-  Document: DIN SPEC 91345:2016\
-  URL: <https://www.plattform-i40.de/IP/Navigation/EN/RAMI40/rami40.html>
-
-- [IIRA] Industrial Internet Reference Architecture
-
-  IIC reference architecture for Industrial Internet of Things systems. Defines
-  four viewpoints: business, usage, functional, and implementation covering
-  edge, platform, and enterprise tiers. Complements RAMI 4.0 with a broader
-  cross-industry perspective.
-
-  Document: IIRA v1.10 (2022)\
-  URL: <https://www.iiconsortium.org/iira/>
-
-- [AGL] Automotive Grade Linux Reference Architecture
-
-  Linux Foundation reference architecture for automotive infotainment and
-  connected services. Defines application framework, security architecture, and
-  platform services for in-vehicle Linux-based systems. Adopted by Toyota,
-  Mercedes-Benz, and other OEMs.
-
-  Document: AGL Unified Code Base (UCB)\
-  URL: <https://www.automotivelinux.org/>
-
-- [FACE] Future Airborne Capability Environment
-
-  U.S. military technical standard defining a software reference architecture
-  for portable airborne computing. Specifies operating system, I/O services,
-  transport services, and conformance profiles enabling reuse of avionics
-  software across platforms.
-
-  Document: FACE Technical Standard 3.1 (2021)\
-  URL: <https://www.opengroup.org/face>
-
-## Hardware and Platform Architecture
+  URL: <https://www.opengroup.org/archimate-forum/archimate-overview>\
+  Label: Standard\
+  Keywords: enterprise architecture, modelling language, ArchiMate, The Open
+  Group, business layer, application layer, technology layer, viewpoints
 
 - [ARINC-653] Avionics Application Software Standard Interface
 
@@ -230,7 +29,10 @@
   certification.
 
   Document: ARINC Specification 653 (Part 1-4)\
-  URL: <https://aviation-ia.sae-itc.com/standards/arinc-653>
+  URL: <https://aviation-ia.sae-itc.com/standards/arinc-653>\
+  Label: Standard\
+  Keywords: RTOS, partitioning, IMA, avionics, temporal partitioning, spatial
+  partitioning, real-time operating system, ARINC
 
 - [ARINC-661] Cockpit Display System Interfaces
 
@@ -240,9 +42,180 @@
   interchangeable displays.
 
   Document: ARINC Specification 661 (Supplement 8)\
-  URL: <https://aviation-ia.sae-itc.com/standards/arinc-661>
+  URL: <https://aviation-ia.sae-itc.com/standards/arinc-661>\
+  Label: Standard\
+  Keywords: cockpit display, CDS, widget library, avionics HMI, display
+  interface, ARINC
 
-## Data Architecture
+- [DODAF] Department of Defense Architecture Framework
+
+  U.S. DoD framework for architecture description. Defines viewpoints
+  (operational, systems, services, standards, capability) and data models for
+  describing military systems, their interconnections, and alignment with joint
+  capabilities.
+
+  Document: DoDAF 2.02 (2010)\
+  URL: <https://dodcio.defense.gov/library/dod-architecture-framework/>\
+  Label: Standard\
+  Keywords: defense architecture, DoD, military systems, viewpoints,
+  operational, systems, services, capabilities
+
+- [FACE] Future Airborne Capability Environment
+
+  U.S. military technical standard defining a software reference architecture
+  for portable airborne computing. Specifies operating system, I/O services,
+  transport services, and conformance profiles enabling reuse of avionics
+  software across platforms.
+
+  Document: FACE Technical Standard 3.1 (2021)\
+  URL: <https://www.opengroup.org/face>\
+  Label: Standard\
+  Keywords: airborne computing, military avionics, software portability,
+  reference architecture, FACE, The Open Group
+
+- [ISO-42010] Systems and software engineering — Architecture description
+
+  Defines a conceptual model for architecture descriptions. Establishes
+  viewpoints, views, and concerns as the basis for documenting system and
+  software architectures. See systems engineering domain for full entry.
+
+  Document: ISO/IEC/IEEE 42010:2022\
+  URL: <https://www.iso.org/standard/74393.html>\
+  Label: Standard\
+  Keywords: architecture description, viewpoints, views, concerns, systems
+  engineering, software engineering, ISO, IEEE
+
+- [NAF] NATO Architecture Framework
+
+  NATO framework for developing architecture descriptions across allied nations.
+  Defines viewpoints covering concepts, services, systems, standards, and
+  programmes enabling interoperability assessment of coalition systems and
+  capabilities.
+
+  Document: NAF v4 (2018)\
+  URL: <https://www.nato.int/cps/en/natohq/topics_157575.htm>\
+  Label: Standard\
+  Keywords: NATO, architecture framework, interoperability, coalition systems,
+  defense, allied nations, viewpoints
+
+- [RAMI-4-0] Reference Architecture Model for Industrie 4.0
+
+  Three-dimensional reference architecture for Industry 4.0 combining hierarchy
+  levels (product through connected world), lifecycle phases (development
+  through usage), and architecture layers (asset through business). The European
+  framework for smart manufacturing.
+
+  Document: DIN SPEC 91345:2016\
+  URL: <https://www.plattform-i40.de/IP/Navigation/EN/RAMI40/rami40.html>\
+  Label: Standard\
+  Keywords: Industry 4.0, smart manufacturing, reference architecture, DIN,
+  hierarchy levels, lifecycle phases, architecture layers
+
+- [SOA] Service-Oriented Architecture Reference Model
+
+  OASIS reference model defining the concepts and relationships of service-
+  oriented architecture. Covers service description, visibility, interaction,
+  real-world effects, and contracts. Foundation for enterprise integration and
+  web services.
+
+  Document: OASIS SOA Reference Model V1.0 (2006)\
+  URL: <https://docs.oasis-open.org/soa-rm/v1.0/>\
+  Label: Standard\
+  Keywords: SOA, service-oriented architecture, OASIS, web services, enterprise
+  integration, service description, contracts
+
+- [TOGAF] The Open Group Architecture Framework
+
+  Enterprise architecture methodology providing a structured approach to
+  designing, planning, implementing, and governing IT architecture. Defines the
+  Architecture Development Method (ADM), content framework, and enterprise
+  continuum. The most widely adopted EA framework globally.
+
+  Document: TOGAF 10th Edition (2022)\
+  URL: <https://www.opengroup.org/togaf>\
+  Label: Standard\
+  Keywords: enterprise architecture, TOGAF, ADM, IT governance, architecture
+  development method, The Open Group
+
+## Publication
+
+- [4plus1] 4+1 Architectural View Model
+
+  Software architecture framework organising documentation into five views:
+  Logical (functionality), Development (implementation), Process (concurrency),
+  Physical (deployment), and Scenarios (use cases). Widely referenced in
+  UML-based architecture documentation.
+
+  Document: Philippe Kruchten, IEEE Software (1995)\
+  URL: <https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf>\
+  Label: Publication\
+  Keywords: architectural views, logical view, development view, process view,
+  physical view, scenarios, UML, software architecture
+
+- [AGL] Automotive Grade Linux Reference Architecture
+
+  Linux Foundation reference architecture for automotive infotainment and
+  connected services. Defines application framework, security architecture, and
+  platform services for in-vehicle Linux-based systems. Adopted by Toyota,
+  Mercedes-Benz, and other OEMs.
+
+  Document: AGL Unified Code Base (UCB)\
+  URL: <https://www.automotivelinux.org/>\
+  Label: Publication\
+  Keywords: automotive Linux, infotainment, connected services, application
+  framework, in-vehicle platform, Linux Foundation
+
+- [API-Gateway] API Gateway Pattern
+
+  Architectural pattern providing a single entry point for client requests to a
+  microservice system. Handles cross-cutting concerns: authentication, rate
+  limiting, request routing, protocol translation, and response aggregation.
+  Implemented by Kong, Envoy, AWS API Gateway.
+
+  Document: Chris Richardson, Microservices Patterns (2018)\
+  URL: <https://microservices.io/patterns/apigateway.html>\
+  Label: Publication\
+  Keywords: API gateway, microservices, routing, authentication, rate limiting,
+  protocol translation, distributed systems
+
+- [C4-Model] C4 Model for Visualising Software Architecture
+
+  Hierarchical approach to software architecture diagramming using four levels
+  of abstraction: Context, Containers, Components, and Code. Provides a common
+  vocabulary and notation for communicating architecture to both technical and
+  non-technical stakeholders.
+
+  Document: C4 Model (Simon Brown)\
+  URL: <https://c4model.com/>\
+  Label: Publication\
+  Keywords: C4 model, software architecture diagrams, context, containers,
+  components, code, visualisation, Simon Brown
+
+- [Circuit-Breaker] Circuit Breaker Pattern
+
+  Resilience pattern preventing cascading failures in distributed systems.
+  Monitors remote call failures and trips open after a threshold, failing fast
+  instead of waiting for timeouts. Defined states: Closed, Open, Half-Open.
+  Implemented by Resilience4j, Hystrix, Polly.
+
+  Document: Michael Nygard, Release It! (2007)\
+  URL: <https://martinfowler.com/bliki/CircuitBreaker.html>\
+  Label: Publication\
+  Keywords: circuit breaker, resilience, cascading failures, distributed
+  systems, fault tolerance, Resilience4j, Hystrix
+
+- [CQRS] Command Query Responsibility Segregation
+
+  Architectural pattern separating read and write models into distinct paths.
+  Commands modify state through a write model while queries serve data from an
+  optimised read model. Often combined with Event Sourcing for audit trails and
+  temporal queries.
+
+  Document: Martin Fowler / Greg Young (2010)\
+  URL: <https://martinfowler.com/bliki/CQRS.html>\
+  Label: Publication\
+  Keywords: CQRS, command query segregation, read model, write model, event
+  sourcing, audit trails, software architecture
 
 - [Data-Mesh] Data Mesh Architecture
 
@@ -252,17 +225,10 @@
   to centralised data lake/warehouse architectures.
 
   Document: Zhamak Dehghani (2022)\
-  URL: <https://www.datamesh-architecture.com/>
-
-- [Medallion] Medallion Architecture (Bronze/Silver/Gold)
-
-  Data lakehouse architecture pattern organising data into three layers: Bronze
-  (raw ingestion), Silver (cleansed and conformed), Gold (curated business
-  aggregates). Provides progressive data quality improvement with auditability
-  at each tier.
-
-  Document: Databricks (2020)\
-  URL: <https://www.databricks.com/glossary/medallion-architecture>
+  URL: <https://www.datamesh-architecture.com/>\
+  Label: Publication\
+  Keywords: data mesh, domain ownership, data as a product, federated
+  governance, self-serve data platform, decentralised data architecture
 
 - [Data-Vault] Data Vault Modeling
 
@@ -272,4 +238,111 @@
   regulatory compliance.
 
   Document: Dan Linstedt, Data Vault 2.0 (2015)\
-  URL: <https://datavaultalliance.com/>
+  URL: <https://datavaultalliance.com/>\
+  Label: Publication\
+  Keywords: data vault, data warehousing, hubs, links, satellites, business
+  keys, historised, agile loading
+
+- [DDD] Domain-Driven Design
+
+  Approach to software design centring the architecture on the business domain.
+  Defines Bounded Contexts, Aggregates, Entities, Value Objects, Domain Events,
+  and Ubiquitous Language. The dominant design methodology for complex
+  enterprise and microservice systems.
+
+  Document: Eric Evans (2003) / Vaughn Vernon (2013)\
+  URL: <https://www.domainlanguage.com/ddd/>\
+  Label: Publication\
+  Keywords: domain-driven design, DDD, bounded context, aggregates, entities,
+  value objects, ubiquitous language, domain events
+
+- [EDA] Event-Driven Architecture
+
+  Architectural pattern where components communicate through asynchronous
+  events. Supports event notification, event-carried state transfer, and event
+  sourcing patterns. Enables loose coupling, scalability, and real-time
+  responsiveness in distributed systems.
+
+  Document: Reactive Manifesto (2014) / CloudEvents (CNCF)\
+  URL: <https://www.reactivemanifesto.org/>\
+  Label: Publication\
+  Keywords: event-driven architecture, asynchronous events, event sourcing,
+  loose coupling, scalability, reactive, distributed systems
+
+- [Hexagonal] Hexagonal Architecture (Ports and Adapters)
+
+  Architectural pattern isolating core business logic from external dependencies
+  through ports (interfaces) and adapters (implementations). Enables
+  technology-independent domain models with interchangeable infrastructure.
+  Foundation for Clean Architecture and Onion Architecture.
+
+  Document: Alistair Cockburn (2005)\
+  URL: <https://alistair.cockburn.us/hexagonal-architecture/>\
+  Label: Publication\
+  Keywords: hexagonal architecture, ports and adapters, clean architecture,
+  onion architecture, domain isolation, business logic
+
+- [IIRA] Industrial Internet Reference Architecture
+
+  IIC reference architecture for Industrial Internet of Things systems. Defines
+  four viewpoints: business, usage, functional, and implementation covering
+  edge, platform, and enterprise tiers. Complements RAMI 4.0 with a broader
+  cross-industry perspective.
+
+  Document: IIRA v1.10 (2022)\
+  URL: <https://www.iiconsortium.org/iira/>\
+  Label: Publication\
+  Keywords: Industrial IoT, IIoT, reference architecture, IIC, edge computing,
+  platform, enterprise, Industry 4.0
+
+- [Medallion] Medallion Architecture (Bronze/Silver/Gold)
+
+  Data lakehouse architecture pattern organising data into three layers: Bronze
+  (raw ingestion), Silver (cleansed and conformed), Gold (curated business
+  aggregates). Provides progressive data quality improvement with auditability
+  at each tier.
+
+  Document: Databricks (2020)\
+  URL: <https://www.databricks.com/glossary/medallion-architecture>\
+  Label: Publication\
+  Keywords: medallion architecture, data lakehouse, bronze, silver, gold, data
+  quality, data ingestion, Databricks
+
+- [Microservices] Microservices Architecture Style
+
+  Architectural approach decomposing applications into independently deployable
+  services organised around business capabilities. Each service owns its data,
+  communicates via APIs, and can be developed, deployed, and scaled
+  independently.
+
+  Document: Martin Fowler / Sam Newman (2014)\
+  URL: <https://martinfowler.com/articles/microservices.html>\
+  Label: Publication\
+  Keywords: microservices, independently deployable, business capabilities,
+  APIs, service decomposition, scalability
+
+- [Saga] Saga Pattern
+
+  Pattern for managing data consistency across microservices without distributed
+  transactions. Defines a sequence of local transactions with compensating
+  actions for rollback. Implemented as choreography (event- driven) or
+  orchestration (coordinator-driven).
+
+  Document: Hector Garcia-Molina / Kenneth Salem (1987)\
+  URL: <https://microservices.io/patterns/data/saga.html>\
+  Label: Publication\
+  Keywords: saga pattern, distributed transactions, compensating actions,
+  choreography, orchestration, data consistency, microservices
+
+- [Zachman] Zachman Framework for Enterprise Architecture
+
+  Classification scheme for enterprise architecture artifacts organised as a
+  two-dimensional matrix. Rows represent stakeholder perspectives (planner
+  through operator), columns represent interrogatives (what, how, where, who,
+  when, why). Foundational taxonomy for EA.
+
+  Document: Zachman Framework (Version 3.0)\
+  URL: <https://zachman.com/about-the-zachman-framework>\
+  Label: Publication\
+  Keywords: Zachman framework, enterprise architecture, classification,
+  stakeholder perspectives, interrogatives, taxonomy

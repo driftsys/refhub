@@ -1,28 +1,50 @@
 # Electrical and Electronics Engineering
 
-## Safety
+Standards for electrical and electronic product design, safety, and
+installation. Covers low-voltage installations, connectors and wiring, printed
+circuit boards, power supplies, PLCs, and automotive and electric vehicle
+electrical systems.
 
-- [IEC-62368] Audio/video, information and communication technology equipment —
-  Safety requirements
+**Contents:** [Standard](#standard)
 
-  Product safety standard for A/V, ICT, and business equipment replacing IEC
-  60065 and IEC 60950-1. Uses a hazard-based safety engineering approach (HBSE)
-  covering electrical, thermal, mechanical, radiation, and chemical hazards.
-  Mandatory for CE marking of IT and consumer electronics.
+## Standard
 
-  Document: IEC 62368-1:2023\
-  URL: <https://webstore.iec.ch/en/publication/67022>
+- [IEC-60228] Conductors of insulated cables
 
-- [IEC-61010] Safety requirements for electrical equipment for measurement,
-  control and laboratory use
+  Defines the nominal cross-sectional areas and resistance values for conductors
+  used in insulated cables. Specifies Class 1 (solid), Class 2 (stranded), Class
+  5 (flexible), and Class 6 (extra-flexible) conductor constructions.
 
-  Defines safety requirements for laboratory, test, measurement, and process
-  control equipment. Covers protection against electric shock, fire, mechanical
-  hazards, and hazardous substances. The primary safety standard for scientific
-  instruments and industrial test equipment.
+  Document: IEC 60228:2023\
+  URL: <https://webstore.iec.ch/en/publication/68395>\
+  Label: Standard\
+  Keywords: conductors, insulated cables, cross-sectional area, resistance,
+  stranded, flexible, wiring
 
-  Document: IEC 61010-1:2024\
-  URL: <https://webstore.iec.ch/en/publication/68918>
+- [IEC-60352] Solderless connections
+
+  Defines requirements for solderless termination techniques including crimping,
+  insulation displacement (IDC), wire wrapping, and press-fit. Specifies
+  tooling, materials, and test methods for reliable solderless interconnections.
+
+  Document: IEC 60352 (series)\
+  URL: <https://webstore.iec.ch/en/publication/1839>\
+  Label: Standard\
+  Keywords: solderless connections, crimping, IDC, wire wrapping, press-fit,
+  termination, interconnections
+
+- [IEC-60364] Low-voltage electrical installations
+
+  Comprehensive standard for the design, erection, and verification of
+  low-voltage electrical installations. Covers protection against electric
+  shock, thermal effects, overcurrent, overvoltage, earthing, and wiring
+  systems. The international basis for national wiring regulations.
+
+  Document: IEC 60364 (series)\
+  URL: <https://webstore.iec.ch/en/publication/1868>\
+  Label: Standard\
+  Keywords: low-voltage installations, wiring regulations, earthing, overcurrent
+  protection, electrical installations
 
 - [IEC-60529] Degrees of protection provided by enclosures (IP Code)
 
@@ -32,7 +54,22 @@
   environmental sealing.
 
   Document: IEC 60529:1989+AMD2:2013\
-  URL: <https://webstore.iec.ch/en/publication/2452>
+  URL: <https://webstore.iec.ch/en/publication/2452>\
+  Label: Standard\
+  Keywords: IP code, ingress protection, enclosures, environmental sealing, dust
+  protection, water protection
+
+- [IEC-60603] Connectors for electronic equipment
+
+  Multi-part standard defining dimensional and performance requirements for
+  electronic connectors. Covers rectangular, circular, and printed board
+  connectors used in telecommunications, computing, and industrial equipment.
+
+  Document: IEC 60603 (series)\
+  URL: <https://webstore.iec.ch/en/publication/2700>\
+  Label: Standard\
+  Keywords: connectors, electronic equipment, rectangular connectors, circular
+  connectors, printed board connectors
 
 - [IEC-60664] Insulation coordination for equipment within low-voltage supply
   systems
@@ -43,60 +80,24 @@
   Foundation for all product safety standards.
 
   Document: IEC 60664-1:2020\
-  URL: <https://webstore.iec.ch/en/publication/62848>
+  URL: <https://webstore.iec.ch/en/publication/62848>\
+  Label: Standard\
+  Keywords: insulation coordination, clearance, creepage distance, overvoltage
+  category, pollution degree, low-voltage
 
-## Low-Voltage Installations
+- [IEC-61010] Safety requirements for electrical equipment for measurement,
+  control and laboratory use
 
-- [IEC-60364] Low-voltage electrical installations
+  Defines safety requirements for laboratory, test, measurement, and process
+  control equipment. Covers protection against electric shock, fire, mechanical
+  hazards, and hazardous substances. The primary safety standard for scientific
+  instruments and industrial test equipment.
 
-  Comprehensive standard for the design, erection, and verification of
-  low-voltage electrical installations. Covers protection against electric
-  shock, thermal effects, overcurrent, overvoltage, earthing, and wiring
-  systems. The international basis for national wiring regulations.
-
-  Document: IEC 60364 (series)\
-  URL: <https://webstore.iec.ch/en/publication/1868>
-
-- [IEC-61439] Low-voltage switchgear and controlgear assemblies
-
-  Defines requirements for factory-built and partially type-tested switchgear
-  and controlgear assemblies. Covers power distribution boards, motor control
-  centres, and busbar trunking systems for industrial and commercial
-  installations.
-
-  Document: IEC 61439 (series, 2020)\
-  URL: <https://webstore.iec.ch/en/publication/5459>
-
-## Connectors and Wiring
-
-- [IEC-60603] Connectors for electronic equipment
-
-  Multi-part standard defining dimensional and performance requirements for
-  electronic connectors. Covers rectangular, circular, and printed board
-  connectors used in telecommunications, computing, and industrial equipment.
-
-  Document: IEC 60603 (series)\
-  URL: <https://webstore.iec.ch/en/publication/2700>
-
-- [IEC-60352] Solderless connections
-
-  Defines requirements for solderless termination techniques including crimping,
-  insulation displacement (IDC), wire wrapping, and press-fit. Specifies
-  tooling, materials, and test methods for reliable solderless interconnections.
-
-  Document: IEC 60352 (series)\
-  URL: <https://webstore.iec.ch/en/publication/1839>
-
-- [IEC-60228] Conductors of insulated cables
-
-  Defines the nominal cross-sectional areas and resistance values for conductors
-  used in insulated cables. Specifies Class 1 (solid), Class 2 (stranded), Class
-  5 (flexible), and Class 6 (extra-flexible) conductor constructions.
-
-  Document: IEC 60228:2023\
-  URL: <https://webstore.iec.ch/en/publication/68395>
-
-## Programmable Logic Controllers
+  Document: IEC 61010-1:2024\
+  URL: <https://webstore.iec.ch/en/publication/68918>\
+  Label: Standard\
+  Keywords: laboratory equipment, measurement safety, test equipment, electric
+  shock protection, process control
 
 - [IEC-61131] Programmable controllers
 
@@ -106,9 +107,10 @@
   (SFC). The universal standard for industrial automation programming.
 
   Document: IEC 61131 (series)\
-  URL: <https://webstore.iec.ch/en/publication/4552>
-
-## Printed Circuit Boards
+  URL: <https://webstore.iec.ch/en/publication/4552>\
+  Label: Standard\
+  Keywords: PLC, programmable controllers, ladder diagram, structured text,
+  function block diagram, industrial automation
 
 - [IEC-61188] Printed boards and printed board assemblies — Design and use
 
@@ -117,18 +119,10 @@
   guidelines complementing IPC standards.
 
   Document: IEC 61188 (series)\
-  URL: <https://webstore.iec.ch/en/publication/4796>
-
-- [IPC-2221] Generic Standard on Printed Board Design
-
-  Industry standard defining generic requirements for printed board design.
-  Covers conductor spacing, via structures, thermal management, impedance
-  control, and documentation requirements for all PCB types.
-
-  Document: IPC-2221B (2012)\
-  URL: <https://www.ipc.org/ipc-2221b>
-
-## Power Supplies and Converters
+  URL: <https://webstore.iec.ch/en/publication/4796>\
+  Label: Standard\
+  Keywords: printed boards, PCB assembly, land patterns,
+  design-for-manufacturing, DFM
 
 - [IEC-61204] Low-voltage switch mode power supplies — DC output
 
@@ -137,7 +131,35 @@
   supplies used in IT, industrial, and consumer equipment.
 
   Document: IEC 61204 (series)\
-  URL: <https://webstore.iec.ch/en/publication/4904>
+  URL: <https://webstore.iec.ch/en/publication/4904>\
+  Label: Standard\
+  Keywords: switch mode power supply, SMPS, DC output, power supplies,
+  low-voltage
+
+- [IEC-61439] Low-voltage switchgear and controlgear assemblies
+
+  Defines requirements for factory-built and partially type-tested switchgear
+  and controlgear assemblies. Covers power distribution boards, motor control
+  centres, and busbar trunking systems for industrial and commercial
+  installations.
+
+  Document: IEC 61439 (series, 2020)\
+  URL: <https://webstore.iec.ch/en/publication/5459>\
+  Label: Standard\
+  Keywords: switchgear, controlgear, power distribution, motor control centre,
+  busbar trunking, low-voltage assemblies
+
+- [IEC-61851] Electric vehicle conductive charging system
+
+  Defines requirements for conductive charging of electric vehicles. Covers
+  charging modes (1-4), connector types, communication protocols (control
+  pilot), and safety requirements for AC and DC charging infrastructure.
+
+  Document: IEC 61851 (series, 2017)\
+  URL: <https://webstore.iec.ch/en/publication/6032>\
+  Label: Standard\
+  Keywords: electric vehicle, EV charging, conductive charging, control pilot,
+  AC charging, DC charging
 
 - [IEC-62040] Uninterruptible power systems (UPS)
 
@@ -147,19 +169,62 @@
   centres, medical, and industrial applications.
 
   Document: IEC 62040 (series)\
-  URL: <https://webstore.iec.ch/en/publication/6343>
+  URL: <https://webstore.iec.ch/en/publication/6343>\
+  Label: Standard\
+  Keywords: UPS, uninterruptible power supply, data centre, critical loads,
+  power protection, backup power
 
-## Automotive Electrical
+- [IEC-62196] Plugs, socket-outlets, vehicle connectors and vehicle inlets —
+  Conductive charging of electric vehicles
 
-- [SAE-J1939] Serial Control and Communications Heavy Duty Vehicle Network
+  Defines connector types and dimensions for EV charging. Specifies Type 1 (SAE
+  J1772), Type 2 (Mennekes), CCS Combo 1/2, and CHAdeMO connectors used globally
+  for AC and DC fast charging.
 
-  CAN-based communication protocol for heavy-duty vehicles, agricultural
-  machinery, and marine equipment. Defines application layer, diagnostics,
-  network management, and parameter groups (PGN/SPN) for powertrain, body, and
-  chassis data exchange.
+  Document: IEC 62196 (series, 2022)\
+  URL: <https://webstore.iec.ch/en/publication/6582>\
+  Label: Standard\
+  Keywords: EV connectors, Type 1, Type 2, CCS, CHAdeMO, vehicle inlets,
+  charging plugs
 
-  Document: SAE J1939 (series)\
-  URL: <https://www.sae.org/standards/content/j1939_201710/>
+- [IEC-62368] Audio/video, information and communication technology equipment —
+  Safety requirements
+
+  Product safety standard for A/V, ICT, and business equipment replacing IEC
+  60065 and IEC 60950-1. Uses a hazard-based safety engineering approach (HBSE)
+  covering electrical, thermal, mechanical, radiation, and chemical hazards.
+  Mandatory for CE marking of IT and consumer electronics.
+
+  Document: IEC 62368-1:2023\
+  URL: <https://webstore.iec.ch/en/publication/67022>\
+  Label: Standard\
+  Keywords: product safety, HBSE, ICT equipment, audio/video, CE marking,
+  consumer electronics, hazard-based safety
+
+- [IPC-2221] Generic Standard on Printed Board Design
+
+  Industry standard defining generic requirements for printed board design.
+  Covers conductor spacing, via structures, thermal management, impedance
+  control, and documentation requirements for all PCB types.
+
+  Document: IPC-2221B (2012)\
+  URL: <https://www.ipc.org/ipc-2221b>\
+  Label: Standard\
+  Keywords: PCB design, printed board, conductor spacing, via structures,
+  impedance control, thermal management
+
+- [ISO-15118] Road vehicles — Vehicle to grid communication interface
+
+  Defines the communication protocol between electric vehicles and charging
+  stations. Enables Plug & Charge authentication, smart charging, vehicle-
+  to-grid (V2G) power flow, and bidirectional energy management using TLS-
+  secured IP communication.
+
+  Document: ISO 15118 (series, 2022)\
+  URL: <https://www.iso.org/standard/77845.html>\
+  Label: Standard\
+  Keywords: V2G, vehicle-to-grid, Plug and Charge, smart charging, electric
+  vehicle, bidirectional energy, TLS
 
 - [LV-124] Electrical and Electronic Components in Motor Vehicles up to 3.5t —
   General Requirements, Test Conditions and Tests
@@ -170,7 +235,10 @@
   De facto industry baseline for automotive component validation.
 
   Document: LV 124 (2013)\
-  URL: <https://www.vda.de/>
+  URL: <https://www.vda.de/>\
+  Label: Standard\
+  Keywords: automotive components, electrical testing, ESD, load dump, component
+  validation, German OEM standard
 
 - [LV-148] Electrical and Electronic Components in Motor Vehicles — 48V
   Electrical System
@@ -181,38 +249,23 @@
   electrification.
 
   Document: LV 148 (2016)\
-  URL: <https://www.vda.de/>
+  URL: <https://www.vda.de/>\
+  Label: Standard\
+  Keywords: 48V system, mild-hybrid, automotive electrical, voltage transients,
+  electrification, German OEM standard
 
-## Electric Vehicles
+- [SAE-J1939] Serial Control and Communications Heavy Duty Vehicle Network
 
-- [IEC-61851] Electric vehicle conductive charging system
+  CAN-based communication protocol for heavy-duty vehicles, agricultural
+  machinery, and marine equipment. Defines application layer, diagnostics,
+  network management, and parameter groups (PGN/SPN) for powertrain, body, and
+  chassis data exchange.
 
-  Defines requirements for conductive charging of electric vehicles. Covers
-  charging modes (1-4), connector types, communication protocols (control
-  pilot), and safety requirements for AC and DC charging infrastructure.
-
-  Document: IEC 61851 (series, 2017)\
-  URL: <https://webstore.iec.ch/en/publication/6032>
-
-- [ISO-15118] Road vehicles — Vehicle to grid communication interface
-
-  Defines the communication protocol between electric vehicles and charging
-  stations. Enables Plug & Charge authentication, smart charging, vehicle-
-  to-grid (V2G) power flow, and bidirectional energy management using TLS-
-  secured IP communication.
-
-  Document: ISO 15118 (series, 2022)\
-  URL: <https://www.iso.org/standard/77845.html>
-
-- [IEC-62196] Plugs, socket-outlets, vehicle connectors and vehicle inlets —
-  Conductive charging of electric vehicles
-
-  Defines connector types and dimensions for EV charging. Specifies Type 1 (SAE
-  J1772), Type 2 (Mennekes), CCS Combo 1/2, and CHAdeMO connectors used globally
-  for AC and DC fast charging.
-
-  Document: IEC 62196 (series, 2022)\
-  URL: <https://webstore.iec.ch/en/publication/6582>
+  Document: SAE J1939 (series)\
+  URL: <https://www.sae.org/standards/content/j1939_201710/>\
+  Label: Standard\
+  Keywords: CAN, heavy-duty vehicles, PGN, SPN, powertrain, agricultural
+  machinery, vehicle network
 
 - [SAE-J3400] NACS — North American Charging Standard
 
@@ -222,4 +275,7 @@
   America.
 
   Document: SAE J3400 (2023)\
-  URL: <https://www.sae.org/standards/content/j3400_202311/>
+  URL: <https://www.sae.org/standards/content/j3400_202311/>\
+  Label: Standard\
+  Keywords: NACS, North American charging, Tesla connector, EV charging, DC fast
+  charging, electric vehicle
