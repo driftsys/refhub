@@ -53,6 +53,35 @@
   Document: IEC 60601-1:2005+AMD2:2020\
   URL: https://webstore.iec.ch/en/publication/67497
 
+- [IEC-82304-1] Health software — General requirements for product safety
+
+  Safety requirements for health software products not embedded in medical
+  devices. Covers standalone health applications including mobile health apps,
+  clinical decision support, and health IT systems.
+
+  Document: IEC 82304-1:2016\
+  URL: https://webstore.iec.ch/en/publication/25786
+
+- [IEC-80001-1] Application of risk management for IT-networks incorporating
+  medical devices
+
+  Risk management framework for integrating medical devices into IT networks.
+  Addresses safety, effectiveness, and data security risks that arise when
+  medical devices communicate over shared network infrastructure.
+
+  Document: IEC 80001-1:2021\
+  URL: https://webstore.iec.ch/en/publication/67260
+
+- [FDA-21-CFR-820] Quality System Regulation
+
+  U.S. federal regulation establishing current good manufacturing practice
+  (cGMP) requirements for medical devices. Covers design controls, production
+  and process controls, corrective and preventive actions (CAPA), and records
+  management.
+
+  Document: 21 CFR Part 820 (revised 2024)\
+  URL: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820
+
 - [EU-MDR] Regulation on medical devices
 
   European Union regulation establishing requirements for medical devices placed
@@ -62,3 +91,55 @@
 
   Document: Regulation (EU) 2017/745\
   URL: https://eur-lex.europa.eu/eli/reg/2017/745/oj
+
+- [EU-IVDR] Regulation on in vitro diagnostic medical devices
+
+  EU regulation for in vitro diagnostic (IVD) medical devices. Establishes
+  classification rules, performance evaluation requirements, and conformity
+  assessment procedures for diagnostics including companion diagnostics and
+  self-testing devices. Replaces Directive 98/79/EC.
+
+  Document: Regulation (EU) 2017/746\
+  URL: https://eur-lex.europa.eu/eli/reg/2017/746/oj
+
+## Interoperability and Communication
+
+- [HL7-FHIR] Health Level Seven Fast Healthcare Interoperability Resources
+
+  Standard for exchanging healthcare information electronically. Defines RESTful
+  APIs and resource-based data models for clinical, administrative, and
+  financial health data. The modern successor to HL7 v2 messaging widely adopted
+  in EHR systems and health information exchanges.
+
+  Document: HL7 FHIR R4 (2019) / R5 (2023)\
+  URL: https://www.hl7.org/fhir/
+
+- [DICOM] Digital Imaging and Communications in Medicine
+
+  International standard for handling, storing, printing, and transmitting
+  medical imaging. Defines file formats, communication protocols, and
+  information objects for radiology, cardiology, pathology, and other
+  imaging-intensive specialties.
+
+  Document: DICOM PS3 (2024)\
+  URL: https://www.dicomstandard.org/current
+
+- [IEEE-11073] Health informatics — Point-of-care medical device communication
+
+  Family of standards for interoperability of personal health and point-of- care
+  medical devices. Defines device communication models, nomenclature, and
+  transport profiles for bedside monitors, infusion pumps, ventilators, and
+  wearable health sensors.
+
+  Document: IEEE 11073 (series)\
+  URL: https://standards.ieee.org/ieee/11073-10101/11526/
+
+- [IHE] Integrating the Healthcare Enterprise — Integration Profiles
+
+  Framework of integration profiles that define how existing standards (HL7,
+  DICOM, IEC 80001) should be applied to solve specific clinical workflow
+  challenges. Covers cross-enterprise document sharing (XDS), patient
+  identification, radiology workflow, and device integration.
+
+  Document: IHE Technical Frameworks (annual)\
+  URL: https://www.ihe.net/resources/technical_frameworks/
