@@ -152,6 +152,38 @@
   Document: LoRaWAN 1.0.4 / Regional Parameters RP2-1.0.4\
   URL: https://lora-alliance.org/resource_hub/lorawan-104-specification-package/
 
+## Automotive Connectivity
+
+- [DSRC] Dedicated Short-Range Communications (IEEE 802.11p)
+
+  Wireless communication standard for vehicle-to-everything (V2X) communication
+  using the 5.9 GHz band. Provides low-latency direct communication for safety
+  applications. Being superseded by C-V2X in many deployments.
+
+  Document: IEEE 802.11p (2010) / IEEE 802.11-2020\
+  URL: https://standards.ieee.org/ieee/802.11/7028/
+
+- [CCC-Digital-Key] Car Connectivity Consortium Digital Key
+
+  Specification enabling smartphones and wearables to act as vehicle keys. Uses
+  BLE for proximity detection, NFC for passive entry, and UWB for precise
+  ranging to prevent relay attacks. Adopted by major OEMs.
+
+  Document: CCC Digital Key Release 3.0 (2022)\
+  URL: https://carconnectivity.org/digital-key/
+
+## Satellite and Positioning
+
+- [GNSS] Global Navigation Satellite Systems
+
+  Umbrella term for satellite positioning systems including GPS (U.S.), Galileo
+  (EU), GLONASS (Russia), and BeiDou (China). Provides position, navigation, and
+  timing (PNT) services for automotive, aviation, maritime, and consumer
+  applications.
+
+  Document: IS-GPS-200 (GPS) / Galileo OS SIS ICD\
+  URL: https://www.gps.gov/technical/icwg/
+
 ## Regulation
 
 - [EU-RED] Directive on the harmonisation of the laws relating to the making
