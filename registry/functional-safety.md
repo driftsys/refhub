@@ -1,6 +1,6 @@
 # Functional Safety
 
-- [IEC61508] Functional safety of E/E/PE safety-related systems
+- [IEC-61508] Functional safety of E/E/PE safety-related systems
 
   The foundational standard for functional safety across all industries. Defines
   Safety Integrity Levels (SIL 1-4) and a generic framework from which

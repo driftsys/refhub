@@ -51,6 +51,9 @@ severity/effort/priority, and review flow.
 
 - **Entry format.** Each entry has a display ID, title, 2-3 sentence abstract,
   and metadata (Document, URL, optional Status/Superseded-by/Derived-from).
-- **Grouping.** Entries are grouped by domain in `references.md`.
+- **ID format.** Reference IDs are slugs: letters, digits, and hyphens
+  (`[A-Za-z0-9-]+`). Use hyphens to separate components: `ISO-26262-6`,
+  `DO-178C`, `ASPICE-SWE-1`, `ISO-TS-15066`, `RFC-2119`.
+- **Grouping.** Entries are split into per-domain files under `registry/`.
 - **Derived-from links.** Use `Derived-from:` to show standard lineage (e.g.,
   ISO 26262 derives from IEC 61508).

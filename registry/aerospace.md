@@ -1,6 +1,6 @@
 # Aerospace
 
-- [DO178C] Software Considerations in Airborne Systems and Equipment
+- [DO-178C] Software Considerations in Airborne Systems and Equipment
   Certification
 
   Primary software certification standard for civil aviation. Provides guidance
@@ -9,4 +9,4 @@
 
   Document: DO-178C / ED-12C (2011)\
   URL: https://www.rtca.org/products/do-178c/\
-  Derived-from: IEC61508
+  Derived-from: IEC-61508

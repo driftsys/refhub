@@ -1,6 +1,6 @@
 # Medical
 
-- [IEC62304] Medical device software — Software life cycle processes
+- [IEC-62304] Medical device software — Software life cycle processes
 
   Defines lifecycle requirements for medical device software. Classifies
   software into safety classes (A, B, C) based on the severity of hazard
@@ -9,4 +9,4 @@
 
   Document: IEC 62304:2006+AMD1:2015\
   URL: https://webstore.iec.ch/en/publication/22794\
-  Derived-from: IEC61508
+  Derived-from: IEC-61508
