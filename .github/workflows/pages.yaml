@@ -21,7 +21,7 @@ jobs:
       # Future: run markspec book build here to generate
       # /book/ (HTML), /api/ (JSON), /docs/ (PDF)
       # For now, deploy references.md as-is
-      - uses: actions/configure-pages@v4
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
