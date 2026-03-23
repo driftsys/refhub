@@ -11,7 +11,7 @@
   Required by automotive OEMs and Tier 1 suppliers.
 
   Document: AEC-Q100 Rev. J (2024)\
-  URL: https://www.aecouncil.com/AECDocuments.html
+  URL: <https://www.aecouncil.com/AECDocuments.html>
 
 - [AEC-Q101] Failure Mechanism Based Stress Test Qualification for Discrete
   Semiconductors
@@ -22,7 +22,7 @@
   testing.
 
   Document: AEC-Q101 Rev. E (2021)\
-  URL: https://www.aecouncil.com/AECDocuments.html
+  URL: <https://www.aecouncil.com/AECDocuments.html>
 
 - [AEC-Q102] Failure Mechanism Based Stress Test Qualification for Discrete
   Optoelectronic Semiconductors in Automotive Applications
@@ -32,7 +32,7 @@
   optical degradation under thermal and moisture stress.
 
   Document: AEC-Q102 Rev. B (2020)\
-  URL: https://www.aecouncil.com/AECDocuments.html
+  URL: <https://www.aecouncil.com/AECDocuments.html>
 
 - [AEC-Q104] Failure Mechanism Based Stress Test Qualification for Multichip
   Modules in Automotive Applications
@@ -42,7 +42,7 @@
   failure mechanisms specific to advanced packaging technologies.
 
   Document: AEC-Q104 Rev. A (2017)\
-  URL: https://www.aecouncil.com/AECDocuments.html
+  URL: <https://www.aecouncil.com/AECDocuments.html>
 
 - [AEC-Q200] Stress Test Qualification for Passive Components
 
@@ -51,7 +51,7 @@
   test methods and acceptance criteria for environmental and endurance stress.
 
   Document: AEC-Q200 Rev. E (2022)\
-  URL: https://www.aecouncil.com/AECDocuments.html
+  URL: <https://www.aecouncil.com/AECDocuments.html>
 
 ## Reliability
 
@@ -62,7 +62,7 @@
   and failure criteria for reliability qualification.
 
   Document: JESD47L (2022)\
-  URL: https://www.jedec.org/standards-documents/docs/jesd-47
+  URL: <https://www.jedec.org/standards-documents/docs/jesd-47>
 
 - [JEDEC-JESD22] Reliability Test Methods for Packaged Devices
 
@@ -81,7 +81,7 @@
   cycling, and ESD (HBM, CDM, MM) testing.
 
   Document: IEC 60749 (series)\
-  URL: https://webstore.iec.ch/en/publication/3371
+  URL: <https://webstore.iec.ch/en/publication/3371>
 
 ## PCB and Assembly
 
@@ -93,7 +93,7 @@
   3 (high performance) acceptance levels.
 
   Document: IPC-A-610H (2024)\
-  URL: https://www.ipc.org/ipc-a-610
+  URL: <https://www.ipc.org/ipc-a-610>
 
 - [IPC-6012] Qualification and Performance Specification for Rigid Printed
   Boards
@@ -103,7 +103,7 @@
   electrical testing for Class 1-3 and automotive/space/military addenda.
 
   Document: IPC-6012F (2023)\
-  URL: https://www.ipc.org/ipc-6012f
+  URL: <https://www.ipc.org/ipc-6012f>
 
 - [IPC-J-STD-001] Requirements for Soldered Electrical and Electronic Assemblies
 
@@ -112,7 +112,7 @@
   mount assemblies at Class 1, 2, and 3 levels.
 
   Document: IPC J-STD-001H (2024)\
-  URL: https://www.ipc.org/j-std-001h
+  URL: <https://www.ipc.org/j-std-001h>
 
 ## Environmental Testing
 
@@ -124,7 +124,7 @@
   mechanical shock, chemical exposure, dust, and water ingress.
 
   Document: ISO 16750 (series, 2023)\
-  URL: https://www.iso.org/standard/82127.html
+  URL: <https://www.iso.org/standard/82127.html>
 
 - [MIL-STD-810] Environmental Engineering Considerations and Laboratory Tests
 
@@ -134,7 +134,7 @@
   applications.
 
   Document: MIL-STD-810H (2019)\
-  URL: https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35978
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35978>
 
 - [ISO-20653] Road vehicles — Degrees of protection (IP code) — Protection of
   electrical equipment against foreign objects, water and access
@@ -144,4 +144,4 @@
   high-pressure water jets (IPx9K) and road splash exposure.
 
   Document: ISO 20653:2023\
-  URL: https://www.iso.org/standard/82125.html
+  URL: <https://www.iso.org/standard/82125.html>

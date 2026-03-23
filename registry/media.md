@@ -10,7 +10,7 @@
   broadcast, streaming, and mobile platforms.
 
   Document: ISO/IEC 14496-3:2019\
-  URL: https://www.iso.org/standard/76383.html
+  URL: <https://www.iso.org/standard/76383.html>
 
 - [ISO-23003] Information technology — MPEG audio technologies
 
@@ -20,7 +20,7 @@
   systems.
 
   Document: ISO/IEC 23003 (series)\
-  URL: https://www.iso.org/standard/75930.html
+  URL: <https://www.iso.org/standard/75930.html>
 
 - [Opus] Opus Interactive Audio Codec
 
@@ -29,7 +29,7 @@
   (5-66 ms). Standardised by IETF, mandated in WebRTC.
 
   Document: RFC 6716 (2012)\
-  URL: https://www.rfc-editor.org/rfc/rfc6716
+  URL: <https://www.rfc-editor.org/rfc/rfc6716>
 
 - [LC3] Low Complexity Communication Codec
 
@@ -51,7 +51,7 @@
   compatible codec across devices and platforms.
 
   Document: ITU-T H.264 / ISO/IEC 14496-10 (2021)\
-  URL: https://www.itu.int/rec/T-REC-H.264
+  URL: <https://www.itu.int/rec/T-REC-H.264>
 
 - [H265-HEVC] High Efficiency Video Coding
 
@@ -60,7 +60,7 @@
   Supports HDR and wide colour gamut.
 
   Document: ITU-T H.265 / ISO/IEC 23008-2 (2021)\
-  URL: https://www.itu.int/rec/T-REC-H.265
+  URL: <https://www.itu.int/rec/T-REC-H.265>
 
 - [H266-VVC] Versatile Video Coding
 
@@ -69,7 +69,7 @@
   Targets broadcast, streaming, and immersive media.
 
   Document: ITU-T H.266 / ISO/IEC 23090-3 (2020)\
-  URL: https://www.itu.int/rec/T-REC-H.266
+  URL: <https://www.itu.int/rec/T-REC-H.266>
 
 - [AV1] AOMedia Video 1
 
@@ -78,7 +78,7 @@
   browsers, streaming platforms (YouTube, Netflix), and WebRTC.
 
   Document: AV1 Bitstream and Decoding Process Specification (2019)\
-  URL: https://aomedia.org/av1/specification/
+  URL: <https://aomedia.org/av1/specification/>
 
 ## Streaming and Transport
 
@@ -89,7 +89,7 @@
   conditions. The open standard alternative to proprietary protocols like HLS.
 
   Document: ISO/IEC 23009-1:2022\
-  URL: https://www.iso.org/standard/83314.html
+  URL: <https://www.iso.org/standard/83314.html>
 
 - [HLS] HTTP Live Streaming
 
@@ -98,7 +98,7 @@
   across Apple devices, browsers, and streaming platforms.
 
   Document: RFC 8216 (2017) / HLS 2nd Edition (draft)\
-  URL: https://www.rfc-editor.org/rfc/rfc8216
+  URL: <https://www.rfc-editor.org/rfc/rfc8216>
 
 - [WebRTC] Web Real-Time Communication
 
@@ -107,7 +107,7 @@
   SCTP. Mandates Opus (audio) and VP8/H.264 (video) codec support.
 
   Document: W3C WebRTC 1.0 (2021) / IETF RFC 8825-8835\
-  URL: https://www.w3.org/TR/webrtc/
+  URL: <https://www.w3.org/TR/webrtc/>
 
 - [RFC-7826] Real-Time Streaming Protocol (RTSP) 2.0
 
@@ -116,7 +116,7 @@
   Used in IP cameras, surveillance systems, and media distribution.
 
   Document: RFC 7826 (2016)\
-  URL: https://www.rfc-editor.org/rfc/rfc7826
+  URL: <https://www.rfc-editor.org/rfc/rfc7826>
 
 - [SRT] Secure Reliable Transport
 
@@ -126,7 +126,7 @@
   workflows.
 
   Document: SRT Protocol Specification (SRT Alliance)\
-  URL: https://www.srtalliance.org/
+  URL: <https://www.srtalliance.org/>
 
 ## Professional Media
 
@@ -137,7 +137,7 @@
   metadata. The broadcast industry standard for IP-based infrastructure.
 
   Document: SMPTE ST 2110 (series)\
-  URL: https://www.smpte.org/standards/st2110
+  URL: <https://www.smpte.org/standards/st2110>
 
 - [SMPTE-ST-2022] Transport of High Bitrate Media Signals over IP Networks
 
@@ -146,7 +146,7 @@
   contribution and distribution networks.
 
   Document: SMPTE ST 2022 (series)\
-  URL: https://www.smpte.org/standards/st2022
+  URL: <https://www.smpte.org/standards/st2022>
 
 - [AES67] AES Standard for Audio-Over-IP Interoperability
 
@@ -156,7 +156,7 @@
   environments.
 
   Document: AES67:2018\
-  URL: https://www.aes.org/publications/standards/search.cfm?docID=96
+  URL: <https://www.aes.org/publications/standards/search.cfm?docID=96>
 
 - [AES70] AES Standard for Audio Applications of Networks — Open Control
   Architecture (OCA)
@@ -166,7 +166,7 @@
   management for networked audio equipment.
 
   Document: AES70:2018\
-  URL: https://www.aes.org/publications/standards/search.cfm?docID=101
+  URL: <https://www.aes.org/publications/standards/search.cfm?docID=101>
 
 - [Dante] Dante Audio Networking
 
@@ -175,7 +175,7 @@
   installed sound, and broadcast. Interoperable with AES67 for bridging.
 
   Document: Dante Specifications (Audinate)\
-  URL: https://www.audinate.com/meet-dante
+  URL: <https://www.audinate.com/meet-dante>
 
 ## Video Interfaces
 
@@ -186,7 +186,7 @@
   refresh rate. The dominant consumer A/V interface.
 
   Document: HDMI Specification 2.1b (2023)\
-  URL: https://www.hdmi.org/spec/hdmi2_1
+  URL: <https://www.hdmi.org/spec/hdmi2_1>
 
 - [DisplayPort] VESA DisplayPort
 
@@ -195,7 +195,7 @@
   USB-C alternate mode. Widely used in computing and professional displays.
 
   Document: DisplayPort 2.1 (2022)\
-  URL: https://vesa.org/vesa-standards/
+  URL: <https://vesa.org/vesa-standards/>
 
 - [MIPI-CSI-2] MIPI Camera Serial Interface 2
 
@@ -204,7 +204,7 @@
   embedded vision systems. Supports RAW, YUV, and compressed formats.
 
   Document: MIPI CSI-2 v4.0 (2023)\
-  URL: https://www.mipi.org/specifications/csi-2
+  URL: <https://www.mipi.org/specifications/csi-2>
 
 - [MIPI-DSI-2] MIPI Display Serial Interface 2
 
@@ -213,7 +213,7 @@
   Supports video mode, command mode, and Display Stream Compression.
 
   Document: MIPI DSI-2 v2.1 (2023)\
-  URL: https://www.mipi.org/specifications/dsi-2
+  URL: <https://www.mipi.org/specifications/dsi-2>
 
 ## Broadcast — Radio
 
@@ -224,7 +224,7 @@
   EU-mandated in new vehicle receivers since December 2020.
 
   Document: ETSI EN 300 401 V2.1.1 (2017)\
-  URL: https://www.etsi.org/deliver/etsi_en/300400_300499/300401/
+  URL: <https://www.etsi.org/deliver/etsi_en/300400_300499/300401/>
 
 - [HD-Radio] HD Radio (NRSC-5)
 
@@ -243,7 +243,7 @@
   for wide-area coverage including shortwave international broadcasting.
 
   Document: ETSI ES 201 980 V4.2.1 (2020)\
-  URL: https://www.drm.org/
+  URL: <https://www.drm.org/>
 
 - [IEC-62106] Radio data system (RDS) for VHF/FM sound broadcasting
 
@@ -253,7 +253,7 @@
   information.
 
   Document: IEC 62106:2015 (series)\
-  URL: https://webstore.iec.ch/en/publication/22427
+  URL: <https://webstore.iec.ch/en/publication/22427>
 
 - [RadioDNS] RadioDNS Hybrid Radio
 
@@ -262,7 +262,7 @@
   metadata, and on-demand content via internet lookup using DNS-SD.
 
   Document: ETSI TS 103 270 V1.5.1 (2023)\
-  URL: https://radiodns.org/
+  URL: <https://radiodns.org/>
 
 ## Broadcast — Television
 
@@ -273,7 +273,7 @@
   transmission. The dominant digital TV standard outside the Americas and Japan.
 
   Document: ETSI EN 300 468 and related (DVB Project)\
-  URL: https://dvb.org/specifications/
+  URL: <https://dvb.org/specifications/>
 
 - [ATSC-3] ATSC 3.0 — Next Generation Broadcast Television
 
@@ -282,7 +282,7 @@
   broadcast channels. Supports hybrid broadcast-broadband operation.
 
   Document: ATSC A/300 series (2017-2024)\
-  URL: https://www.atsc.org/standards/
+  URL: <https://www.atsc.org/standards/>
 
 - [ISDB-T] Integrated Services Digital Broadcasting — Terrestrial
 
@@ -291,7 +291,7 @@
   transmission enabling robust mobile TV alongside high-quality fixed reception.
 
   Document: ARIB STD-B31 (2014)\
-  URL: https://www.arib.or.jp/english/std_tr/broadcasting/std-b31.html
+  URL: <https://www.arib.or.jp/english/std_tr/broadcasting/std-b31.html>
 
 - [HbbTV] Hybrid Broadcast Broadband TV
 
@@ -300,7 +300,7 @@
   targeted advertising, and second-screen experiences on smart TVs.
 
   Document: HbbTV 2.0.4 (2023)\
-  URL: https://www.hbbtv.org/resource-library/
+  URL: <https://www.hbbtv.org/resource-library/>
 
 ## Broadcast — Regulation
 
@@ -311,7 +311,7 @@
   car radios and consumer radio equipment sold in the EU.
 
   Document: Directive (EU) 2018/1972\
-  URL: https://eur-lex.europa.eu/eli/dir/2018/1972/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2018/1972/oj>
 
 - [ITU-RR] ITU Radio Regulations
 
@@ -321,7 +321,7 @@
   management.
 
   Document: ITU Radio Regulations (Edition 2020)\
-  URL: https://www.itu.int/pub/R-REG-RR
+  URL: <https://www.itu.int/pub/R-REG-RR>
 
 ## Surveillance and Monitoring
 
@@ -333,7 +333,7 @@
   systems.
 
   Document: ONVIF Core Specification 24.06\
-  URL: https://www.onvif.org/specs/core/ONVIF-Core-Specification.pdf
+  URL: <https://www.onvif.org/specs/core/ONVIF-Core-Specification.pdf>
 
 ## Quality Assessment
 
@@ -345,4 +345,4 @@
   statistical analysis for evaluating perceived video quality.
 
   Document: ITU-T P.910 (2022)\
-  URL: https://www.itu.int/rec/T-REC-P.910
+  URL: <https://www.itu.int/rec/T-REC-P.910>

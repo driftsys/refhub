@@ -9,7 +9,7 @@
   referenced by all product-specific and environment-specific EMC standards.
 
   Document: IEC 61000-1 (series)\
-  URL: https://webstore.iec.ch/en/publication/4125
+  URL: <https://webstore.iec.ch/en/publication/4125>
 
 - [IEC-61000-4] Electromagnetic compatibility (EMC) — Testing and measurement
   techniques
@@ -20,7 +20,7 @@
   voltage dips/interruptions (-4-11).
 
   Document: IEC 61000-4 (series)\
-  URL: https://webstore.iec.ch/en/publication/4189
+  URL: <https://webstore.iec.ch/en/publication/4189>
 
 - [IEC-61000-6] Electromagnetic compatibility (EMC) — Generic standards
 
@@ -29,7 +29,7 @@
   when no product-specific EMC standard exists.
 
   Document: IEC 61000-6 (series)\
-  URL: https://webstore.iec.ch/en/publication/4243
+  URL: <https://webstore.iec.ch/en/publication/4243>
 
 - [CISPR-11] Industrial, scientific and medical equipment — Radio-frequency
   disturbance characteristics
@@ -39,7 +39,7 @@
   laboratory and in-situ testing.
 
   Document: CISPR 11:2024\
-  URL: https://webstore.iec.ch/en/publication/68982
+  URL: <https://webstore.iec.ch/en/publication/68982>
 
 - [CISPR-32] Electromagnetic compatibility of multimedia equipment — Emission
   requirements
@@ -49,7 +49,7 @@
   (commercial) and Class B (residential) limits.
 
   Document: CISPR 32:2015+AMD1:2019\
-  URL: https://webstore.iec.ch/en/publication/65007
+  URL: <https://webstore.iec.ch/en/publication/65007>
 
 - [CISPR-35] Electromagnetic compatibility of multimedia equipment — Immunity
   requirements
@@ -59,7 +59,7 @@
   for IT and multimedia products.
 
   Document: CISPR 35:2016\
-  URL: https://webstore.iec.ch/en/publication/24657
+  URL: <https://webstore.iec.ch/en/publication/24657>
 
 ## Automotive EMC
 
@@ -71,7 +71,7 @@
   current injection, stripline, and direct power injection methods.
 
   Document: ISO 11452 (series, 2020)\
-  URL: https://www.iso.org/standard/68559.html
+  URL: <https://www.iso.org/standard/68559.html>
 
 - [CISPR-25] Vehicles, boats and internal combustion engines — Radio disturbance
   characteristics
@@ -81,7 +81,7 @@
   on-board receivers (AM, FM, TV, GNSS, cellular).
 
   Document: CISPR 25:2021\
-  URL: https://webstore.iec.ch/en/publication/64551
+  URL: <https://webstore.iec.ch/en/publication/64551>
 
 - [ISO-11451] Road vehicles — Vehicle test methods for electrical disturbances
   from narrowband radiated electromagnetic energy
@@ -91,7 +91,7 @@
   methods at the vehicle level.
 
   Document: ISO 11451 (series, 2015)\
-  URL: https://www.iso.org/standard/59609.html
+  URL: <https://www.iso.org/standard/59609.html>
 
 ## Regulation
 
@@ -103,7 +103,7 @@
   cause excessive electromagnetic disturbance nor be unduly affected by it.
 
   Document: Directive 2014/30/EU\
-  URL: https://eur-lex.europa.eu/eli/dir/2014/30/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2014/30/oj>
 
 - [FCC-Part-15] FCC Rules Part 15 — Radio Frequency Devices
 
@@ -112,7 +112,7 @@
   limits for digital devices and unlicensed radio equipment.
 
   Document: 47 CFR Part 15\
-  URL: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-15
+  URL: <https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-15>
 
 - [FCC-Part-18] FCC Rules Part 18 — Industrial, Scientific, and Medical
   Equipment
@@ -122,4 +122,4 @@
   RF lighting equipment.
 
   Document: 47 CFR Part 18\
-  URL: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-18
+  URL: <https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-18>

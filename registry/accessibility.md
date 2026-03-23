@@ -10,7 +10,7 @@
   Referenced by most accessibility regulations worldwide.
 
   Document: WCAG 2.2 (2023)\
-  URL: https://www.w3.org/TR/WCAG22/
+  URL: <https://www.w3.org/TR/WCAG22/>
 
 - [WAI-ARIA] Accessible Rich Internet Applications
 
@@ -20,7 +20,7 @@
   application-like interactions.
 
   Document: WAI-ARIA 1.2 (2023)\
-  URL: https://www.w3.org/TR/wai-aria-1.2/
+  URL: <https://www.w3.org/TR/wai-aria-1.2/>
 
 - [ATAG] Authoring Tool Accessibility Guidelines
 
@@ -29,7 +29,7 @@
   with disabilities themselves.
 
   Document: ATAG 2.0 (2015)\
-  URL: https://www.w3.org/TR/ATAG20/
+  URL: <https://www.w3.org/TR/ATAG20/>
 
 ## Product and Hardware
 
@@ -52,7 +52,7 @@
   principles.
 
   Document: ISO 9241 (series)\
-  URL: https://www.iso.org/standard/63785.html
+  URL: <https://www.iso.org/standard/63785.html>
 
 - [IEC-63008] Household and similar electrical appliances — Accessibility of
   control elements, doors and lids, and drawers
@@ -63,7 +63,7 @@
   strength.
 
   Document: IEC 63008:2020\
-  URL: https://webstore.iec.ch/en/publication/29530
+  URL: <https://webstore.iec.ch/en/publication/29530>
 
 ## Document Accessibility
 
@@ -74,7 +74,7 @@
   requirements enabling assistive technology access to PDF content.
 
   Document: ISO 14289-2:2024 (PDF/UA-2)\
-  URL: https://www.iso.org/standard/82278.html
+  URL: <https://www.iso.org/standard/82278.html>
 
 ## Regulation
 
@@ -85,7 +85,7 @@
   e-commerce, and banking. Mandatory from June 2025.
 
   Document: Directive (EU) 2019/882\
-  URL: https://eur-lex.europa.eu/eli/dir/2019/882/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2019/882/oj>
 
 - [Section-508] Section 508 of the Rehabilitation Act
 
@@ -94,7 +94,7 @@
   disabilities. References WCAG 2.0 Level AA since the 2018 refresh.
 
   Document: 36 CFR Part 1194 (2017 refresh)\
-  URL: https://www.section508.gov/
+  URL: <https://www.section508.gov/>
 
 - [EU-WAD] Web Accessibility Directive
 
@@ -104,7 +104,7 @@
   feedback mechanisms.
 
   Document: Directive (EU) 2016/2102\
-  URL: https://eur-lex.europa.eu/eli/dir/2016/2102/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2016/2102/oj>
 
 - [ADA] Americans with Disabilities Act
 
@@ -114,4 +114,4 @@
   guidance and case law.
 
   Document: 42 U.S.C. ch. 126 (1990)\
-  URL: https://www.ada.gov/
+  URL: <https://www.ada.gov/>

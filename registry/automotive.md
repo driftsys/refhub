@@ -7,7 +7,7 @@
   decommissioning.
 
   Document: ISO 26262:2018 (all parts)\
-  URL: https://www.iso.org/standard/68383.html\
+  URL: <https://www.iso.org/standard/68383.html>\
   Derived-from: IEC-61508
 
 - [ISO-26262-1] Road vehicles — Functional safety — Part 1
@@ -15,7 +15,7 @@
   Vocabulary. Defines terms used throughout the ISO 26262 series.
 
   Document: ISO 26262-1:2018\
-  URL: https://www.iso.org/standard/68383.html\
+  URL: <https://www.iso.org/standard/68383.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-2] Road vehicles — Functional safety — Part 2
@@ -24,7 +24,7 @@
   and project-level safety management.
 
   Document: ISO 26262-2:2018\
-  URL: https://www.iso.org/standard/68384.html\
+  URL: <https://www.iso.org/standard/68384.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-3] Road vehicles — Functional safety — Part 3
@@ -33,7 +33,7 @@
   (HARA), and functional safety concept.
 
   Document: ISO 26262-3:2018\
-  URL: https://www.iso.org/standard/68385.html\
+  URL: <https://www.iso.org/standard/68385.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-4] Road vehicles — Functional safety — Part 4
@@ -42,7 +42,7 @@
   requirements, system design, and system integration/testing.
 
   Document: ISO 26262-4:2018\
-  URL: https://www.iso.org/standard/68386.html\
+  URL: <https://www.iso.org/standard/68386.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-5] Road vehicles — Functional safety — Part 5
@@ -51,7 +51,7 @@
   requirements, design, and metrics (SPFM, LFM, PMHF).
 
   Document: ISO 26262-5:2018\
-  URL: https://www.iso.org/standard/68387.html\
+  URL: <https://www.iso.org/standard/68387.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-6] Road vehicles — Functional safety — Part 6
@@ -61,7 +61,7 @@
   verification.
 
   Document: ISO 26262-6:2018\
-  URL: https://www.iso.org/standard/68388.html\
+  URL: <https://www.iso.org/standard/68388.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-7] Road vehicles — Functional safety — Part 7
@@ -70,7 +70,7 @@
   the full vehicle lifecycle beyond development.
 
   Document: ISO 26262-7:2018\
-  URL: https://www.iso.org/standard/68389.html\
+  URL: <https://www.iso.org/standard/68389.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-8] Road vehicles — Functional safety — Part 8
@@ -80,7 +80,7 @@
   of software tools and components.
 
   Document: ISO 26262-8:2018\
-  URL: https://www.iso.org/standard/68390.html\
+  URL: <https://www.iso.org/standard/68390.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-9] Road vehicles — Functional safety — Part 9
@@ -89,7 +89,7 @@
   and dependent failure analysis (FTA, FMEA, DFA).
 
   Document: ISO 26262-9:2018\
-  URL: https://www.iso.org/standard/68391.html\
+  URL: <https://www.iso.org/standard/68391.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-10] Road vehicles — Functional safety — Part 10
@@ -98,7 +98,7 @@
   standard with examples and explanations.
 
   Document: ISO 26262-10:2018\
-  URL: https://www.iso.org/standard/68392.html\
+  URL: <https://www.iso.org/standard/68392.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-11] Road vehicles — Functional safety — Part 11
@@ -107,7 +107,7 @@
   ASICs, FPGAs, and standard microcontrollers.
 
   Document: ISO 26262-11:2018\
-  URL: https://www.iso.org/standard/68393.html\
+  URL: <https://www.iso.org/standard/68393.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-12] Road vehicles — Functional safety — Part 12
@@ -116,7 +116,7 @@
   vehicle-specific characteristics.
 
   Document: ISO 26262-12:2018\
-  URL: https://www.iso.org/standard/68394.html\
+  URL: <https://www.iso.org/standard/68394.html>\
   Derived-from: ISO-26262
 
 ## Driving Automation
@@ -129,7 +129,7 @@
   used by regulators, OEMs, and industry bodies.
 
   Document: SAE J3016:2021\
-  URL: https://www.sae.org/standards/content/j3016_202104/
+  URL: <https://www.sae.org/standards/content/j3016_202104/>
 
 - [ISO-22737] Intelligent transport systems — Low-speed automated driving (LSAD)
   systems
@@ -139,7 +139,7 @@
   vehicles in predefined environments.
 
   Document: ISO 22737:2021\
-  URL: https://www.iso.org/standard/73767.html
+  URL: <https://www.iso.org/standard/73767.html>
 
 ## Process
 
@@ -150,7 +150,7 @@
   implementation, integration, and testing.
 
   Document: Automotive SPICE PAM v4.0\
-  URL: https://www.automotivespice.com
+  URL: <https://www.automotivespice.com>
 
 - [ASPICE-SWE-1] ASPICE SWE.1 — Software Requirements Analysis
 
@@ -160,7 +160,7 @@
   which is critical for achieving higher capability levels in OEM assessments.
 
   Document: Automotive SPICE PAM v4.0\
-  URL: https://www.automotivespice.com\
+  URL: <https://www.automotivespice.com>\
   Derived-from: ASPICE
 
 - [ASPICE-SWE-2] ASPICE SWE.2 — Software Architectural Design
@@ -171,7 +171,7 @@
   for managing complexity in distributed automotive ECUs.
 
   Document: Automotive SPICE PAM v4.0\
-  URL: https://www.automotivespice.com\
+  URL: <https://www.automotivespice.com>\
   Derived-from: ASPICE
 
 - [ASPICE-SWE-3] ASPICE SWE.3 — Software Detailed Design and Unit Construction
@@ -182,7 +182,7 @@
   propagation into later development phases.
 
   Document: Automotive SPICE PAM v4.0\
-  URL: https://www.automotivespice.com\
+  URL: <https://www.automotivespice.com>\
   Derived-from: ASPICE
 
 - [ASPICE-SWE-4] ASPICE SWE.4 — Software Unit Verification
@@ -193,7 +193,7 @@
   quality targets such as zero-defect delivery.
 
   Document: Automotive SPICE PAM v4.0\
-  URL: https://www.automotivespice.com\
+  URL: <https://www.automotivespice.com>\
   Derived-from: ASPICE
 
 - [ASPICE-SWE-5] ASPICE SWE.5 — Software Integration and Integration Test
@@ -204,7 +204,7 @@
   validation, which is essential for multi-supplier ECU development.
 
   Document: Automotive SPICE PAM v4.0\
-  URL: https://www.automotivespice.com\
+  URL: <https://www.automotivespice.com>\
   Derived-from: ASPICE
 
 - [ASPICE-SWE-6] ASPICE SWE.6 — Software Qualification Test
@@ -215,7 +215,7 @@
   gate between supplier and OEM.
 
   Document: Automotive SPICE PAM v4.0\
-  URL: https://www.automotivespice.com\
+  URL: <https://www.automotivespice.com>\
   Derived-from: ASPICE
 
 ## Quality
@@ -229,7 +229,7 @@
   manufacturing.
 
   Document: IATF 16949:2016\
-  URL: https://www.iatfglobaloversight.org/iatf-169492016/about/\
+  URL: <https://www.iatfglobaloversight.org/iatf-169492016/about/>\
   Derived-from: ISO-9001
 
 ## Communication and Networking
@@ -242,7 +242,7 @@
   electronics.
 
   Document: ISO 11898 (series, 2024)\
-  URL: https://www.iso.org/standard/83296.html
+  URL: <https://www.iso.org/standard/83296.html>
 
 - [ISO-17987] Road vehicles — Local interconnect network (LIN)
 
@@ -251,7 +251,7 @@
   adjustment, and climate controls where CAN bandwidth is not required.
 
   Document: ISO 17987 (series, 2016)\
-  URL: https://www.iso.org/standard/61222.html
+  URL: <https://www.iso.org/standard/61222.html>
 
 - [ISO-17458] Road vehicles — FlexRay communications system
 
@@ -261,7 +261,7 @@
   brake-by-wire.
 
   Document: ISO 17458 (series, 2013)\
-  URL: https://www.iso.org/standard/59804.html
+  URL: <https://www.iso.org/standard/59804.html>
 
 - [Automotive-Ethernet] IEEE 802.3 Automotive Ethernet profiles
 
@@ -271,7 +271,7 @@
   twisted pair.
 
   Document: IEEE 802.3bw (2015), 802.3bp (2016), 802.3ch (2020)\
-  URL: https://standards.ieee.org/ieee/802.3/10422/
+  URL: <https://standards.ieee.org/ieee/802.3/10422/>
 
 - [AUTOSAR-SOMEIP] AUTOSAR SOME/IP Protocol Specification
 
@@ -280,7 +280,7 @@
   calls, event notifications, and service discovery between ECUs.
 
   Document: AUTOSAR SOME/IP (R24-11)\
-  URL: https://www.autosar.org/standards/foundation\
+  URL: <https://www.autosar.org/standards/foundation>\
   Derived-from: AUTOSAR-Adaptive
 
 - [ISO-13400] Road vehicles — Diagnostics over Internet Protocol (DoIP)
@@ -290,7 +290,7 @@
   standard Ethernet/IP infrastructure instead of legacy CAN-based diagnostics.
 
   Document: ISO 13400 (series, 2019)\
-  URL: https://www.iso.org/standard/74412.html
+  URL: <https://www.iso.org/standard/74412.html>
 
 ## Diagnostics
 
@@ -301,7 +301,7 @@
   used by OEM diagnostic tools and end-of-line testers.
 
   Document: ISO 14229 (series, 2020)\
-  URL: https://www.iso.org/standard/72439.html
+  URL: <https://www.iso.org/standard/72439.html>
 
 - [ISO-15765] Road vehicles — Diagnostic communication over Controller Area
   Network (DoCAN)
@@ -311,7 +311,7 @@
   requirements.
 
   Document: ISO 15765 (series, 2016)\
-  URL: https://www.iso.org/standard/66574.html\
+  URL: <https://www.iso.org/standard/66574.html>\
   Derived-from: ISO-14229
 
 - [ISO-22900] Road vehicles — Modular vehicle communication interface (MVCI)
@@ -321,7 +321,7 @@
   API (D-PDU API) and protocol stack.
 
   Document: ISO 22900 (series, 2022)\
-  URL: https://www.iso.org/standard/78208.html
+  URL: <https://www.iso.org/standard/78208.html>
 
 - [ISO-22901] Road vehicles — Open diagnostic data exchange (ODX)
 
@@ -331,7 +331,7 @@
   parameters.
 
   Document: ISO 22901 (series, 2020)\
-  URL: https://www.iso.org/standard/74399.html
+  URL: <https://www.iso.org/standard/74399.html>
 
 ## Vehicle Signal and Service Standards
 
@@ -343,7 +343,7 @@
   of underlying bus protocols.
 
   Document: COVESA VSS (v4.x)\
-  URL: https://covesa.github.io/vehicle_signal_specification/
+  URL: <https://covesa.github.io/vehicle_signal_specification/>
 
 - [COVESA-VISS] COVESA Vehicle Information Service Specification (VISS)
 
@@ -352,7 +352,7 @@
   applications to interact with vehicle data in a standardised way.
 
   Document: W3C VISS v2 / COVESA\
-  URL: https://www.w3.org/TR/viss2-core/\
+  URL: <https://www.w3.org/TR/viss2-core/>\
   Derived-from: COVESA-VSS
 
 - [COVESA-IFEX] COVESA Interface Exchange Framework (IFEX)
@@ -362,7 +362,7 @@
   to multiple middleware technologies (SOME/IP, D-Bus, gRPC, REST).
 
   Document: COVESA IFEX\
-  URL: https://covesa.github.io/ifex/
+  URL: <https://covesa.github.io/ifex/>
 
 ## Software Architecture
 
@@ -374,7 +374,7 @@
   powertrain, chassis, and body controllers.
 
   Document: AUTOSAR Classic Platform R24-11\
-  URL: https://www.autosar.org/standards/classic-platform
+  URL: <https://www.autosar.org/standards/classic-platform>
 
 - [AUTOSAR-Adaptive] AUTOSAR Adaptive Platform
 
@@ -384,7 +384,7 @@
   ADAS, autonomous driving, and connected services.
 
   Document: AUTOSAR Adaptive Platform R24-11\
-  URL: https://www.autosar.org/standards/adaptive-platform
+  URL: <https://www.autosar.org/standards/adaptive-platform>
 
 - [MISRA-C] MISRA C — Guidelines for the Use of the C Language in Critical
   Systems
@@ -394,7 +394,7 @@
   IEC 62304, and EN 50128 as a required or recommended coding guideline.
 
   Document: MISRA C:2023 (Edition 4)\
-  URL: https://misra.org.uk/misra-c/
+  URL: <https://misra.org.uk/misra-c/>
 
 - [MISRA-CPP] MISRA C++ — Guidelines for the Use of C++ in Critical Systems
 
@@ -403,7 +403,7 @@
   for C++17 with guidance on templates, exceptions, and smart pointers.
 
   Document: MISRA C++:2023\
-  URL: https://misra.org.uk/misra-c-plus-plus/
+  URL: <https://misra.org.uk/misra-c-plus-plus/>
 
 ## Cybersecurity
 
@@ -417,7 +417,7 @@
   supply chain.
 
   Document: ISO/SAE 21434:2021\
-  URL: https://www.iso.org/standard/70918.html
+  URL: <https://www.iso.org/standard/70918.html>
 
 ## Safety of the Intended Functionality
 
@@ -429,7 +429,7 @@
   algorithms (ADAS, autonomous driving).
 
   Document: ISO 21448:2022\
-  URL: https://www.iso.org/standard/77490.html
+  URL: <https://www.iso.org/standard/77490.html>
 
 ## Type Approval
 
@@ -464,7 +464,7 @@
   new vehicle types from July 2022 and all new vehicles from July 2024.
 
   Document: Regulation (EU) 2019/2144\
-  URL: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2019/2144/oj>
 
 - [EU-2018-858] Regulation on the approval and market surveillance of motor
   vehicles
@@ -475,7 +475,7 @@
   for UN regulation references including R155 and R156.
 
   Document: Regulation (EU) 2018/858\
-  URL: https://eur-lex.europa.eu/eli/reg/2018/858/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2018/858/oj>
 
 - [FMVSS] Federal Motor Vehicle Safety Standards
 
@@ -485,7 +485,7 @@
   108, 126, 150, 214).
 
   Document: 49 CFR Part 571\
-  URL: https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571
+  URL: <https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571>
 
 ## Connectivity and Infotainment
 
@@ -497,7 +497,7 @@
   for Android Automotive OS (AAOS) builds.
 
   Document: Android CDD (per-release)\
-  URL: https://source.android.com/docs/compatibility/cdd
+  URL: <https://source.android.com/docs/compatibility/cdd>
 
 - [GAS-Requirements] Google Automotive Services Requirements
 
@@ -507,7 +507,7 @@
   production vehicles.
 
   Document: GAS Requirements (confidential, per-release)\
-  URL: https://source.android.com/docs/automotive
+  URL: <https://source.android.com/docs/automotive>
 
 - [Apple-CarPlay] Apple CarPlay Specification
 
@@ -517,7 +517,7 @@
   supported app categories.
 
   Document: CarPlay Specification (MFi Program)\
-  URL: https://developer.apple.com/carplay/
+  URL: <https://developer.apple.com/carplay/>
 
 - [Android-Auto] Android Auto Specification
 
@@ -527,4 +527,4 @@
   navigation, and media.
 
   Document: Android Auto Specification\
-  URL: https://developer.android.com/auto
+  URL: <https://developer.android.com/auto>

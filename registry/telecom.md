@@ -9,7 +9,7 @@
   digital communication systems worldwide.
 
   Document: ITU-T G.711 (1988, amended 2024)\
-  URL: https://www.itu.int/rec/T-REC-G.711
+  URL: <https://www.itu.int/rec/T-REC-G.711>
 
 - [ITU-T-G722] 7 kHz audio-coding within 64 kbit/s
 
@@ -18,7 +18,7 @@
   delivering improved speech intelligibility over G.711.
 
   Document: ITU-T G.722 (2012)\
-  URL: https://www.itu.int/rec/T-REC-G.722
+  URL: <https://www.itu.int/rec/T-REC-G.722>
 
 - [ITU-T-G729] Coding of speech at 8 kbit/s using conjugate-structure
   algebraic-code-excited linear prediction (CS-ACELP)
@@ -28,7 +28,7 @@
   critical.
 
   Document: ITU-T G.729 (2012)\
-  URL: https://www.itu.int/rec/T-REC-G.729
+  URL: <https://www.itu.int/rec/T-REC-G.729>
 
 ## Transport and Networking
 
@@ -39,7 +39,7 @@
   1.244 Gbit/s upstream over single-mode fibre using TDMA.
 
   Document: ITU-T G.984 (series)\
-  URL: https://www.itu.int/rec/T-REC-G.984.1
+  URL: <https://www.itu.int/rec/T-REC-G.984.1>
 
 - [ITU-T-G8275] Precision time protocol telecom profile for phase/time
   synchronization
@@ -49,7 +49,7 @@
   deployments where nanosecond-level timing is required.
 
   Document: ITU-T G.8275 (series)\
-  URL: https://www.itu.int/rec/T-REC-G.8275.1
+  URL: <https://www.itu.int/rec/T-REC-G.8275.1>
 
 - [MEF-3] Carrier Ethernet services and specifications
 
@@ -58,7 +58,7 @@
   objectives for frame delay, jitter, and loss.
 
   Document: MEF 3.0 Framework (2024)\
-  URL: https://www.mef.net/service-standards/
+  URL: <https://www.mef.net/service-standards/>
 
 ## Quality of Service and Experience
 
@@ -69,7 +69,7 @@
   best-effort (Class 5) for end-to-end IP service delivery.
 
   Document: ITU-T Y.1541 (2011)\
-  URL: https://www.itu.int/rec/T-REC-Y.1541
+  URL: <https://www.itu.int/rec/T-REC-Y.1541>
 
 - [ITU-T-P862] Perceptual evaluation of speech quality (PESQ)
 
@@ -78,7 +78,7 @@
   a quality score. Widely used for VoIP and mobile network testing.
 
   Document: ITU-T P.862 (2001)\
-  URL: https://www.itu.int/rec/T-REC-P.862
+  URL: <https://www.itu.int/rec/T-REC-P.862>
 
 ## Network Functions Virtualisation
 
@@ -90,7 +90,7 @@
   storage.
 
   Document: ETSI GS NFV (series)\
-  URL: https://www.etsi.org/technologies/nfv
+  URL: <https://www.etsi.org/technologies/nfv>
 
 - [ETSI-MEC] Multi-access Edge Computing
 
@@ -99,4 +99,4 @@
   autonomous vehicles, AR/VR, and IoT at the mobile network edge.
 
   Document: ETSI GS MEC (series)\
-  URL: https://www.etsi.org/technologies/multi-access-edge-computing
+  URL: <https://www.etsi.org/technologies/multi-access-edge-computing>

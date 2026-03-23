@@ -8,7 +8,7 @@
   management, and configuration management.
 
   Document: IEC 62304:2006+AMD1:2015\
-  URL: https://webstore.iec.ch/en/publication/22794\
+  URL: <https://webstore.iec.ch/en/publication/22794>\
   Derived-from: IEC-61508
 
 - [ISO-14971] Medical devices — Application of risk management to medical
@@ -20,7 +20,7 @@
   device regulations.
 
   Document: ISO 14971:2019\
-  URL: https://www.iso.org/standard/72704.html
+  URL: <https://www.iso.org/standard/72704.html>
 
 - [ISO-13485] Medical devices — Quality management systems — Requirements for
   regulatory purposes
@@ -30,7 +30,7 @@
   traceability, and regulatory compliance.
 
   Document: ISO 13485:2016\
-  URL: https://www.iso.org/standard/59752.html\
+  URL: <https://www.iso.org/standard/59752.html>\
   Derived-from: ISO-9001
 
 - [IEC-62366] Medical devices — Application of usability engineering to medical
@@ -41,7 +41,7 @@
   usability verification and validation.
 
   Document: IEC 62366-1:2015+AMD1:2020\
-  URL: https://webstore.iec.ch/en/publication/67220
+  URL: <https://webstore.iec.ch/en/publication/67220>
 
 - [IEC-60601-1] Medical electrical equipment — General requirements for basic
   safety and essential performance
@@ -51,7 +51,7 @@
   thermal hazards. Basis for all medical electrical product-specific standards.
 
   Document: IEC 60601-1:2005+AMD2:2020\
-  URL: https://webstore.iec.ch/en/publication/67497
+  URL: <https://webstore.iec.ch/en/publication/67497>
 
 - [IEC-82304-1] Health software — General requirements for product safety
 
@@ -60,7 +60,7 @@
   clinical decision support, and health IT systems.
 
   Document: IEC 82304-1:2016\
-  URL: https://webstore.iec.ch/en/publication/25786
+  URL: <https://webstore.iec.ch/en/publication/25786>
 
 - [IEC-80001-1] Application of risk management for IT-networks incorporating
   medical devices
@@ -70,7 +70,7 @@
   medical devices communicate over shared network infrastructure.
 
   Document: IEC 80001-1:2021\
-  URL: https://webstore.iec.ch/en/publication/67260
+  URL: <https://webstore.iec.ch/en/publication/67260>
 
 - [FDA-21-CFR-820] Quality System Regulation
 
@@ -80,7 +80,7 @@
   management.
 
   Document: 21 CFR Part 820 (revised 2024)\
-  URL: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820
+  URL: <https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820>
 
 - [EU-MDR] Regulation on medical devices
 
@@ -90,7 +90,7 @@
   obligations. Replaces Directive 93/42/EEC.
 
   Document: Regulation (EU) 2017/745\
-  URL: https://eur-lex.europa.eu/eli/reg/2017/745/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2017/745/oj>
 
 - [EU-IVDR] Regulation on in vitro diagnostic medical devices
 
@@ -100,7 +100,7 @@
   self-testing devices. Replaces Directive 98/79/EC.
 
   Document: Regulation (EU) 2017/746\
-  URL: https://eur-lex.europa.eu/eli/reg/2017/746/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2017/746/oj>
 
 ## Interoperability and Communication
 
@@ -112,7 +112,7 @@
   in EHR systems and health information exchanges.
 
   Document: HL7 FHIR R4 (2019) / R5 (2023)\
-  URL: https://www.hl7.org/fhir/
+  URL: <https://www.hl7.org/fhir/>
 
 - [DICOM] Digital Imaging and Communications in Medicine
 
@@ -122,7 +122,7 @@
   imaging-intensive specialties.
 
   Document: DICOM PS3 (2024)\
-  URL: https://www.dicomstandard.org/current
+  URL: <https://www.dicomstandard.org/current>
 
 - [IEEE-11073] Health informatics — Point-of-care medical device communication
 
@@ -132,7 +132,7 @@
   wearable health sensors.
 
   Document: IEEE 11073 (series)\
-  URL: https://standards.ieee.org/ieee/11073-10101/11526/
+  URL: <https://standards.ieee.org/ieee/11073-10101/11526/>
 
 - [IHE] Integrating the Healthcare Enterprise — Integration Profiles
 
@@ -142,4 +142,4 @@
   identification, radiology workflow, and device integration.
 
   Document: IHE Technical Frameworks (annual)\
-  URL: https://www.ihe.net/resources/technical_frameworks/
+  URL: <https://www.ihe.net/resources/technical_frameworks/>

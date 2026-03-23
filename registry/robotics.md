@@ -7,7 +7,7 @@
   itself, independent of installation.
 
   Document: ISO 10218-1:2024\
-  URL: https://www.iso.org/standard/82626.html
+  URL: <https://www.iso.org/standard/82626.html>
 
 - [ISO-10218-2] Robots and robotic devices — Safety requirements — Part 2
 
@@ -16,7 +16,7 @@
   installations.
 
   Document: ISO 10218-2:2024\
-  URL: https://www.iso.org/standard/82627.html
+  URL: <https://www.iso.org/standard/82627.html>
 
 - [ISO-TS-15066] Robots and robotic devices — Collaborative robots
 
@@ -26,7 +26,7 @@
   force limiting.
 
   Document: ISO/TS 15066:2016\
-  URL: https://www.iso.org/standard/62996.html\
+  URL: <https://www.iso.org/standard/62996.html>\
   Derived-from: ISO-10218-2
 
 - [ISO-3691-4] Industrial trucks — Safety requirements and verification — Part
@@ -37,7 +37,7 @@
   Covers navigation, obstacle detection, and operational design domains.
 
   Document: ISO 3691-4:2023\
-  URL: https://www.iso.org/standard/83669.html
+  URL: <https://www.iso.org/standard/83669.html>
 
 - [ISO-13482] Robots and robotic devices — Safety requirements for personal care
   robots
@@ -47,7 +47,7 @@
   robots operating in close proximity to humans.
 
   Document: ISO 13482:2014\
-  URL: https://www.iso.org/standard/53820.html
+  URL: <https://www.iso.org/standard/53820.html>
 
 ## Communication and Middleware
 
@@ -59,7 +59,7 @@
   and machine-to-cloud communication.
 
   Document: IEC 62541 (series, 2020)\
-  URL: https://webstore.iec.ch/en/publication/25997
+  URL: <https://webstore.iec.ch/en/publication/25997>
 
 - [DDS] Data Distribution Service for Real-Time Systems
 
@@ -69,7 +69,7 @@
   automatic discovery.
 
   Document: OMG DDS 1.4 (2015)\
-  URL: https://www.omg.org/spec/DDS/
+  URL: <https://www.omg.org/spec/DDS/>
 
 - [ROS-2] Robot Operating System 2
 
@@ -78,7 +78,7 @@
   DDS), package management, and tools for building distributed robotic systems.
 
   Document: ROS 2 (Rolling / Jazzy Jalisco)\
-  URL: https://docs.ros.org/en/rolling/\
+  URL: <https://docs.ros.org/en/rolling/>\
   Derived-from: DDS
 
 ## Functional Safety and Machinery
@@ -91,7 +91,7 @@
   emergency stop over all other functions.
 
   Document: ISO 13850:2015\
-  URL: https://www.iso.org/standard/59970.html\
+  URL: <https://www.iso.org/standard/59970.html>\
   Derived-from: ISO-12100
 
 - [IEC-60204-1] Safety of machinery — Electrical equipment of machines — Part 1:
@@ -102,7 +102,7 @@
   bonding, EMC, and documentation for industrial machinery installations.
 
   Document: IEC 60204-1:2016\
-  URL: https://webstore.iec.ch/en/publication/26036
+  URL: <https://webstore.iec.ch/en/publication/26036>
 
 - [ISO-11161] Safety of machinery — Integrated manufacturing systems
 
@@ -111,4 +111,4 @@
   safeguarding, mode selection, and the safety of the overall integrated system.
 
   Document: ISO 11161:2007+AMD1:2010\
-  URL: https://www.iso.org/standard/35996.html
+  URL: <https://www.iso.org/standard/35996.html>

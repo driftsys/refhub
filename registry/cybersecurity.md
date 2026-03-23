@@ -10,7 +10,7 @@
   recognized certification standard for information security.
 
   Document: ISO/IEC 27001:2022\
-  URL: https://www.iso.org/standard/27001
+  URL: <https://www.iso.org/standard/27001>
 
 - [ISO-27002] Information security, cybersecurity and privacy protection —
   Information security controls
@@ -20,7 +20,7 @@
   themes: organizational, people, physical, and technological.
 
   Document: ISO/IEC 27002:2022\
-  URL: https://www.iso.org/standard/75652.html\
+  URL: <https://www.iso.org/standard/75652.html>\
   Derived-from: ISO-27001
 
 - [ISO-27005] Information security, cybersecurity and privacy protection —
@@ -31,7 +31,7 @@
   systematic approaches for identifying, analyzing, and evaluating risks.
 
   Document: ISO/IEC 27005:2022\
-  URL: https://www.iso.org/standard/80585.html\
+  URL: <https://www.iso.org/standard/80585.html>\
   Derived-from: ISO-27001
 
 - [ISO-27034] Information technology — Application security
@@ -41,7 +41,7 @@
   (ANF) for integrating security into software development.
 
   Document: ISO/IEC 27034 (series)\
-  URL: https://www.iso.org/standard/44378.html\
+  URL: <https://www.iso.org/standard/44378.html>\
   Derived-from: ISO-27001
 
 - [NIST-CSF] NIST Cybersecurity Framework
@@ -51,7 +51,7 @@
   across industries and referenced by regulators.
 
   Document: NIST CSF 2.0 (2024)\
-  URL: https://www.nist.gov/cyberframework
+  URL: <https://www.nist.gov/cyberframework>
 
 - [ISO-15408] Information technology — Security techniques — Evaluation criteria
   for IT security
@@ -61,7 +61,7 @@
   of IT products and systems.
 
   Document: ISO/IEC 15408:2022 (all parts)\
-  URL: https://www.iso.org/standard/72891.html
+  URL: <https://www.iso.org/standard/72891.html>
 
 - [NIST-SP-800-53] Security and Privacy Controls for Information Systems and
   Organizations
@@ -72,7 +72,7 @@
   government as a baseline for enterprise security.
 
   Document: NIST SP 800-53 Rev. 5 (2020)\
-  URL: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
+  URL: <https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final>
 
 - [NIST-SP-800-171] Protecting Controlled Unclassified Information in Nonfederal
   Systems and Organizations
@@ -82,7 +82,7 @@
   as a baseline for supply chain security assurance.
 
   Document: NIST SP 800-171 Rev. 3 (2024)\
-  URL: https://csrc.nist.gov/pubs/sp/800/171/r3/final
+  URL: <https://csrc.nist.gov/pubs/sp/800/171/r3/final>
 
 - [ISO-27017] Information technology — Security techniques — Code of practice
   for information security controls based on ISO/IEC 27002 for cloud services
@@ -92,7 +92,7 @@
   machine hardening, and cloud-specific operational procedures.
 
   Document: ISO/IEC 27017:2015\
-  URL: https://www.iso.org/standard/43757.html\
+  URL: <https://www.iso.org/standard/43757.html>\
   Derived-from: ISO-27002
 
 - [OWASP-ASVS] Application Security Verification Standard
@@ -102,7 +102,8 @@
   session management, access control, input validation, and cryptography.
 
   Document: OWASP ASVS 4.0.3 (2021)\
-  URL: https://owasp.org/www-project-application-security-verification-standard/
+  URL:
+  <https://owasp.org/www-project-application-security-verification-standard/>
 
 ## Regulation
 
@@ -114,7 +115,7 @@
   the EU market.
 
   Document: Regulation (EU) 2024/2847\
-  URL: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2024/2847/oj>
 
 - [EU-NIS2] Directive on measures for a high common level of cybersecurity
   across the Union
@@ -125,7 +126,7 @@
   enforcement.
 
   Document: Directive (EU) 2022/2555\
-  URL: https://eur-lex.europa.eu/eli/dir/2022/2555/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2022/2555/oj>
 
 - [EU-DORA] Digital Operational Resilience Act
 
@@ -134,7 +135,7 @@
   resilience, and oversee third-party ICT service providers.
 
   Document: Regulation (EU) 2022/2554\
-  URL: https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2022/2554/oj>
 
 ## Industrial
 
@@ -146,7 +147,7 @@
   requirements for operators, integrators, and component suppliers.
 
   Document: IEC 62443 (series)\
-  URL: https://webstore.iec.ch/en/publication/33615
+  URL: <https://webstore.iec.ch/en/publication/33615>
 
 - [NIST-SP-800-82] Guide to Operational Technology (OT) Security
 
@@ -156,7 +157,7 @@
   convergent IT/OT networks.
 
   Document: NIST SP 800-82 Rev. 3 (2023)\
-  URL: https://csrc.nist.gov/pubs/sp/800/82/r3/final
+  URL: <https://csrc.nist.gov/pubs/sp/800/82/r3/final>
 
 - [SOC-2] Service Organization Control 2
 
@@ -176,7 +177,7 @@
   Moderate, High) with controls based on NIST SP 800-53.
 
   Document: FedRAMP Authorization Framework\
-  URL: https://www.fedramp.gov/
+  URL: <https://www.fedramp.gov/>
 
 ## Threat Intelligence and Assessment
 
@@ -188,7 +189,7 @@
   modelling, detection engineering, red teaming, and security gap analysis.
 
   Document: ATT&CK v16 (2024)\
-  URL: https://attack.mitre.org/
+  URL: <https://attack.mitre.org/>
 
 - [CWE] Common Weakness Enumeration
 
@@ -198,7 +199,7 @@
   and CERT.
 
   Document: CWE 4.16 (2024)\
-  URL: https://cwe.mitre.org/
+  URL: <https://cwe.mitre.org/>
 
 - [PCI-DSS] Payment Card Industry Data Security Standard
 
@@ -208,4 +209,4 @@
   processors, and service providers.
 
   Document: PCI DSS v4.0.1 (2024)\
-  URL: https://www.pcisecuritystandards.org/standards/pci-dss/
+  URL: <https://www.pcisecuritystandards.org/standards/pci-dss/>

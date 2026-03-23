@@ -10,7 +10,7 @@
   consumer, enterprise, and IoT deployments.
 
   Document: IEEE 802.11 (series)\
-  URL: https://standards.ieee.org/ieee/802.11/7028/
+  URL: <https://standards.ieee.org/ieee/802.11/7028/>
 
 - [Wi-Fi-Alliance] Wi-Fi Alliance Certification Programs
 
@@ -19,7 +19,7 @@
   Aware, and Passpoint for hotspot roaming.
 
   Document: Wi-Fi Alliance Specifications\
-  URL: https://www.wi-fi.org/discover-wi-fi
+  URL: <https://www.wi-fi.org/discover-wi-fi>
 
 ## Short-Range Wireless
 
@@ -30,7 +30,7 @@
   Low Energy (BLE) for low-power IoT sensors, wearables, and beacons.
 
   Document: Bluetooth Core Specification 6.0 (2024)\
-  URL: https://www.bluetooth.com/specifications/specs/core-specification-6-0/
+  URL: <https://www.bluetooth.com/specifications/specs/core-specification-6-0/>
 
 - [BLE] Bluetooth Low Energy
 
@@ -39,7 +39,7 @@
   mesh networking, direction finding, and LE Audio (LC3 codec).
 
   Document: Bluetooth Core Specification 6.0 — Part F (LE)\
-  URL: https://www.bluetooth.com/specifications/specs/core-specification-6-0/\
+  URL: <https://www.bluetooth.com/specifications/specs/core-specification-6-0/>\
   Derived-from: IEEE-802-15-1
 
 - [IEEE-802-15-4] Low-Rate Wireless Personal Area Networks (LR-WPAN)
@@ -49,7 +49,7 @@
   industrial sensing, and smart metering.
 
   Document: IEEE 802.15.4 (2020)\
-  URL: https://standards.ieee.org/ieee/802.15.4/7029/
+  URL: <https://standards.ieee.org/ieee/802.15.4/7029/>
 
 - [Zigbee] Zigbee Specification
 
@@ -69,7 +69,7 @@
   communication. Foundation transport for Matter smart home devices.
 
   Document: Thread 1.3 (2023)\
-  URL: https://www.threadgroup.org/What-is-Thread/Thread-Benefits\
+  URL: <https://www.threadgroup.org/What-is-Thread/Thread-Benefits>\
   Derived-from: IEEE-802-15-4
 
 - [Matter] Matter — Connectivity Standard for Smart Home
@@ -80,7 +80,7 @@
   ecosystems.
 
   Document: Matter 1.4 (2024)\
-  URL: https://csa-iot.org/all-solutions/matter/
+  URL: <https://csa-iot.org/all-solutions/matter/>
 
 - [NFC] Near Field Communication
 
@@ -89,7 +89,7 @@
   pairing, and electronic identification.
 
   Document: ISO/IEC 18092:2023 (NFCIP-1)\
-  URL: https://www.iso.org/standard/82088.html
+  URL: <https://www.iso.org/standard/82088.html>
 
 - [UWB] Ultra-Wideband
 
@@ -98,7 +98,7 @@
   positioning, asset tracking, and spatial awareness in consumer electronics.
 
   Document: IEEE 802.15.4z (2020) / FiRa Consortium\
-  URL: https://www.firaconsortium.org/
+  URL: <https://www.firaconsortium.org/>
 
 ## Cellular
 
@@ -109,7 +109,7 @@
   for IoT with extended coverage and reduced power consumption.
 
   Document: 3GPP Release 17 (LTE)\
-  URL: https://www.3gpp.org/specifications-technologies/releases/release-17
+  URL: <https://www.3gpp.org/specifications-technologies/releases/release-17>
 
 - [3GPP-5G-NR] 3GPP 5G New Radio
 
@@ -119,7 +119,7 @@
   for dedicated service profiles.
 
   Document: 3GPP Release 18 (5G-Advanced)\
-  URL: https://www.3gpp.org/specifications-technologies/releases/release-18
+  URL: <https://www.3gpp.org/specifications-technologies/releases/release-18>
 
 - [NB-IoT] Narrowband Internet of Things
 
@@ -129,7 +129,7 @@
   monitoring.
 
   Document: 3GPP Release 17 (NB-IoT)\
-  URL: https://www.3gpp.org/specifications-technologies/releases/release-17
+  URL: <https://www.3gpp.org/specifications-technologies/releases/release-17>
 
 - [C-V2X] Cellular Vehicle-to-Everything
 
@@ -139,7 +139,7 @@
   (sidelink) and network-based communication.
 
   Document: 3GPP Release 16+ (C-V2X)\
-  URL: https://www.3gpp.org/specifications-technologies/releases/release-16
+  URL: <https://www.3gpp.org/specifications-technologies/releases/release-16>
 
 ## LPWAN
 
@@ -150,7 +150,8 @@
   in rural areas with battery life exceeding 10 years for simple sensors.
 
   Document: LoRaWAN 1.0.4 / Regional Parameters RP2-1.0.4\
-  URL: https://lora-alliance.org/resource_hub/lorawan-104-specification-package/
+  URL:
+  <https://lora-alliance.org/resource_hub/lorawan-104-specification-package/>
 
 ## Automotive Connectivity
 
@@ -161,7 +162,7 @@
   applications. Being superseded by C-V2X in many deployments.
 
   Document: IEEE 802.11p (2010) / IEEE 802.11-2020\
-  URL: https://standards.ieee.org/ieee/802.11/7028/
+  URL: <https://standards.ieee.org/ieee/802.11/7028/>
 
 - [CCC-Digital-Key] Car Connectivity Consortium Digital Key
 
@@ -170,7 +171,7 @@
   ranging to prevent relay attacks. Adopted by major OEMs.
 
   Document: CCC Digital Key Release 3.0 (2022)\
-  URL: https://carconnectivity.org/digital-key/
+  URL: <https://carconnectivity.org/digital-key/>
 
 ## Satellite and Positioning
 
@@ -182,7 +183,7 @@
   applications.
 
   Document: IS-GPS-200 (GPS) / Galileo OS SIS ICD\
-  URL: https://www.gps.gov/technical/icwg/
+  URL: <https://www.gps.gov/technical/icwg/>
 
 ## Regulation
 
@@ -194,7 +195,7 @@
   cybersecurity requirements for connected devices under delegated acts.
 
   Document: Directive 2014/53/EU\
-  URL: https://eur-lex.europa.eu/eli/dir/2014/53/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2014/53/oj>
 
 - [FCC-Part-15] FCC Rules Part 15 — Radio Frequency Devices
 
@@ -203,7 +204,7 @@
   devices, and other intentional and unintentional radiators.
 
   Document: 47 CFR Part 15\
-  URL: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-15
+  URL: <https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-15>
 
 - [ETSI-EN-303-645] Cyber Security for Consumer Internet of Things
 

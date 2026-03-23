@@ -11,7 +11,7 @@
   systems.
 
   Document: ISO/IEC 42001:2023\
-  URL: https://www.iso.org/standard/81230.html
+  URL: <https://www.iso.org/standard/81230.html>
 
 - [ISO-23894] Information technology — Artificial intelligence — Guidance on
   risk management
@@ -21,7 +21,7 @@
   robustness, and accountability.
 
   Document: ISO/IEC 23894:2023\
-  URL: https://www.iso.org/standard/77304.html
+  URL: <https://www.iso.org/standard/77304.html>
 
 - [ISO-38507] Information technology — Governance of IT — Governance
   implications of the use of artificial intelligence by organizations
@@ -31,7 +31,7 @@
   within organizational governance frameworks.
 
   Document: ISO/IEC 38507:2022\
-  URL: https://www.iso.org/standard/56641.html
+  URL: <https://www.iso.org/standard/56641.html>
 
 ## Regulation
 
@@ -42,7 +42,7 @@
   obligations for conformity assessment, transparency, and human oversight.
 
   Document: Regulation (EU) 2024/1689\
-  URL: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>
 
 ## Engineering
 
@@ -54,7 +54,7 @@
   across the ISO/IEC AI standards series.
 
   Document: ISO/IEC 22989:2022\
-  URL: https://www.iso.org/standard/74296.html
+  URL: <https://www.iso.org/standard/74296.html>
 
 - [ISO-23053] Framework for Artificial Intelligence (AI) Systems Using Machine
   Learning (ML)
@@ -64,7 +64,7 @@
   pipelines, model engineering, and deployment patterns.
 
   Document: ISO/IEC 23053:2022\
-  URL: https://www.iso.org/standard/74438.html
+  URL: <https://www.iso.org/standard/74438.html>
 
 - [NIST-AI-RMF] NIST AI Risk Management Framework
 
@@ -73,7 +73,8 @@
   practical guidance for trustworthy and responsible AI.
 
   Document: NIST AI 100-1 (2023)\
-  URL: https://www.nist.gov/artificial-intelligence/ai-risk-management-framework
+  URL:
+  <https://www.nist.gov/artificial-intelligence/ai-risk-management-framework>
 
 ## Ethics
 
@@ -84,7 +85,7 @@
   requirements, and validating ethical alignment throughout development.
 
   Document: IEEE 7000-2021\
-  URL: https://standards.ieee.org/ieee/7000/6781/
+  URL: <https://standards.ieee.org/ieee/7000/6781/>
 
 - [UNESCO-AI-Ethics] Recommendation on the Ethics of Artificial Intelligence
 
@@ -93,7 +94,7 @@
   and environmental sustainability for AI development and deployment.
 
   Document: UNESCO (2021)\
-  URL: https://unesdoc.unesco.org/ark:/48223/pf0000381137
+  URL: <https://unesdoc.unesco.org/ark:/48223/pf0000381137>
 
 ## Safety and Trustworthiness
 
@@ -106,7 +107,7 @@
   AI-based systems.
 
   Document: ISO/IEC 25059:2023\
-  URL: https://www.iso.org/standard/80655.html\
+  URL: <https://www.iso.org/standard/80655.html>\
   Derived-from: ISO-25010
 
 - [ISO-24029] Artificial intelligence — Assessment of the robustness of neural
@@ -118,7 +119,7 @@
   distributional shifts.
 
   Document: ISO/IEC 24029 (series, 2021)\
-  URL: https://www.iso.org/standard/77609.html
+  URL: <https://www.iso.org/standard/77609.html>
 
 - [ISO-42005] Information technology — Artificial intelligence — AI system
   impact assessment
@@ -128,7 +129,7 @@
   deployment including unintended consequences and mitigation measures.
 
   Document: ISO/IEC 42005:2025\
-  URL: https://www.iso.org/standard/44545.html
+  URL: <https://www.iso.org/standard/44545.html>
 
 ## Data Quality
 
@@ -140,4 +141,4 @@
   validation, and test datasets used in machine learning pipelines.
 
   Document: ISO/IEC 5259 (series, 2024)\
-  URL: https://www.iso.org/standard/81088.html
+  URL: <https://www.iso.org/standard/81088.html>

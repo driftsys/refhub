@@ -7,7 +7,7 @@
   safety-critical industries.
 
   Document: ISO/IEC/IEEE 15288:2023\
-  URL: https://www.iso.org/standard/81702.html
+  URL: <https://www.iso.org/standard/81702.html>
 
 - [ISO-29148] Systems and software engineering — Requirements engineering
 
@@ -16,7 +16,7 @@
   and software requirements.
 
   Document: ISO/IEC/IEEE 29148:2018\
-  URL: https://www.iso.org/standard/72089.html
+  URL: <https://www.iso.org/standard/72089.html>
 
 - [ISO-42010] Systems and software engineering — Architecture description
 
@@ -25,7 +25,7 @@
   software architectures.
 
   Document: ISO/IEC/IEEE 42010:2022\
-  URL: https://www.iso.org/standard/74393.html
+  URL: <https://www.iso.org/standard/74393.html>
 
 - [ISO-15939] Systems and software engineering — Measurement process
 
@@ -36,7 +36,7 @@
   process performance with well-defined information needs and indicators.
 
   Document: ISO/IEC/IEEE 15939:2017\
-  URL: https://www.iso.org/standard/71197.html
+  URL: <https://www.iso.org/standard/71197.html>
 
 - [ISO-16085] Systems and software engineering — Life cycle processes — Risk
   management
@@ -48,7 +48,7 @@
   integrated with engineering life cycle processes.
 
   Document: ISO/IEC/IEEE 16085:2021\
-  URL: https://www.iso.org/standard/74371.html
+  URL: <https://www.iso.org/standard/74371.html>
 
 - [ISO-15026] Systems and software engineering — Systems and software assurance
 
@@ -57,7 +57,7 @@
   systems satisfy dependability and security requirements.
 
   Document: ISO/IEC/IEEE 15026 (series, 2022)\
-  URL: https://www.iso.org/standard/81647.html
+  URL: <https://www.iso.org/standard/81647.html>
 
 - [ISO-24748-1] Systems and software engineering — Life cycle management — Part
   1: Guidelines for life cycle management
@@ -67,7 +67,7 @@
   cycles across organizational contexts.
 
   Document: ISO/IEC/IEEE 24748-1:2024\
-  URL: https://www.iso.org/standard/84729.html\
+  URL: <https://www.iso.org/standard/84729.html>\
   Derived-from: ISO-15288
 
 ## Model-Based Systems Engineering
@@ -80,7 +80,7 @@
   systems.
 
   Document: OMG SysML 2.0 (2024)\
-  URL: https://www.omg.org/spec/SysML/
+  URL: <https://www.omg.org/spec/SysML/>
 
 - [ISO-10303] Industrial automation systems and integration — Product data
   representation and exchange (STEP)
@@ -91,7 +91,7 @@
   interchange.
 
   Document: ISO 10303 (series)\
-  URL: https://www.iso.org/standard/84898.html
+  URL: <https://www.iso.org/standard/84898.html>
 
 ## Safety and Dependability
 
@@ -103,7 +103,7 @@
   event.
 
   Document: IEC 61025:2006\
-  URL: https://webstore.iec.ch/en/publication/4311
+  URL: <https://webstore.iec.ch/en/publication/4311>
 
 - [IEC-60812] Failure modes and effects analysis (FMEA and FMECA)
 
@@ -112,4 +112,4 @@
   effects, and ranking by severity, occurrence, and detectability.
 
   Document: IEC 60812:2018\
-  URL: https://webstore.iec.ch/en/publication/26359
+  URL: <https://webstore.iec.ch/en/publication/26359>

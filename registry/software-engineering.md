@@ -7,7 +7,7 @@
   15288.
 
   Document: ISO/IEC/IEEE 12207:2017\
-  URL: https://www.iso.org/standard/63712.html
+  URL: <https://www.iso.org/standard/63712.html>
 
 - [ISO-15504] Information technology — Process assessment
 
@@ -18,7 +18,7 @@
   Superseded by the ISO/IEC 33001 series but still widely referenced.
 
   Document: ISO/IEC 15504 (series)\
-  URL: https://www.iso.org/standard/60555.html\
+  URL: <https://www.iso.org/standard/60555.html>\
   Status: Superseded\
   Superseded-by: ISO-33001
 
@@ -31,7 +31,7 @@
   and portability.
 
   Document: ISO/IEC 25010:2023\
-  URL: https://www.iso.org/standard/78176.html
+  URL: <https://www.iso.org/standard/78176.html>
 
 - [ISO-25001] Systems and software engineering — SQuaRE — Planning and
   management
@@ -43,7 +43,7 @@
   projects and releases.
 
   Document: ISO/IEC 25001:2014\
-  URL: https://www.iso.org/standard/64016.html
+  URL: <https://www.iso.org/standard/64016.html>
 
 - [RFC-2119] Key words for use in RFCs to Indicate Requirement Levels
 
@@ -52,7 +52,7 @@
   requirement language across all engineering domains.
 
   Document: RFC 2119 (1997)\
-  URL: https://www.rfc-editor.org/rfc/rfc2119
+  URL: <https://www.rfc-editor.org/rfc/rfc2119>
 
 - [RFC-8174] Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words
 
@@ -60,7 +60,7 @@
   UPPERCASE. Lowercase uses carry no special meaning. Updates RFC 2119.
 
   Document: RFC 8174 (2017)\
-  URL: https://www.rfc-editor.org/rfc/rfc8174\
+  URL: <https://www.rfc-editor.org/rfc/rfc8174>\
   Derived-from: RFC-2119
 
 - [ISO-33001] Information technology — Process assessment — Concepts and
@@ -71,7 +71,7 @@
   determination.
 
   Document: ISO/IEC 33001:2015\
-  URL: https://www.iso.org/standard/54175.html
+  URL: <https://www.iso.org/standard/54175.html>
 
 - [IEEE-1012] System, Software, and Hardware Verification and Validation
 
@@ -80,7 +80,7 @@
   integrity levels and lifecycle phases.
 
   Document: IEEE 1012-2016\
-  URL: https://standards.ieee.org/ieee/1012/5609/
+  URL: <https://standards.ieee.org/ieee/1012/5609/>
 
 - [ISO-29119] Software and systems engineering — Software testing
 
@@ -89,7 +89,7 @@
   testing across all testing levels and types.
 
   Document: ISO/IEC/IEEE 29119 (series, 2022)\
-  URL: https://www.iso.org/standard/81291.html
+  URL: <https://www.iso.org/standard/81291.html>
 
 - [ISO-20000-1] Information technology — Service management system requirements
 
@@ -98,7 +98,7 @@
   IT service management, aligned with ITIL practices.
 
   Document: ISO/IEC 20000-1:2018\
-  URL: https://www.iso.org/standard/70636.html
+  URL: <https://www.iso.org/standard/70636.html>
 
 ## Internet and Communication Protocols
 
@@ -109,7 +109,7 @@
   communication including HTTP, TLS, and application-layer protocols.
 
   Document: RFC 793 (1981), updated by RFC 9293 (2022)\
-  URL: https://www.rfc-editor.org/rfc/rfc9293
+  URL: <https://www.rfc-editor.org/rfc/rfc9293>
 
 - [RFC-768] User Datagram Protocol (UDP)
 
@@ -118,7 +118,7 @@
   VoIP, streaming media, and real-time IoT telemetry.
 
   Document: RFC 768 (1980)\
-  URL: https://www.rfc-editor.org/rfc/rfc768
+  URL: <https://www.rfc-editor.org/rfc/rfc768>
 
 - [RFC-9110] HTTP Semantics
 
@@ -127,7 +127,7 @@
   for HTTP/1.1, HTTP/2, and HTTP/3.
 
   Document: RFC 9110 (2022)\
-  URL: https://www.rfc-editor.org/rfc/rfc9110
+  URL: <https://www.rfc-editor.org/rfc/rfc9110>
 
 - [RFC-9000] QUIC — A UDP-Based Multiplexed and Secure Transport
 
@@ -136,7 +136,7 @@
   communication and the transport layer underlying HTTP/3.
 
   Document: RFC 9000 (2021)\
-  URL: https://www.rfc-editor.org/rfc/rfc9000
+  URL: <https://www.rfc-editor.org/rfc/rfc9000>
 
 - [RFC-8446] The Transport Layer Security (TLS) Protocol Version 1.3
 
@@ -146,7 +146,7 @@
   transports.
 
   Document: RFC 8446 (2018)\
-  URL: https://www.rfc-editor.org/rfc/rfc8446
+  URL: <https://www.rfc-editor.org/rfc/rfc8446>
 
 - [RFC-6455] The WebSocket Protocol
 
@@ -155,7 +155,7 @@
   and bidirectional IoT device communication.
 
   Document: RFC 6455 (2011)\
-  URL: https://www.rfc-editor.org/rfc/rfc6455
+  URL: <https://www.rfc-editor.org/rfc/rfc6455>
 
 - [RFC-7252] The Constrained Application Protocol (CoAP)
 
@@ -164,7 +164,7 @@
   multicast support, and built-in resource discovery.
 
   Document: RFC 7252 (2014)\
-  URL: https://www.rfc-editor.org/rfc/rfc7252
+  URL: <https://www.rfc-editor.org/rfc/rfc7252>
 
 ## IoT and Messaging Protocols
 
@@ -175,7 +175,7 @@
   Provides three QoS levels, retained messages, and last-will notifications.
 
   Document: MQTT v5.0 (OASIS Standard, 2019)\
-  URL: https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html
+  URL: <https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html>
 
 - [AMQP] Advanced Message Queuing Protocol
 
@@ -184,7 +184,7 @@
   transactions. Used in enterprise integration and cloud messaging services.
 
   Document: AMQP v1.0 (ISO/IEC 19464:2014)\
-  URL: https://www.amqp.org/specification/1.0/amqp-org-download
+  URL: <https://www.amqp.org/specification/1.0/amqp-org-download>
 
 - [gRPC] gRPC Remote Procedure Call
 
@@ -193,7 +193,7 @@
   used in microservice architectures and cloud-native applications.
 
   Document: gRPC (CNCF Graduated Project)\
-  URL: https://grpc.io/docs/
+  URL: <https://grpc.io/docs/>
 
 - [RFC-8259] The JavaScript Object Notation (JSON) Data Interchange Format
 
@@ -202,7 +202,7 @@
   communication across web and IoT ecosystems.
 
   Document: RFC 8259 (2017)\
-  URL: https://www.rfc-editor.org/rfc/rfc8259
+  URL: <https://www.rfc-editor.org/rfc/rfc8259>
 
 ## API and Data Exchange
 
@@ -213,7 +213,7 @@
   automatic code generation, documentation, and testing of REST APIs.
 
   Document: OpenAPI 3.1.0 (2021)\
-  URL: https://spec.openapis.org/oas/v3.1.0
+  URL: <https://spec.openapis.org/oas/v3.1.0>
 
 - [OAuth-2] The OAuth 2.0 Authorization Framework
 
@@ -222,7 +222,7 @@
   code, client credentials, device code) and token-based access control.
 
   Document: RFC 6749 (2012) / RFC 9068 (2022)\
-  URL: https://www.rfc-editor.org/rfc/rfc6749
+  URL: <https://www.rfc-editor.org/rfc/rfc6749>
 
 - [OIDC] OpenID Connect
 
@@ -231,7 +231,7 @@
   federated identity across web and mobile applications.
 
   Document: OpenID Connect Core 1.0 (2014)\
-  URL: https://openid.net/specs/openid-connect-core-1_0.html\
+  URL: <https://openid.net/specs/openid-connect-core-1_0.html>\
   Derived-from: OAuth-2
 
 ## Software Supply Chain
@@ -244,7 +244,7 @@
   software supply chains.
 
   Document: ISO/IEC 5962:2021 (SPDX 2.3)\
-  URL: https://spdx.dev/
+  URL: <https://spdx.dev/>
 
 - [CycloneDX] CycloneDX Software Bill of Materials Standard
 
@@ -253,7 +253,7 @@
   analysis with native integration into CI/CD pipelines.
 
   Document: CycloneDX 1.6 (2024)\
-  URL: https://cyclonedx.org/specification/overview/
+  URL: <https://cyclonedx.org/specification/overview/>
 
 - [SLSA] Supply-chain Levels for Software Artifacts
 
@@ -263,7 +263,7 @@
   reproducibility.
 
   Document: SLSA v1.0 (2023)\
-  URL: https://slsa.dev/spec/v1.0/
+  URL: <https://slsa.dev/spec/v1.0/>
 
 ## Coding Standards
 
@@ -275,7 +275,8 @@
   IEC 62443 and safety-critical development processes.
 
   Document: SEI CERT C (2016, continuously updated)\
-  URL: https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard
+  URL:
+  <https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard>
 
 - [CERT-CPP] SEI CERT C++ Coding Standard
 
@@ -299,5 +300,5 @@
   code quality assessment.
 
   Document: ISO/IEC 5055:2021\
-  URL: https://www.iso.org/standard/80623.html\
+  URL: <https://www.iso.org/standard/80623.html>\
   Derived-from: ISO-25010

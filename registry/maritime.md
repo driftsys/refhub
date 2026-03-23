@@ -21,7 +21,7 @@
   processes.
 
   Document: IMO Resolution A.741(18) (amended)\
-  URL: https://www.imo.org/en/OurWork/HumanElement/Pages/ISMCode.aspx
+  URL: <https://www.imo.org/en/OurWork/HumanElement/Pages/ISMCode.aspx>
 
 - [MARPOL] International Convention for the Prevention of Pollution from Ships
 
@@ -43,7 +43,7 @@
   (-450), and lightweight Ethernet (-460) for interconnecting bridge equipment.
 
   Document: IEC 61162 (series)\
-  URL: https://webstore.iec.ch/en/publication/4713
+  URL: <https://webstore.iec.ch/en/publication/4713>
 
 - [IEC-61174] Maritime navigation and radiocommunication equipment and systems —
   Electronic chart display and information system (ECDIS)
@@ -53,7 +53,7 @@
   alarm functionality replacing paper nautical charts.
 
   Document: IEC 61174:2015\
-  URL: https://webstore.iec.ch/en/publication/4731
+  URL: <https://webstore.iec.ch/en/publication/4731>
 
 - [VDES] VHF Data Exchange System
 
@@ -63,7 +63,7 @@
   safety information.
 
   Document: ITU-R M.2092-1 (2022)\
-  URL: https://www.itu.int/rec/R-REC-M.2092
+  URL: <https://www.itu.int/rec/R-REC-M.2092>
 
 ## Classification and Certification
 
@@ -75,7 +75,7 @@
   machinery, electrical systems, and materials for seagoing ships.
 
   Document: IACS UR (various)\
-  URL: https://iacs.org.uk/resolutions/unified-requirements
+  URL: <https://iacs.org.uk/resolutions/unified-requirements>
 
 - [DNV-Rules] DNV Rules for Classification of Ships
 
@@ -85,7 +85,7 @@
   certification under SOLAS.
 
   Document: DNV Rules for Classification (annual)\
-  URL: https://www.dnv.com/rules-standards/
+  URL: <https://www.dnv.com/rules-standards/>
 
 ## Autonomous Vessels
 
@@ -110,4 +110,4 @@
   security event monitoring.
 
   Document: IACS UR E26 (2022)\
-  URL: https://iacs.org.uk/resolutions/unified-requirements
+  URL: <https://iacs.org.uk/resolutions/unified-requirements>

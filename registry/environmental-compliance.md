@@ -10,7 +10,7 @@
   EEE placed on the EU market with limited exemptions for specific applications.
 
   Document: Directive 2011/65/EU (RoHS 2)\
-  URL: https://eur-lex.europa.eu/eli/dir/2011/65/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2011/65/oj>
 
 - [EU-REACH] Registration, Evaluation, Authorisation and Restriction of
   Chemicals
@@ -21,7 +21,7 @@
   EU market.
 
   Document: Regulation (EC) No 1907/2006\
-  URL: https://eur-lex.europa.eu/eli/reg/2006/1907/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2006/1907/oj>
 
 - [EU-POP] Regulation on persistent organic pollutants
 
@@ -30,7 +30,7 @@
   use of POPs in products and substances.
 
   Document: Regulation (EU) 2019/1021\
-  URL: https://eur-lex.europa.eu/eli/reg/2019/1021/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2019/1021/oj>
 
 - [TSCA] Toxic Substances Control Act
 
@@ -39,7 +39,7 @@
   and reporting of chemical data. Amended by the Lautenberg Act (2016).
 
   Document: 15 U.S.C. ch. 53\
-  URL: https://www.epa.gov/tsca-inventory
+  URL: <https://www.epa.gov/tsca-inventory>
 
 ## Waste and Recycling
 
@@ -50,7 +50,7 @@
   targets, and proper treatment to prevent hazardous substance release.
 
   Document: Directive 2012/19/EU (WEEE 2)\
-  URL: https://eur-lex.europa.eu/eli/dir/2012/19/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2012/19/oj>
 
 - [EU-Battery-Regulation] Regulation concerning batteries and waste batteries
 
@@ -60,7 +60,7 @@
   and recycling targets.
 
   Document: Regulation (EU) 2023/1542\
-  URL: https://eur-lex.europa.eu/eli/reg/2023/1542/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2023/1542/oj>
 
 - [EU-ELV] Directive on end-of-life vehicles
 
@@ -70,7 +70,7 @@
   manufacturers.
 
   Document: Directive 2000/53/EC (consolidated)\
-  URL: https://eur-lex.europa.eu/eli/dir/2000/53/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2000/53/oj>
 
 ## Product Safety and Marking
 
@@ -83,7 +83,7 @@
   electrical, thermal, mechanical, chemical, and radiation hazards.
 
   Document: Directive 2014/35/EU\
-  URL: https://eur-lex.europa.eu/eli/dir/2014/35/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2014/35/oj>
 
 - [EU-GPSD] General Product Safety Regulation
 
@@ -93,7 +93,7 @@
   2001/95/EC.
 
   Document: Regulation (EU) 2023/988\
-  URL: https://eur-lex.europa.eu/eli/reg/2023/988/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2023/988/oj>
 
 - [CPSIA] Consumer Product Safety Improvement Act
 
@@ -115,7 +115,7 @@
   digital tagging of sustainability information.
 
   Document: Directive (EU) 2022/2464\
-  URL: https://eur-lex.europa.eu/eli/dir/2022/2464/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2022/2464/oj>
 
 - [ISO-14040] Environmental management — Life cycle assessment — Principles and
   framework
@@ -126,7 +126,7 @@
   products and services.
 
   Document: ISO 14040:2006\
-  URL: https://www.iso.org/standard/37456.html
+  URL: <https://www.iso.org/standard/37456.html>
 
 ## Hazardous Environments
 
@@ -138,7 +138,7 @@
   groups and categories with corresponding protection levels.
 
   Document: Directive 2014/34/EU\
-  URL: https://eur-lex.europa.eu/eli/dir/2014/34/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2014/34/oj>
 
 - [IEC-60079] Explosive atmospheres
 
@@ -147,4 +147,4 @@
   n), equipment marking, installation, inspection, and maintenance.
 
   Document: IEC 60079 (series)\
-  URL: https://webstore.iec.ch/en/publication/591
+  URL: <https://webstore.iec.ch/en/publication/591>

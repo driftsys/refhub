@@ -10,7 +10,7 @@
   system lifecycle.
 
   Document: MIL-STD-882E (2012)\
-  URL: https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36027
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36027>
 
 - [MIL-STD-810] Environmental Engineering Considerations and Laboratory Tests
 
@@ -20,7 +20,7 @@
   automotive, telecom, and industrial applications.
 
   Document: MIL-STD-810H (2019)\
-  URL: https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35978
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35978>
 
 - [MIL-STD-1472] Human Engineering
 
@@ -29,7 +29,7 @@
   environmental conditions for military systems and equipment.
 
   Document: MIL-STD-1472H (2020)\
-  URL: https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114167
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114167>
 
 ## Communication and Data
 
@@ -40,7 +40,7 @@
   spacecraft, and ground vehicles. Mandated by NATO STANAG 3838.
 
   Document: MIL-STD-1553B (1978, Notice 4: 2020)\
-  URL: https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36973
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36973>
 
 - [STANAG-4586] Standard Interfaces of UAV Control System for NATO UAV
   Interoperability
@@ -50,7 +50,7 @@
   control stations, and C4I systems from different NATO nations.
 
   Document: STANAG 4586 Ed. 4 (2017)\
-  URL: https://nso.nato.int/nso/nsdd/main/standards
+  URL: <https://nso.nato.int/nso/nsdd/main/standards>
 
 - [Link-16] Tactical Digital Information Link
 
@@ -60,7 +60,7 @@
   platforms.
 
   Document: STANAG 5516 / MIL-STD-6016\
-  URL: https://nso.nato.int/nso/nsdd/main/standards
+  URL: <https://nso.nato.int/nso/nsdd/main/standards>
 
 ## Software
 
@@ -74,7 +74,7 @@
   and weapon systems.
 
   Document: DO-178C / ED-12C (2011)\
-  URL: https://www.rtca.org/products/do-178c/
+  URL: <https://www.rtca.org/products/do-178c/>
 
 - [MIL-STD-498] Software Development and Documentation
 
@@ -84,7 +84,7 @@
   and user manuals.
 
   Document: MIL-STD-498 (1994)\
-  URL: https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36351\
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36351>\
   Status: Superseded\
   Superseded-by: ISO-12207
 
@@ -98,7 +98,7 @@
   information (CUI).
 
   Document: CMMC 2.0 (2021)\
-  URL: https://dodcio.defense.gov/CMMC/\
+  URL: <https://dodcio.defense.gov/CMMC/>\
   Derived-from: NIST-SP-800-171
 
 ## Export Control
@@ -111,7 +111,7 @@
   defense applications.
 
   Document: 22 CFR Parts 120-130\
-  URL: https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M
+  URL: <https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M>
 
 - [EAR] Export Administration Regulations
 
@@ -121,4 +121,5 @@
   sensors, electronics, and software.
 
   Document: 15 CFR Parts 730-774\
-  URL: https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C
+  URL:
+  <https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C>

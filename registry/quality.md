@@ -7,7 +7,7 @@
   products and services that meet customer and regulatory requirements.
 
   Document: ISO 9001:2015\
-  URL: https://www.iso.org/standard/62085.html
+  URL: <https://www.iso.org/standard/62085.html>
 
 - [ISO-90003] Software engineering — Guidelines for the application of ISO 9001
   to computer software
@@ -20,7 +20,7 @@
   actual development workflows.
 
   Document: ISO/IEC/IEEE 90003:2018\
-  URL: https://www.iso.org/standard/74348.html\
+  URL: <https://www.iso.org/standard/74348.html>\
   Derived-from: ISO-9001
 
 - [CMMI] Capability Maturity Model Integration
@@ -30,7 +30,7 @@
   areas. Widely used in defense, aerospace, and government contracting.
 
   Document: CMMI V3.0 (2023)\
-  URL: https://cmmiinstitute.com/cmmi
+  URL: <https://cmmiinstitute.com/cmmi>
 
 - [ISO-33001] Information technology — Process assessment — Concepts and
   terminology
@@ -40,7 +40,7 @@
   ISO/IEC 15504.
 
   Document: ISO/IEC 33001:2015\
-  URL: https://www.iso.org/standard/54175.html
+  URL: <https://www.iso.org/standard/54175.html>
 
 - [ISO-9000] Quality management systems — Fundamentals and vocabulary
 
@@ -49,7 +49,7 @@
   and all related QMS standards.
 
   Document: ISO 9000:2015\
-  URL: https://www.iso.org/standard/45481.html
+  URL: <https://www.iso.org/standard/45481.html>
 
 - [ISO-17025] General requirements for the competence of testing and calibration
   laboratories
@@ -59,7 +59,7 @@
   equipment calibration, and quality assurance of test results.
 
   Document: ISO/IEC 17025:2017\
-  URL: https://www.iso.org/standard/66912.html
+  URL: <https://www.iso.org/standard/66912.html>
 
 - [ISO-19011] Guidelines for auditing management systems
 
@@ -68,7 +68,7 @@
   other management system audits.
 
   Document: ISO 19011:2018\
-  URL: https://www.iso.org/standard/70017.html
+  URL: <https://www.iso.org/standard/70017.html>
 
 ## Management Systems
 
@@ -81,7 +81,7 @@
   standard.
 
   Document: ISO 14001:2015\
-  URL: https://www.iso.org/standard/60857.html
+  URL: <https://www.iso.org/standard/60857.html>
 
 - [ISO-45001] Occupational health and safety management systems — Requirements
   with guidance for use
@@ -91,7 +91,7 @@
   risks. Replaces OHSAS 18001.
 
   Document: ISO 45001:2018\
-  URL: https://www.iso.org/standard/63787.html
+  URL: <https://www.iso.org/standard/63787.html>
 
 - [ISO-31000] Risk management — Guidelines
 
@@ -101,7 +101,7 @@
   domains.
 
   Document: ISO 31000:2018\
-  URL: https://www.iso.org/standard/65694.html
+  URL: <https://www.iso.org/standard/65694.html>
 
 ## Configuration and Change Management
 
@@ -112,4 +112,4 @@
   audit applicable to products, services, and projects.
 
   Document: ISO 10007:2017\
-  URL: https://www.iso.org/standard/70400.html
+  URL: <https://www.iso.org/standard/70400.html>

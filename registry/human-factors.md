@@ -9,7 +9,7 @@
   considering physical, cognitive, and organisational factors.
 
   Document: ISO 6385:2016\
-  URL: https://www.iso.org/standard/63785.html
+  URL: <https://www.iso.org/standard/63785.html>
 
 - [ISO-11226] Ergonomics — Evaluation of static working postures
 
@@ -18,7 +18,7 @@
   upper and lower extremities based on joint angles and duration.
 
   Document: ISO 11226:2024\
-  URL: https://www.iso.org/standard/82636.html
+  URL: <https://www.iso.org/standard/82636.html>
 
 - [ISO-11228] Ergonomics — Manual handling
 
@@ -28,7 +28,7 @@
   musculoskeletal injury risk.
 
   Document: ISO 11228 (series, 2022)\
-  URL: https://www.iso.org/standard/76820.html
+  URL: <https://www.iso.org/standard/76820.html>
 
 ## Control Room and Display Design
 
@@ -40,7 +40,7 @@
   rooms.
 
   Document: ISO 11064 (series, 2013)\
-  URL: https://www.iso.org/standard/54069.html
+  URL: <https://www.iso.org/standard/54069.html>
 
 - [ISO-9241-110] Ergonomics of human-system interaction — Interaction principles
 
@@ -50,7 +50,7 @@
   and user engagement.
 
   Document: ISO 9241-110:2020\
-  URL: https://www.iso.org/standard/75258.html
+  URL: <https://www.iso.org/standard/75258.html>
 
 - [ISO-9241-210] Ergonomics of human-system interaction — Human-centred design
   for interactive systems
@@ -61,7 +61,7 @@
   against requirements.
 
   Document: ISO 9241-210:2019\
-  URL: https://www.iso.org/standard/77520.html
+  URL: <https://www.iso.org/standard/77520.html>
 
 ## Military Human Factors
 
@@ -73,7 +73,7 @@
   in defense and aerospace.
 
   Document: MIL-STD-1472H (2020)\
-  URL: https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114167
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114167>
 
 ## Cognitive Ergonomics
 
@@ -84,4 +84,4 @@
   and measurement and assessment methods (-3).
 
   Document: ISO 10075 (series, 2017)\
-  URL: https://www.iso.org/standard/66900.html
+  URL: <https://www.iso.org/standard/66900.html>

@@ -10,7 +10,7 @@
   protection, control, and monitoring equipment.
 
   Document: IEC 61850 (series)\
-  URL: https://webstore.iec.ch/en/publication/6028
+  URL: <https://webstore.iec.ch/en/publication/6028>
 
 - [IEC-62351] Power systems management and associated information exchange —
   Data and communications security
@@ -21,7 +21,7 @@
   cyber threats.
 
   Document: IEC 62351 (series)\
-  URL: https://webstore.iec.ch/en/publication/6905
+  URL: <https://webstore.iec.ch/en/publication/6905>
 
 - [IEC-61968] Application integration at electric utilities — System interfaces
   for distribution management
@@ -31,7 +31,7 @@
   for meter data, outage management, and asset management.
 
   Document: IEC 61968 (series)\
-  URL: https://webstore.iec.ch/en/publication/6200
+  URL: <https://webstore.iec.ch/en/publication/6200>
 
 - [IEEE-2030] Guide for Smart Grid Interoperability of Energy Technology and
   Information Technology Operation
@@ -42,7 +42,7 @@
   response.
 
   Document: IEEE 2030-2011\
-  URL: https://standards.ieee.org/ieee/2030/5765/
+  URL: <https://standards.ieee.org/ieee/2030/5765/>
 
 ## Protection and Control
 
@@ -54,7 +54,7 @@
   grid state estimation.
 
   Document: IEEE C37.118 (series)\
-  URL: https://standards.ieee.org/ieee/C37.118.1/4902/
+  URL: <https://standards.ieee.org/ieee/C37.118.1/4902/>
 
 - [IEC-60870-5] Telecontrol equipment and systems — Transmission protocols
 
@@ -63,7 +63,7 @@
   dominant SCADA protocol for electrical utility control centres.
 
   Document: IEC 60870-5 (series)\
-  URL: https://webstore.iec.ch/en/publication/3750
+  URL: <https://webstore.iec.ch/en/publication/3750>
 
 ## Renewable Energy
 
@@ -74,7 +74,7 @@
   electrical characteristics (-21), and full-scale structural testing (-23).
 
   Document: IEC 61400 (series)\
-  URL: https://webstore.iec.ch/en/publication/5426
+  URL: <https://webstore.iec.ch/en/publication/5426>
 
 - [IEC-62446] Photovoltaic (PV) systems — Requirements for testing,
   documentation and maintenance
@@ -84,7 +84,7 @@
   tracing, insulation resistance, and performance verification.
 
   Document: IEC 62446 (series, 2020)\
-  URL: https://webstore.iec.ch/en/publication/7046
+  URL: <https://webstore.iec.ch/en/publication/7046>
 
 ## Nuclear
 
@@ -96,7 +96,7 @@
   safety-classified systems in nuclear power plants.
 
   Document: IEC 61513:2011\
-  URL: https://webstore.iec.ch/en/publication/5533\
+  URL: <https://webstore.iec.ch/en/publication/5533>\
   Derived-from: IEC-61508
 
 - [IEC-60880] Nuclear power plants — Instrumentation and control systems
@@ -109,7 +109,7 @@
   systems.
 
   Document: IEC 60880:2006+AMD1:2022\
-  URL: https://webstore.iec.ch/en/publication/67281\
+  URL: <https://webstore.iec.ch/en/publication/67281>\
   Derived-from: IEC-61513
 
 - [IEC-62138] Nuclear power plants — Instrumentation and control important for
@@ -121,7 +121,7 @@
   60880 while still ensuring adequate software quality and reliability.
 
   Document: IEC 62138:2018\
-  URL: https://webstore.iec.ch/en/publication/32050\
+  URL: <https://webstore.iec.ch/en/publication/32050>\
   Derived-from: IEC-61513
 
 ## Regulation
@@ -134,7 +134,7 @@
   smart metering, demand response, and network codes for interoperability.
 
   Document: Directive (EU) 2019/944\
-  URL: https://eur-lex.europa.eu/eli/dir/2019/944/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2019/944/oj>
 
 - [NRC-10-CFR-50] Domestic Licensing of Production and Utilization Facilities
 
@@ -143,4 +143,4 @@
   assurance, and inspection requirements for nuclear facilities.
 
   Document: 10 CFR Part 50\
-  URL: https://www.ecfr.gov/current/title-10/chapter-I/part-50
+  URL: <https://www.ecfr.gov/current/title-10/chapter-I/part-50>

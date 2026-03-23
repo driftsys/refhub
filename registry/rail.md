@@ -80,7 +80,7 @@
   exchange between train subsystems.
 
   Document: IEC 61375 (series, 2012)\
-  URL: https://webstore.iec.ch/en/publication/5398
+  URL: <https://webstore.iec.ch/en/publication/5398>
 
 ## Signalling and Train Control
 
@@ -93,7 +93,7 @@
   systems across Europe.
 
   Document: ERA ERTMS/ETCS Baseline 3 (SUBSET-026)\
-  URL: https://www.era.europa.eu/domains/infrastructure/ertms_en
+  URL: <https://www.era.europa.eu/domains/infrastructure/ertms_en>
 
 - [CBTC] IEEE 1474 — Communications-Based Train Control
 
@@ -103,7 +103,7 @@
   signalling and driverless operation.
 
   Document: IEEE 1474 (series)\
-  URL: https://standards.ieee.org/ieee/1474.1/4081/
+  URL: <https://standards.ieee.org/ieee/1474.1/4081/>
 
 ## Regulation
 
@@ -116,7 +116,7 @@
   telematics subsystems.
 
   Document: Directive (EU) 2016/797\
-  URL: https://eur-lex.europa.eu/eli/dir/2016/797/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2016/797/oj>
 
 - [EU-2016-798] Directive on railway safety
 
@@ -125,4 +125,4 @@
   authorisation, and common safety methods for risk evaluation.
 
   Document: Directive (EU) 2016/798\
-  URL: https://eur-lex.europa.eu/eli/dir/2016/798/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2016/798/oj>

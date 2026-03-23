@@ -8,7 +8,7 @@
   GDPR requirements and supports compliance demonstration.
 
   Document: ISO/IEC 27701:2019\
-  URL: https://www.iso.org/standard/71670.html\
+  URL: <https://www.iso.org/standard/71670.html>\
   Derived-from: ISO-27001
 
 - [ISO-29100] Information technology — Privacy framework
@@ -18,7 +18,7 @@
   information systems.
 
   Document: ISO/IEC 29100:2024\
-  URL: https://www.iso.org/standard/85938.html
+  URL: <https://www.iso.org/standard/85938.html>
 
 - [ISO-29134] Information technology — Guidelines for privacy impact assessment
 
@@ -27,7 +27,7 @@
   systems that process personal data.
 
   Document: ISO/IEC 29134:2023\
-  URL: https://www.iso.org/standard/86012.html
+  URL: <https://www.iso.org/standard/86012.html>
 
 - [GDPR] General Data Protection Regulation
 
@@ -36,7 +36,7 @@
   enforcement mechanisms including significant financial penalties.
 
   Document: Regulation (EU) 2016/679\
-  URL: https://eur-lex.europa.eu/eli/reg/2016/679/oj
+  URL: <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
 
 - [ISO-27018] Information technology — Code of practice for protection of
   personally identifiable information (PII) in public clouds
@@ -46,7 +46,7 @@
   covering consent, data minimization, and cross-border transfers.
 
   Document: ISO/IEC 27018:2019\
-  URL: https://www.iso.org/standard/76559.html\
+  URL: <https://www.iso.org/standard/76559.html>\
   Derived-from: ISO-27001
 
 - [HIPAA] Health Insurance Portability and Accountability Act
@@ -57,7 +57,7 @@
   associates.
 
   Document: Public Law 104-191 (1996)\
-  URL: https://www.hhs.gov/hipaa/index.html
+  URL: <https://www.hhs.gov/hipaa/index.html>
 
 - [CCPA] California Consumer Privacy Act
 
@@ -66,7 +66,7 @@
   non-discrimination. Amended by the CPRA (2023).
 
   Document: Cal. Civ. Code 1798.100-1798.199.100\
-  URL: https://oag.ca.gov/privacy/ccpa
+  URL: <https://oag.ca.gov/privacy/ccpa>
 
 - [APPI] Act on the Protection of Personal Information
 
@@ -76,7 +76,7 @@
   Personal Information Protection Commission (PPC).
 
   Document: Act No. 57 of 2003 (amended 2022)\
-  URL: https://www.ppc.go.jp/en/legal/
+  URL: <https://www.ppc.go.jp/en/legal/>
 
 - [PIPA] Personal Information Protection Act (South Korea)
 
@@ -86,7 +86,7 @@
   with significant penalties.
 
   Document: Act No. 10465 (amended 2023)\
-  URL: https://www.pipc.go.kr/eng/index.do
+  URL: <https://www.pipc.go.kr/eng/index.do>
 
 - [DPDP-Act] Digital Personal Data Protection Act (India)
 
@@ -96,7 +96,7 @@
   financial penalties.
 
   Document: Act No. 22 of 2023\
-  URL: https://www.meity.gov.in/data-protection-framework
+  URL: <https://www.meity.gov.in/data-protection-framework>
 
 - [LGPD] Lei Geral de Protecao de Dados Pessoais
 
@@ -105,7 +105,7 @@
   processors. Enforced by the Autoridade Nacional de Protecao de Dados (ANPD).
 
   Document: Lei 13.709/2018\
-  URL: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+  URL: <https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm>
 
 - [PIPEDA] Personal Information Protection and Electronic Documents Act
 
@@ -114,7 +114,7 @@
   activities. Based on ten fair information principles.
 
   Document: S.C. 2000, c. 5\
-  URL: https://laws-lois.justice.gc.ca/eng/acts/p-8.6/
+  URL: <https://laws-lois.justice.gc.ca/eng/acts/p-8.6/>
 
 - [UK-DPA-2018] Data Protection Act 2018
 
@@ -123,4 +123,4 @@
   and specific UK derogations from GDPR requirements.
 
   Document: Data Protection Act 2018\
-  URL: https://www.legislation.gov.uk/ukpga/2018/12/contents
+  URL: <https://www.legislation.gov.uk/ukpga/2018/12/contents>

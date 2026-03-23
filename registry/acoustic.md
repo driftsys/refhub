@@ -9,7 +9,7 @@
   frequency weightings (A, C, Z), and time weightings (fast, slow, impulse).
 
   Document: IEC 61672-1:2013\
-  URL: https://webstore.iec.ch/en/publication/5711
+  URL: <https://webstore.iec.ch/en/publication/5711>
 
 - [ISO-1996] Acoustics — Description, measurement and assessment of
   environmental noise
@@ -20,7 +20,7 @@
   sources.
 
   Document: ISO 1996 (series, 2016)\
-  URL: https://www.iso.org/standard/59765.html
+  URL: <https://www.iso.org/standard/59765.html>
 
 - [ISO-3744] Acoustics — Determination of sound power levels and sound energy
   levels of noise sources using sound pressure
@@ -30,7 +30,7 @@
   directives, and comparative noise assessments.
 
   Document: ISO 3744:2010\
-  URL: https://www.iso.org/standard/52055.html
+  URL: <https://www.iso.org/standard/52055.html>
 
 - [ISO-532] Acoustics — Methods for calculating loudness
 
@@ -39,7 +39,7 @@
   and Moore-Glasberg models.
 
   Document: ISO 532-1:2017\
-  URL: https://www.iso.org/standard/63077.html
+  URL: <https://www.iso.org/standard/63077.html>
 
 - [IEC-61260] Electroacoustics — Octave-band and fractional-octave-band filters
 
@@ -49,7 +49,7 @@
   instruments.
 
   Document: IEC 61260-1:2014\
-  URL: https://webstore.iec.ch/en/publication/5066
+  URL: <https://webstore.iec.ch/en/publication/5066>
 
 - [ISO-3745] Acoustics — Determination of sound power levels and sound energy
   levels of noise sources using sound pressure — Precision methods for anechoic
@@ -60,7 +60,7 @@
   characterisation, used for reference measurements and type testing.
 
   Document: ISO 3745:2012\
-  URL: https://www.iso.org/standard/45362.html
+  URL: <https://www.iso.org/standard/45362.html>
 
 ## Vibration
 
@@ -72,7 +72,7 @@
   exposure limits for health, comfort, and motion sickness.
 
   Document: ISO 2631-1:1997\
-  URL: https://www.iso.org/standard/7612.html
+  URL: <https://www.iso.org/standard/7612.html>
 
 - [ISO-5349] Mechanical vibration — Measurement and evaluation of human exposure
   to hand-transmitted vibration
@@ -82,7 +82,7 @@
   to prevent hand-arm vibration syndrome (HAVS).
 
   Document: ISO 5349-1:2001\
-  URL: https://www.iso.org/standard/32355.html
+  URL: <https://www.iso.org/standard/32355.html>
 
 ## Vehicle Acoustic
 
@@ -93,7 +93,7 @@
   procedures used by regulators to enforce vehicle noise limits.
 
   Document: ISO 362-1:2015\
-  URL: https://www.iso.org/standard/67652.html
+  URL: <https://www.iso.org/standard/67652.html>
 
 - [ISO-5128] Acoustics — Measurement of noise inside motor vehicles
 
@@ -102,7 +102,7 @@
   assessment, benchmarking, and interior sound quality evaluation.
 
   Document: ISO 5128:1980\
-  URL: https://www.iso.org/standard/11126.html
+  URL: <https://www.iso.org/standard/11126.html>
 
 - [UN-R51] Uniform provisions concerning the approval of motor vehicles having
   at least four wheels with regard to their noise emissions
@@ -136,4 +136,4 @@
   framework for environmental noise management across Europe.
 
   Document: Directive 2002/49/EC (consolidated)\
-  URL: https://eur-lex.europa.eu/eli/dir/2002/49/oj
+  URL: <https://eur-lex.europa.eu/eli/dir/2002/49/oj>
