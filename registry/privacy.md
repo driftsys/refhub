@@ -68,6 +68,36 @@
   Document: Cal. Civ. Code 1798.100-1798.199.100\
   URL: https://oag.ca.gov/privacy/ccpa
 
+- [APPI] Act on the Protection of Personal Information
+
+  Japan's comprehensive data protection law. Establishes rules for the handling
+  of personal information by business operators including consent requirements,
+  purpose limitation, and cross-border transfer restrictions. Enforced by the
+  Personal Information Protection Commission (PPC).
+
+  Document: Act No. 57 of 2003 (amended 2022)\
+  URL: https://www.ppc.go.jp/en/legal/
+
+- [PIPA] Personal Information Protection Act (South Korea)
+
+  South Korea's general data protection law. Establishes strict consent
+  requirements, data minimisation principles, and data breach notification
+  obligations. Enforced by the Personal Information Protection Commission (PIPC)
+  with significant penalties.
+
+  Document: Act No. 10465 (amended 2023)\
+  URL: https://www.pipc.go.kr/eng/index.do
+
+- [DPDP-Act] Digital Personal Data Protection Act (India)
+
+  India's data protection law establishing obligations for processing digital
+  personal data. Covers consent management, data principal rights, data
+  fiduciary obligations, and cross-border transfer requirements with significant
+  financial penalties.
+
+  Document: Act No. 22 of 2023\
+  URL: https://www.meity.gov.in/data-protection-framework
+
 - [LGPD] Lei Geral de Protecao de Dados Pessoais
 
   Brazil's general data protection law modelled on the GDPR. Establishes
