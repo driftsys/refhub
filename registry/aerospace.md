@@ -8,7 +8,7 @@
   airworthiness requirements. Defines five Design Assurance Levels (DAL A-E).
 
   Document: DO-178C / ED-12C (2011)\
-  URL: https://www.rtca.org/products/do-178c/\
+  URL: <https://www.rtca.org/products/do-178c/>\
   Derived-from: IEC-61508
 
 - [DO-254] Design Assurance Guidance for Airborne Electronic Hardware
@@ -67,7 +67,7 @@
   objectives accordingly.
 
   Document: DO-330 / ED-215 (2011)\
-  URL: https://www.rtca.org/products/do-330/\
+  URL: <https://www.rtca.org/products/do-330/>\
   Derived-from: DO-178C
 
 - [DO-332] Object-Oriented Technology and Related Techniques Supplement to
@@ -78,7 +78,7 @@
   verification challenges specific to OOT.
 
   Document: DO-332 / ED-217 (2011)\
-  URL: https://www.rtca.org/products/do-332/\
+  URL: <https://www.rtca.org/products/do-332/>\
   Derived-from: DO-178C
 
 - [DO-333] Formal Methods Supplement to DO-178C
@@ -88,7 +88,7 @@
   complement to testing for verification objectives.
 
   Document: DO-333 / ED-216 (2011)\
-  URL: https://www.rtca.org/products/do-333/\
+  URL: <https://www.rtca.org/products/do-333/>\
   Derived-from: DO-178C
 
 - [AS9100] Quality Management Systems — Requirements for Aviation, Space, and
@@ -100,7 +100,7 @@
   supply chain.
 
   Document: AS9100D (2016)\
-  URL: https://www.sae.org/standards/content/as9100d/\
+  URL: <https://www.sae.org/standards/content/as9100d/>\
   Derived-from: ISO-9001
 
 - [ECSS-E-ST-40C] Space engineering — Software

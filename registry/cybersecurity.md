@@ -20,7 +20,7 @@
   themes: organizational, people, physical, and technological.
 
   Document: ISO/IEC 27002:2022\
-  URL: https://www.iso.org/standard/75652.html\
+  URL: <https://www.iso.org/standard/75652.html>\
   Derived-from: ISO-27001
 
 - [ISO-27005] Information security, cybersecurity and privacy protection —
@@ -31,7 +31,7 @@
   systematic approaches for identifying, analyzing, and evaluating risks.
 
   Document: ISO/IEC 27005:2022\
-  URL: https://www.iso.org/standard/80585.html\
+  URL: <https://www.iso.org/standard/80585.html>\
   Derived-from: ISO-27001
 
 - [ISO-27034] Information technology — Application security
@@ -41,7 +41,7 @@
   (ANF) for integrating security into software development.
 
   Document: ISO/IEC 27034 (series)\
-  URL: https://www.iso.org/standard/44378.html\
+  URL: <https://www.iso.org/standard/44378.html>\
   Derived-from: ISO-27001
 
 - [NIST-CSF] NIST Cybersecurity Framework
@@ -92,7 +92,7 @@
   machine hardening, and cloud-specific operational procedures.
 
   Document: ISO/IEC 27017:2015\
-  URL: https://www.iso.org/standard/43757.html\
+  URL: <https://www.iso.org/standard/43757.html>\
   Derived-from: ISO-27002
 
 - [OWASP-ASVS] Application Security Verification Standard

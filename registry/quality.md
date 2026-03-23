@@ -16,7 +16,7 @@
   QMS requirements to software engineering practices.
 
   Document: ISO/IEC/IEEE 90003:2018\
-  URL: https://www.iso.org/standard/74348.html\
+  URL: <https://www.iso.org/standard/74348.html>\
   Derived-from: ISO-9001
 
 - [CMMI] Capability Maturity Model Integration

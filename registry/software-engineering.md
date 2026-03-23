@@ -15,7 +15,7 @@
   derived. Superseded by the ISO/IEC 33001 series but still widely referenced.
 
   Document: ISO/IEC 15504 (series)\
-  URL: https://www.iso.org/standard/60555.html\
+  URL: <https://www.iso.org/standard/60555.html>\
   Status: Superseded\
   Superseded-by: ISO-33001
 
@@ -54,7 +54,7 @@
   UPPERCASE. Lowercase uses carry no special meaning. Updates RFC 2119.
 
   Document: RFC 8174 (2017)\
-  URL: https://www.rfc-editor.org/rfc/rfc8174\
+  URL: <https://www.rfc-editor.org/rfc/rfc8174>\
   Derived-from: RFC-2119
 
 - [ISO-33001] Information technology — Process assessment — Concepts and
@@ -232,5 +232,5 @@
   code quality assessment.
 
   Document: ISO/IEC 5055:2021\
-  URL: https://www.iso.org/standard/80623.html\
+  URL: <https://www.iso.org/standard/80623.html>\
   Derived-from: ISO-25010

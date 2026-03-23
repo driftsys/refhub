@@ -8,7 +8,7 @@
   GDPR requirements and supports compliance demonstration.
 
   Document: ISO/IEC 27701:2019\
-  URL: https://www.iso.org/standard/71670.html\
+  URL: <https://www.iso.org/standard/71670.html>\
   Derived-from: ISO-27001
 
 - [ISO-29100] Information technology — Privacy framework
@@ -46,7 +46,7 @@
   covering consent, data minimization, and cross-border transfers.
 
   Document: ISO/IEC 27018:2019\
-  URL: https://www.iso.org/standard/76559.html\
+  URL: <https://www.iso.org/standard/76559.html>\
   Derived-from: ISO-27001
 
 - [HIPAA] Health Insurance Portability and Accountability Act

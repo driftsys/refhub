@@ -39,7 +39,7 @@
   mesh networking, direction finding, and LE Audio (LC3 codec).
 
   Document: Bluetooth Core Specification 6.0 — Part F (LE)\
-  URL: https://www.bluetooth.com/specifications/specs/core-specification-6-0/\
+  URL: <https://www.bluetooth.com/specifications/specs/core-specification-6-0/>\
   Derived-from: IEEE-802-15-1
 
 - [IEEE-802-15-4] Low-Rate Wireless Personal Area Networks (LR-WPAN)
@@ -58,7 +58,8 @@
   network with self-healing mesh topology.
 
   Document: Zigbee 3.0 (2016)\
-  URL: https://csa-iot.org/developer-resource/specifications-download-request/\
+  URL:
+  <https://csa-iot.org/developer-resource/specifications-download-request/>\
   Derived-from: IEEE-802-15-4
 
 - [Thread] Thread Networking Protocol
@@ -68,7 +69,7 @@
   communication. Foundation transport for Matter smart home devices.
 
   Document: Thread 1.3 (2023)\
-  URL: https://www.threadgroup.org/What-is-Thread/Thread-Benefits\
+  URL: <https://www.threadgroup.org/What-is-Thread/Thread-Benefits>\
   Derived-from: IEEE-802-15-4
 
 - [Matter] Matter — Connectivity Standard for Smart Home

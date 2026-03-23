@@ -63,7 +63,7 @@
   cycles across organizational contexts.
 
   Document: ISO/IEC/IEEE 24748-1:2024\
-  URL: https://www.iso.org/standard/84729.html\
+  URL: <https://www.iso.org/standard/84729.html>\
   Derived-from: ISO-15288
 
 ## Model-Based Systems Engineering

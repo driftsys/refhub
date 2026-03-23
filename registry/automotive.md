@@ -7,7 +7,7 @@
   decommissioning.
 
   Document: ISO 26262:2018 (all parts)\
-  URL: https://www.iso.org/standard/68383.html\
+  URL: <https://www.iso.org/standard/68383.html>\
   Derived-from: IEC-61508
 
 - [ISO-26262-1] Road vehicles — Functional safety — Part 1
@@ -15,7 +15,7 @@
   Vocabulary. Defines terms used throughout the ISO 26262 series.
 
   Document: ISO 26262-1:2018\
-  URL: https://www.iso.org/standard/68383.html\
+  URL: <https://www.iso.org/standard/68383.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-2] Road vehicles — Functional safety — Part 2
@@ -24,7 +24,7 @@
   and project-level safety management.
 
   Document: ISO 26262-2:2018\
-  URL: https://www.iso.org/standard/68384.html\
+  URL: <https://www.iso.org/standard/68384.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-3] Road vehicles — Functional safety — Part 3
@@ -33,7 +33,7 @@
   (HARA), and functional safety concept.
 
   Document: ISO 26262-3:2018\
-  URL: https://www.iso.org/standard/68385.html\
+  URL: <https://www.iso.org/standard/68385.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-4] Road vehicles — Functional safety — Part 4
@@ -42,7 +42,7 @@
   requirements, system design, and system integration/testing.
 
   Document: ISO 26262-4:2018\
-  URL: https://www.iso.org/standard/68386.html\
+  URL: <https://www.iso.org/standard/68386.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-5] Road vehicles — Functional safety — Part 5
@@ -51,7 +51,7 @@
   requirements, design, and metrics (SPFM, LFM, PMHF).
 
   Document: ISO 26262-5:2018\
-  URL: https://www.iso.org/standard/68387.html\
+  URL: <https://www.iso.org/standard/68387.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-6] Road vehicles — Functional safety — Part 6
@@ -61,7 +61,7 @@
   verification.
 
   Document: ISO 26262-6:2018\
-  URL: https://www.iso.org/standard/68388.html\
+  URL: <https://www.iso.org/standard/68388.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-7] Road vehicles — Functional safety — Part 7
@@ -70,7 +70,7 @@
   the full vehicle lifecycle beyond development.
 
   Document: ISO 26262-7:2018\
-  URL: https://www.iso.org/standard/68389.html\
+  URL: <https://www.iso.org/standard/68389.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-8] Road vehicles — Functional safety — Part 8
@@ -80,7 +80,7 @@
   of software tools and components.
 
   Document: ISO 26262-8:2018\
-  URL: https://www.iso.org/standard/68390.html\
+  URL: <https://www.iso.org/standard/68390.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-9] Road vehicles — Functional safety — Part 9
@@ -89,7 +89,7 @@
   and dependent failure analysis (FTA, FMEA, DFA).
 
   Document: ISO 26262-9:2018\
-  URL: https://www.iso.org/standard/68391.html\
+  URL: <https://www.iso.org/standard/68391.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-10] Road vehicles — Functional safety — Part 10
@@ -98,7 +98,7 @@
   standard with examples and explanations.
 
   Document: ISO 26262-10:2018\
-  URL: https://www.iso.org/standard/68392.html\
+  URL: <https://www.iso.org/standard/68392.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-11] Road vehicles — Functional safety — Part 11
@@ -107,7 +107,7 @@
   ASICs, FPGAs, and standard microcontrollers.
 
   Document: ISO 26262-11:2018\
-  URL: https://www.iso.org/standard/68393.html\
+  URL: <https://www.iso.org/standard/68393.html>\
   Derived-from: ISO-26262
 
 - [ISO-26262-12] Road vehicles — Functional safety — Part 12
@@ -116,7 +116,7 @@
   vehicle-specific characteristics.
 
   Document: ISO 26262-12:2018\
-  URL: https://www.iso.org/standard/68394.html\
+  URL: <https://www.iso.org/standard/68394.html>\
   Derived-from: ISO-26262
 
 ## Driving Automation
@@ -205,7 +205,7 @@
   manufacturing.
 
   Document: IATF 16949:2016\
-  URL: https://www.iatfglobaloversight.org/iatf-169492016/about/\
+  URL: <https://www.iatfglobaloversight.org/iatf-169492016/about/>\
   Derived-from: ISO-9001
 
 ## Communication and Networking
@@ -256,7 +256,7 @@
   calls, event notifications, and service discovery between ECUs.
 
   Document: AUTOSAR SOME/IP (R24-11)\
-  URL: https://www.autosar.org/standards/foundation\
+  URL: <https://www.autosar.org/standards/foundation>\
   Derived-from: AUTOSAR-Adaptive
 
 - [ISO-13400] Road vehicles — Diagnostics over Internet Protocol (DoIP)
@@ -287,7 +287,7 @@
   requirements.
 
   Document: ISO 15765 (series, 2016)\
-  URL: https://www.iso.org/standard/66574.html\
+  URL: <https://www.iso.org/standard/66574.html>\
   Derived-from: ISO-14229
 
 - [ISO-22900] Road vehicles — Modular vehicle communication interface (MVCI)
@@ -328,7 +328,7 @@
   applications to interact with vehicle data in a standardised way.
 
   Document: W3C VISS v2 / COVESA\
-  URL: https://www.w3.org/TR/viss2-core/\
+  URL: <https://www.w3.org/TR/viss2-core/>\
   Derived-from: COVESA-VSS
 
 - [COVESA-IFEX] COVESA Interface Exchange Framework (IFEX)

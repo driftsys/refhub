@@ -26,7 +26,7 @@
   force limiting.
 
   Document: ISO/TS 15066:2016\
-  URL: https://www.iso.org/standard/62996.html\
+  URL: <https://www.iso.org/standard/62996.html>\
   Derived-from: ISO-10218-2
 
 - [ISO-3691-4] Industrial trucks — Safety requirements and verification — Part
@@ -78,7 +78,7 @@
   DDS), package management, and tools for building distributed robotic systems.
 
   Document: ROS 2 (Rolling / Jazzy Jalisco)\
-  URL: https://docs.ros.org/en/rolling/\
+  URL: <https://docs.ros.org/en/rolling/>\
   Derived-from: DDS
 
 ## Functional Safety and Machinery
@@ -91,7 +91,7 @@
   emergency stop over all other functions.
 
   Document: ISO 13850:2015\
-  URL: https://www.iso.org/standard/59970.html\
+  URL: <https://www.iso.org/standard/59970.html>\
   Derived-from: ISO-12100
 
 - [IEC-60204-1] Safety of machinery — Electrical equipment of machines — Part 1:
