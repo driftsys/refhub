@@ -1,6 +1,51 @@
 # Colour and Display
 
-## Colorimetry
+Standards and specifications for colour measurement, colour spaces, display
+performance, and colour matching systems. Covers colorimetry, broadcast colour
+encoding, display technology characterisation, viewing conditions, and
+industrial colour communication.
+
+**Contents:** [Standard](#standard) | [Publication](#publication)
+
+## Standard
+
+- [BT-2020] Parameter values for ultra-high definition television systems
+
+  ITU-R recommendation defining the wider colour gamut and higher bit depth for
+  4K/8K UHD television. Specifies colour primaries covering 75.8% of the CIE
+  1931 diagram, significantly exceeding BT.709.
+
+  Document: ITU-R BT.2020-2 (2015)\
+  URL: <https://www.itu.int/rec/R-REC-BT.2020>\
+  Label: Standard\
+  Keywords: UHD, 4K, 8K, wide colour gamut, colour primaries, ITU-R, television,
+  BT.2020
+
+- [BT-2100] Image parameter values for high dynamic range television
+
+  ITU-R recommendation defining HDR television parameters. Specifies two
+  transfer functions: PQ (Perceptual Quantizer, SMPTE ST 2084) and HLG (Hybrid
+  Log-Gamma). Enables peak luminance up to 10,000 cd/m² for HDR broadcast and
+  streaming.
+
+  Document: ITU-R BT.2100-2 (2018)\
+  URL: <https://www.itu.int/rec/R-REC-BT.2100>\
+  Label: Standard\
+  Keywords: HDR, high dynamic range, PQ, HLG, Perceptual Quantizer, Hybrid
+  Log-Gamma, luminance, ITU-R
+
+- [BT-709] Parameter values for the HDTV standards for production and
+  international programme exchange
+
+  ITU-R recommendation defining the colour space, transfer function, and
+  encoding for HDTV. Specifies the colour primaries and gamma curve used by all
+  HD broadcast content worldwide.
+
+  Document: ITU-R BT.709-6 (2015)\
+  URL: <https://www.itu.int/rec/R-REC-BT.709>\
+  Label: Standard\
+  Keywords: HDTV, colour space, transfer function, gamma, colour primaries,
+  ITU-R, broadcast, HD
 
 - [CIE-15] Colorimetry
 
@@ -10,17 +55,23 @@
   specification worldwide.
 
   Document: CIE 15:2018 (4th Edition)\
-  URL: <https://cie.co.at/publications/colorimetry-4th-edition>
+  URL: <https://cie.co.at/publications/colorimetry-4th-edition>\
+  Label: Standard\
+  Keywords: colorimetry, CIE, standard observer, illuminant, D65, tristimulus,
+  XYZ, xyY, colour measurement
 
-- [ISO-11664] Colorimetry
+- [IEC-61747] Liquid crystal display devices
 
-  ISO adoption of CIE colorimetric standards. Covers CIE XYZ tristimulus values
-  (-1), standard illuminants (-2), CIELAB colour space (-4), CIELUV colour space
-  (-5), and CIEDE2000 colour difference formula (-6). The normative reference
-  for colour measurement in product standards.
+  Multi-part standard defining characteristics, measurement methods, and
+  mechanical specifications for LCD modules. Covers TFT, IPS, VA, and other LCD
+  technologies used in automotive, industrial, medical, and consumer
+  applications.
 
-  Document: ISO/CIE 11664 (series, 2019)\
-  URL: <https://www.iso.org/standard/74166.html>
+  Document: IEC 61747 (series)\
+  URL: <https://webstore.iec.ch/en/publication/5762>\
+  Label: Standard\
+  Keywords: LCD, liquid crystal display, TFT, IPS, VA, display modules,
+  measurement methods, IEC
 
 - [IEC-61966-2-1] Colour measurement and management — Colour management —
   Default RGB colour space — sRGB
@@ -31,72 +82,10 @@
   profile is embedded.
 
   Document: IEC 61966-2-1:1999+AMD1:2003\
-  URL: <https://webstore.iec.ch/en/publication/6197>
-
-## Broadcast Colour Spaces
-
-- [BT-709] Parameter values for the HDTV standards for production and
-  international programme exchange
-
-  ITU-R recommendation defining the colour space, transfer function, and
-  encoding for HDTV. Specifies the colour primaries and gamma curve used by all
-  HD broadcast content worldwide.
-
-  Document: ITU-R BT.709-6 (2015)\
-  URL: <https://www.itu.int/rec/R-REC-BT.709>
-
-- [BT-2020] Parameter values for ultra-high definition television systems
-
-  ITU-R recommendation defining the wider colour gamut and higher bit depth for
-  4K/8K UHD television. Specifies colour primaries covering 75.8% of the CIE
-  1931 diagram, significantly exceeding BT.709.
-
-  Document: ITU-R BT.2020-2 (2015)\
-  URL: <https://www.itu.int/rec/R-REC-BT.2020>
-
-- [BT-2100] Image parameter values for high dynamic range television
-
-  ITU-R recommendation defining HDR television parameters. Specifies two
-  transfer functions: PQ (Perceptual Quantizer, SMPTE ST 2084) and HLG (Hybrid
-  Log-Gamma). Enables peak luminance up to 10,000 cd/m² for HDR broadcast and
-  streaming.
-
-  Document: ITU-R BT.2100-2 (2018)\
-  URL: <https://www.itu.int/rec/R-REC-BT.2100>
-
-## Display Measurement
-
-- [IDMS] Information Display Measurements Standard
-
-  Society for Information Display (SID) standard defining measurement methods
-  for display performance. Covers luminance, contrast ratio, colour gamut,
-  viewing angle, uniformity, response time, and reflection for all display
-  technologies.
-
-  Document: IDMS 1.1 (SID, 2023)\
-  URL: <https://www.sid.org/Standards/ICDM>
-
-- [ISO-9241-305] Ergonomics of human-system interaction — Optical laboratory
-  test methods for electronic visual displays
-
-  Defines optical measurement methods for evaluating electronic displays.
-  Specifies luminance, contrast, colour, uniformity, and reflection measurement
-  procedures used to verify compliance with ISO 9241-303 display requirements.
-
-  Document: ISO 9241-305:2008\
-  URL: <https://www.iso.org/standard/40099.html>
-
-- [VESA-DisplayHDR] VESA DisplayHDR
-
-  Industry standard defining performance tiers for HDR displays. Specifies
-  minimum peak luminance, black level, colour gamut, and bit depth for
-  DisplayHDR 400 through DisplayHDR True Black 600. Used for consumer display
-  marketing and procurement specifications.
-
-  Document: VESA DisplayHDR 1.2 (2022)\
-  URL: <https://displayhdr.org/>
-
-## Display Technology
+  URL: <https://webstore.iec.ch/en/publication/6197>\
+  Label: Standard\
+  Keywords: sRGB, colour space, colour management, gamma, D65, chromaticity,
+  digital imaging, web colour, IEC
 
 - [IEC-62341] Organic light emitting diode (OLED) displays
 
@@ -106,41 +95,23 @@
   technology.
 
   Document: IEC 62341 (series)\
-  URL: <https://webstore.iec.ch/en/publication/6882>
+  URL: <https://webstore.iec.ch/en/publication/6882>\
+  Label: Standard\
+  Keywords: OLED, organic light emitting diode, luminance uniformity, colour
+  accuracy, burn-in, display lifetime, IEC
 
-- [IEC-61747] Liquid crystal display devices
+- [ISO-11664] Colorimetry
 
-  Multi-part standard defining characteristics, measurement methods, and
-  mechanical specifications for LCD modules. Covers TFT, IPS, VA, and other LCD
-  technologies used in automotive, industrial, medical, and consumer
-  applications.
+  ISO adoption of CIE colorimetric standards. Covers CIE XYZ tristimulus values
+  (-1), standard illuminants (-2), CIELAB colour space (-4), CIELUV colour space
+  (-5), and CIEDE2000 colour difference formula (-6). The normative reference
+  for colour measurement in product standards.
 
-  Document: IEC 61747 (series)\
-  URL: <https://webstore.iec.ch/en/publication/5762>
-
-## Colour Systems
-
-- [Pantone] Pantone Matching System (PMS)
-
-  De facto industry standard colour matching system for graphic design,
-  printing, and manufacturing. Defines numbered spot colours with precise
-  formulations ensuring colour consistency across materials, printers, and
-  production runs.
-
-  Document: Pantone Formula Guide (annual)\
-  URL: <https://www.pantone.com/>
-
-- [RAL] RAL Colour Standard
-
-  European colour matching standard widely used in architecture, automotive,
-  industrial coatings, and product design. Defines numbered colours (RAL
-  Classic, RAL Design, RAL Effect) with precise spectral specifications for
-  consistent colour communication.
-
-  Document: RAL Classic / RAL Design System Plus\
-  URL: <https://www.ral-farben.de/en>
-
-## Viewing Conditions
+  Document: ISO/CIE 11664 (series, 2019)\
+  URL: <https://www.iso.org/standard/74166.html>\
+  Label: Standard\
+  Keywords: colorimetry, ISO, CIE, CIELAB, CIELUV, CIEDE2000, colour difference,
+  tristimulus values, illuminants
 
 - [ISO-3664] Graphic technology and photography — Viewing conditions
 
@@ -150,4 +121,74 @@
   conditions for consistent colour assessment.
 
   Document: ISO 3664:2009\
-  URL: <https://www.iso.org/standard/43234.html>
+  URL: <https://www.iso.org/standard/43234.html>\
+  Label: Standard\
+  Keywords: viewing conditions, graphic technology, photography, illumination,
+  D50, D65, colour assessment, graphic arts
+
+- [ISO-9241-305] Ergonomics of human-system interaction — Optical laboratory
+  test methods for electronic visual displays
+
+  Defines optical measurement methods for evaluating electronic displays.
+  Specifies luminance, contrast, colour, uniformity, and reflection measurement
+  procedures used to verify compliance with ISO 9241-303 display requirements.
+
+  Document: ISO 9241-305:2008\
+  URL: <https://www.iso.org/standard/40099.html>\
+  Label: Standard\
+  Keywords: display measurement, optical testing, luminance, contrast,
+  uniformity, reflection, electronic displays, ISO 9241
+
+## Publication
+
+- [IDMS] Information Display Measurements Standard
+
+  Society for Information Display (SID) standard defining measurement methods
+  for display performance. Covers luminance, contrast ratio, colour gamut,
+  viewing angle, uniformity, response time, and reflection for all display
+  technologies.
+
+  Document: IDMS 1.1 (SID, 2023)\
+  URL: <https://www.sid.org/Standards/ICDM>\
+  Label: Publication\
+  Keywords: display measurement, SID, luminance, contrast ratio, colour gamut,
+  viewing angle, response time, uniformity
+
+- [Pantone] Pantone Matching System (PMS)
+
+  De facto industry standard colour matching system for graphic design,
+  printing, and manufacturing. Defines numbered spot colours with precise
+  formulations ensuring colour consistency across materials, printers, and
+  production runs.
+
+  Document: Pantone Formula Guide (annual)\
+  URL: <https://www.pantone.com/>\
+  Label: Publication\
+  Keywords: Pantone, PMS, colour matching, spot colours, graphic design,
+  printing, manufacturing, colour consistency
+
+- [RAL] RAL Colour Standard
+
+  European colour matching standard widely used in architecture, automotive,
+  industrial coatings, and product design. Defines numbered colours (RAL
+  Classic, RAL Design, RAL Effect) with precise spectral specifications for
+  consistent colour communication.
+
+  Document: RAL Classic / RAL Design System Plus\
+  URL: <https://www.ral-farben.de/en>\
+  Label: Publication\
+  Keywords: RAL, colour standard, industrial coatings, architecture, automotive
+  colour, product design, spectral specifications
+
+- [VESA-DisplayHDR] VESA DisplayHDR
+
+  Industry standard defining performance tiers for HDR displays. Specifies
+  minimum peak luminance, black level, colour gamut, and bit depth for
+  DisplayHDR 400 through DisplayHDR True Black 600. Used for consumer display
+  marketing and procurement specifications.
+
+  Document: VESA DisplayHDR 1.2 (2022)\
+  URL: <https://displayhdr.org/>\
+  Label: Publication\
+  Keywords: VESA, DisplayHDR, HDR tiers, peak luminance, black level, colour
+  gamut, bit depth, consumer displays

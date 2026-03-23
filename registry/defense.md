@@ -1,68 +1,14 @@
 # Defense
 
-## System Safety and Engineering
+Standards and regulations for military and defense systems, covering system
+safety, environmental testing, human engineering, tactical communication,
+software development, cybersecurity maturity, and export control of defense
+articles and dual-use items.
 
-- [MIL-STD-882E] Department of Defense Standard Practice — System Safety
+**Contents:** [Standard](#standard) | [Regulation](#regulation) |
+[Publication](#publication)
 
-  U.S. military standard for system safety engineering. Defines hazard severity
-  categories, probability levels, and risk assessment matrices. Mandates a
-  systematic approach to identifying and mitigating hazards across the full
-  system lifecycle.
-
-  Document: MIL-STD-882E (2012)\
-  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36027>
-
-- [MIL-STD-810] Environmental Engineering Considerations and Laboratory Tests
-
-  U.S. military standard defining environmental test methods for equipment.
-  Covers temperature, humidity, altitude, vibration, shock, sand/dust, rain,
-  salt fog, solar radiation, and fungus. Widely adopted beyond military in
-  automotive, telecom, and industrial applications.
-
-  Document: MIL-STD-810H (2019)\
-  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35978>
-
-- [MIL-STD-1472] Human Engineering
-
-  U.S. military standard for human engineering design criteria. Defines
-  requirements for controls, displays, labelling, anthropometry, workspace, and
-  environmental conditions for military systems and equipment.
-
-  Document: MIL-STD-1472H (2020)\
-  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114167>
-
-## Communication and Data
-
-- [MIL-STD-1553] Digital Time Division Command/Response Multiplex Data Bus
-
-  Military standard for serial data bus communication. Defines a dual-
-  redundant, command/response protocol at 1 Mbit/s used in military aircraft,
-  spacecraft, and ground vehicles. Mandated by NATO STANAG 3838.
-
-  Document: MIL-STD-1553B (1978, Notice 4: 2020)\
-  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36973>
-
-- [STANAG-4586] Standard Interfaces of UAV Control System for NATO UAV
-  Interoperability
-
-  NATO standardisation agreement defining interfaces for unmanned aerial vehicle
-  control systems. Enables interoperability between UAV platforms, ground
-  control stations, and C4I systems from different NATO nations.
-
-  Document: STANAG 4586 Ed. 4 (2017)\
-  URL: <https://nso.nato.int/nso/nsdd/main/standards>
-
-- [Link-16] Tactical Digital Information Link
-
-  NATO standard for tactical data exchange providing secure, jam-resistant,
-  high-capacity digital communication. Used for sharing situational awareness,
-  targeting data, and command information between air, ground, and maritime
-  platforms.
-
-  Document: STANAG 5516 / MIL-STD-6016\
-  URL: <https://nso.nato.int/nso/nsdd/main/standards>
-
-## Software
+## Standard
 
 - [DO-178C] Software Considerations in Airborne Systems and Equipment
   Certification
@@ -74,7 +20,23 @@
   and weapon systems.
 
   Document: DO-178C / ED-12C (2011)\
-  URL: <https://www.rtca.org/products/do-178c/>
+  URL: <https://www.rtca.org/products/do-178c/>\
+  Label: Standard\
+  Keywords: airborne software, certification, design assurance level, DAL,
+  military aircraft, UAV, weapon systems, RTCA
+
+- [Link-16] Tactical Digital Information Link
+
+  NATO standard for tactical data exchange providing secure, jam-resistant,
+  high-capacity digital communication. Used for sharing situational awareness,
+  targeting data, and command information between air, ground, and maritime
+  platforms.
+
+  Document: STANAG 5516 / MIL-STD-6016\
+  URL: <https://nso.nato.int/nso/nsdd/main/standards>\
+  Label: Standard\
+  Keywords: Link-16, tactical data link, NATO, STANAG, situational awareness,
+  targeting, secure communication, jam-resistant
 
 - [MIL-STD-498] Software Development and Documentation
 
@@ -85,33 +47,76 @@
 
   Document: MIL-STD-498 (1994)\
   URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36351>\
+  Label: Standard\
+  Keywords: software development, documentation, military software, development
+  plans, test plans, design documents, legacy\
   Status: Superseded\
   Superseded-by: ISO-12207
 
-## Cybersecurity
+- [MIL-STD-810] Environmental Engineering Considerations and Laboratory Tests
 
-- [CMMC] Cybersecurity Maturity Model Certification
+  U.S. military standard defining environmental test methods for equipment.
+  Covers temperature, humidity, altitude, vibration, shock, sand/dust, rain,
+  salt fog, solar radiation, and fungus. Widely adopted beyond military in
+  automotive, telecom, and industrial applications.
 
-  U.S. Department of Defense framework for assessing cybersecurity practices of
-  defense contractors. Defines three maturity levels with practices mapped to
-  NIST SP 800-171. Required for contractors handling controlled unclassified
-  information (CUI).
+  Document: MIL-STD-810H (2019)\
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35978>\
+  Label: Standard\
+  Keywords: environmental testing, temperature, humidity, vibration, shock,
+  altitude, salt fog, military equipment, MIL-STD
 
-  Document: CMMC 2.0 (2021)\
-  URL: <https://dodcio.defense.gov/CMMC/>\
-  Derived-from: NIST-SP-800-171
+- [MIL-STD-882E] Department of Defense Standard Practice — System Safety
 
-## Export Control
+  U.S. military standard for system safety engineering. Defines hazard severity
+  categories, probability levels, and risk assessment matrices. Mandates a
+  systematic approach to identifying and mitigating hazards across the full
+  system lifecycle.
 
-- [ITAR] International Traffic in Arms Regulations
+  Document: MIL-STD-882E (2012)\
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36027>\
+  Label: Standard\
+  Keywords: system safety, hazard analysis, risk assessment, severity
+  categories, probability levels, military, DoD
 
-  U.S. regulation controlling the export and import of defense-related articles
-  and services on the United States Munitions List (USML). Administered by the
-  State Department's DDTC. Affects hardware, software, and technical data with
-  defense applications.
+- [MIL-STD-1472] Human Engineering
 
-  Document: 22 CFR Parts 120-130\
-  URL: <https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M>
+  U.S. military standard for human engineering design criteria. Defines
+  requirements for controls, displays, labelling, anthropometry, workspace, and
+  environmental conditions for military systems and equipment.
+
+  Document: MIL-STD-1472H (2020)\
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=114167>\
+  Label: Standard\
+  Keywords: human engineering, human factors, controls, displays, anthropometry,
+  workspace, ergonomics, military
+
+- [MIL-STD-1553] Digital Time Division Command/Response Multiplex Data Bus
+
+  Military standard for serial data bus communication. Defines a dual-
+  redundant, command/response protocol at 1 Mbit/s used in military aircraft,
+  spacecraft, and ground vehicles. Mandated by NATO STANAG 3838.
+
+  Document: MIL-STD-1553B (1978, Notice 4: 2020)\
+  URL: <https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36973>\
+  Label: Standard\
+  Keywords: military data bus, serial communication, command/response,
+  redundant, NATO, STANAG, military aircraft, spacecraft
+
+- [STANAG-4586] Standard Interfaces of UAV Control System for NATO UAV
+  Interoperability
+
+  NATO standardisation agreement defining interfaces for unmanned aerial vehicle
+  control systems. Enables interoperability between UAV platforms, ground
+  control stations, and C4I systems from different NATO nations.
+
+  Document: STANAG 4586 Ed. 4 (2017)\
+  URL: <https://nso.nato.int/nso/nsdd/main/standards>\
+  Label: Standard\
+  Keywords: UAV, unmanned aerial vehicle, NATO, STANAG, interoperability, ground
+  control station, C4I, drone
+
+## Regulation
 
 - [EAR] Export Administration Regulations
 
@@ -122,4 +127,36 @@
 
   Document: 15 CFR Parts 730-774\
   URL:
-  <https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C>
+  <https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C>\
+  Label: Regulation\
+  Keywords: EAR, export control, dual-use, Commerce Control List, BIS,
+  encryption, sensors, electronics, United States
+
+- [ITAR] International Traffic in Arms Regulations
+
+  U.S. regulation controlling the export and import of defense-related articles
+  and services on the United States Munitions List (USML). Administered by the
+  State Department's DDTC. Affects hardware, software, and technical data with
+  defense applications.
+
+  Document: 22 CFR Parts 120-130\
+  URL: <https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M>\
+  Label: Regulation\
+  Keywords: ITAR, arms export, USML, DDTC, defense articles, munitions list,
+  export control, United States
+
+## Publication
+
+- [CMMC] Cybersecurity Maturity Model Certification
+
+  U.S. Department of Defense framework for assessing cybersecurity practices of
+  defense contractors. Defines three maturity levels with practices mapped to
+  NIST SP 800-171. Required for contractors handling controlled unclassified
+  information (CUI).
+
+  Document: CMMC 2.0 (2021)\
+  URL: <https://dodcio.defense.gov/CMMC/>\
+  Label: Publication\
+  Keywords: CMMC, cybersecurity maturity, defense contractors, CUI, NIST SP
+  800-171, DoD, maturity levels, assessment\
+  Derived-from: NIST-SP-800-171

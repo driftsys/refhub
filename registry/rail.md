@@ -1,5 +1,26 @@
 # Rail
 
+Standards and regulations for railway systems covering safety, signalling, train
+control, communication networks, rolling stock electronics, and interoperability
+of the European rail system.
+
+**Contents:** [Standard](#standard) | [Regulation](#regulation)
+
+## Standard
+
+- [CBTC] IEEE 1474 — Communications-Based Train Control
+
+  Standard for communications-based train control systems used in urban rail and
+  metro applications. Defines continuous, high-resolution train position
+  determination and bidirectional data communication enabling moving-block
+  signalling and driverless operation.
+
+  Document: IEEE 1474 (series)\
+  URL: <https://standards.ieee.org/ieee/1474.1/4081/>\
+  Label: Standard\
+  Keywords: train control, CBTC, moving-block signalling, metro, urban rail,
+  driverless operation, position determination
+
 - [EN-50126] Railway applications — The specification and demonstration of
   Reliability, Availability, Maintainability and Safety (RAMS)
 
@@ -10,6 +31,9 @@
   Document: EN 50126-1:2017\
   URL:
   https://standards.iteh.ai/catalog/standards/cen/c1a0a640-5073-4495-9498-63beb9f73475/en-50126-1-2017\
+  Label: Standard\
+  Keywords: RAMS, reliability, availability, maintainability, safety, railway
+  lifecycle, dependability\
   Derived-from: IEC-61508
 
 - [EN-50128] Railway applications — Software for railway control and protection
@@ -22,6 +46,9 @@
   Document: EN 50128:2011+A2:2020\
   URL:
   https://standards.iteh.ai/catalog/standards/cen/45a21a53-e498-4255-b6e9-4f1d8fa1f4b6/en-50128-2011\
+  Label: Standard\
+  Keywords: railway software, safety integrity levels, SSIL, control systems,
+  protection systems, software development\
   Derived-from: IEC-61508
 
 - [EN-50129] Railway applications — Communication, signalling and processing
@@ -34,7 +61,23 @@
   Document: EN 50129:2018\
   URL:
   https://standards.iteh.ai/catalog/standards/cen/9a08e555-4e5a-ae6e-dc29d9ea14ee/en-50129-2018\
+  Label: Standard\
+  Keywords: railway signalling, safety case, safety assessment, electronic
+  systems, safety approval\
   Derived-from: IEC-61508
+
+- [EN-50155] Railway applications — Rolling stock — Electronic equipment
+
+  Environmental and reliability requirements for electronic equipment on rolling
+  stock. Specifies operating temperature, voltage, humidity, vibration, and EMC
+  conditions that on-board electronics must withstand.
+
+  Document: EN 50155:2017\
+  URL:
+  https://standards.iteh.ai/catalog/standards/cen/3a8a2ca3-cdcd-4c37-b498-4be0a2bcff8f/en-50155-2017\
+  Label: Standard\
+  Keywords: rolling stock, electronic equipment, environmental requirements,
+  temperature, vibration, EMC, on-board electronics
 
 - [EN-50159] Railway applications — Communication, signalling and processing
   systems — Safety-related communication in railway systems
@@ -46,17 +89,10 @@
   Document: EN 50159:2010+A1:2020\
   URL:
   https://standards.iteh.ai/catalog/standards/cen/b3e58e2b-138c-4fc7-8a2f-1e6c5a5b7fc4/en-50159-2010\
+  Label: Standard\
+  Keywords: safety-related communication, message integrity, transmission
+  systems, railway communication, data security\
   Derived-from: IEC-61508
-
-- [EN-50155] Railway applications — Rolling stock — Electronic equipment
-
-  Environmental and reliability requirements for electronic equipment on rolling
-  stock. Specifies operating temperature, voltage, humidity, vibration, and EMC
-  conditions that on-board electronics must withstand.
-
-  Document: EN 50155:2017\
-  URL:
-  https://standards.iteh.ai/catalog/standards/cen/3a8a2ca3-cdcd-4c37-b498-4be0a2bcff8f/en-50155-2017
 
 - [EN-50657] Railway applications — Rolling stock applications — Software on
   board rolling stock
@@ -68,21 +104,10 @@
   Document: EN 50657:2017\
   URL:
   https://standards.iteh.ai/catalog/standards/cen/e9c0f3c7-0b56-44a5-9e55-db16d59eb19e/en-50657-2017\
+  Label: Standard\
+  Keywords: rolling stock software, on-board software, traction, braking, doors,
+  passenger information\
   Derived-from: EN-50128
-
-## Communication and Networking
-
-- [IEC-61375] Electronic railway equipment — Train communication network (TCN)
-
-  Defines the train communication network architecture including the
-  Multifunction Vehicle Bus (MVB) for intra-vehicle communication and the Wire
-  Train Bus (WTB) for inter-vehicle communication. Covers real-time process data
-  exchange between train subsystems.
-
-  Document: IEC 61375 (series, 2012)\
-  URL: <https://webstore.iec.ch/en/publication/5398>
-
-## Signalling and Train Control
 
 - [ERTMS-ETCS] European Rail Traffic Management System — European Train Control
   System
@@ -93,17 +118,23 @@
   systems across Europe.
 
   Document: ERA ERTMS/ETCS Baseline 3 (SUBSET-026)\
-  URL: <https://www.era.europa.eu/domains/infrastructure/ertms_en>
+  URL: <https://www.era.europa.eu/domains/infrastructure/ertms_en>\
+  Label: Standard\
+  Keywords: ERTMS, ETCS, train control, movement authority, radio-based
+  signalling, interoperability, train supervision
 
-- [CBTC] IEEE 1474 — Communications-Based Train Control
+- [IEC-61375] Electronic railway equipment — Train communication network (TCN)
 
-  Standard for communications-based train control systems used in urban rail and
-  metro applications. Defines continuous, high-resolution train position
-  determination and bidirectional data communication enabling moving-block
-  signalling and driverless operation.
+  Defines the train communication network architecture including the
+  Multifunction Vehicle Bus (MVB) for intra-vehicle communication and the Wire
+  Train Bus (WTB) for inter-vehicle communication. Covers real-time process data
+  exchange between train subsystems.
 
-  Document: IEEE 1474 (series)\
-  URL: <https://standards.ieee.org/ieee/1474.1/4081/>
+  Document: IEC 61375 (series, 2012)\
+  URL: <https://webstore.iec.ch/en/publication/5398>\
+  Label: Standard\
+  Keywords: train communication network, TCN, MVB, WTB, real-time data,
+  intra-vehicle, inter-vehicle communication
 
 ## Regulation
 
@@ -116,7 +147,10 @@
   telematics subsystems.
 
   Document: Directive (EU) 2016/797\
-  URL: <https://eur-lex.europa.eu/eli/dir/2016/797/oj>
+  URL: <https://eur-lex.europa.eu/eli/dir/2016/797/oj>\
+  Label: Regulation\
+  Keywords: rail interoperability, TSI, rolling stock, infrastructure,
+  signalling, European rail, EU directive
 
 - [EU-2016-798] Directive on railway safety
 
@@ -125,4 +159,7 @@
   authorisation, and common safety methods for risk evaluation.
 
   Document: Directive (EU) 2016/798\
-  URL: <https://eur-lex.europa.eu/eli/dir/2016/798/oj>
+  URL: <https://eur-lex.europa.eu/eli/dir/2016/798/oj>\
+  Label: Regulation\
+  Keywords: railway safety, safety management system, safety certification, risk
+  evaluation, EU directive

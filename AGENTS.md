@@ -29,7 +29,7 @@ just verify                     # Validate commits + build
 
 ## Structure
 
-- `registry/references.md` — all entries, grouped by domain
+- `registry/*.md` — entries split into per-domain files (40 domains)
 - `project.yaml` — project manifest
 
 ## Workflow
@@ -50,10 +50,26 @@ severity/effort/priority, and review flow.
 ## Conventions
 
 - **Entry format.** Each entry has a display ID, title, 2-3 sentence abstract,
-  and metadata (Document, URL, optional Status/Superseded-by/Derived-from).
+  and metadata:
+  - `Document:` — official document name and version (required)
+  - `URL:` — link to the official source (required)
+  - `Label:` — one of `Standard`, `Regulation`, `Publication` (required)
+  - `Keywords:` — comma-separated topic tags (required)
+  - `Derived-from:` — parent standard ID (optional)
+  - `Status:` — e.g., `Superseded` (optional)
+  - `Superseded-by:` — replacement ID (optional)
 - **ID format.** Reference IDs are slugs: letters, digits, and hyphens
   (`[A-Za-z0-9-]+`). Use hyphens to separate components: `ISO-26262-6`,
   `DO-178C`, `ASPICE-SWE-1`, `ISO-TS-15066`, `RFC-2119`.
 - **Grouping.** Entries are split into per-domain files under `registry/`.
+- **Domain description.** Each file starts with an h1 title followed by a 2-3
+  sentence description of the domain scope, then a **Contents:** line linking to
+  the sections present in the file.
+- **Sections.** Each domain file uses up to three sections in this order:
+  `## Standard`, `## Regulation`, `## Publication`. Omit empty sections. Entries
+  are sorted alphabetically by ID within each section.
+- **Classification.** Is it law? → Regulation. Is it a standard or
+  specification? → Standard. Everything else (frameworks, guides, knowledge
+  bases) → Publication.
 - **Derived-from links.** Use `Derived-from:` to show standard lineage (e.g.,
   ISO 26262 derives from IEC 61508).

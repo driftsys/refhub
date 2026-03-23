@@ -1,46 +1,13 @@
 # Cloud and Infrastructure
 
-## Container and Orchestration
+Standards and specifications for cloud-native computing, container
+orchestration, observability, operating system interfaces, database querying,
+infrastructure as code, and service mesh networking in modern distributed
+systems.
 
-- [OCI] Open Container Initiative
+**Contents:** [Standard](#standard) | [Publication](#publication)
 
-  Linux Foundation standards defining container image format and runtime
-  specification. Ensures portability of container images across Docker, Podman,
-  containerd, and CRI-O runtimes. The foundational standard for cloud-native
-  containerisation.
-
-  Document: OCI Image Spec 1.1 / Runtime Spec 1.2 (2024)\
-  URL: <https://opencontainers.org/>
-
-- [Kubernetes-API] Kubernetes API
-
-  CNCF standard API for container orchestration. Defines declarative resource
-  management for pods, services, deployments, and custom resources. The de facto
-  standard for deploying, scaling, and managing containerised applications.
-
-  Document: Kubernetes API v1.31 (2024)\
-  URL: <https://kubernetes.io/docs/reference/kubernetes-api/>
-
-- [Helm] Helm — Kubernetes Package Manager
-
-  CNCF standard for packaging, distributing, and managing Kubernetes
-  applications. Defines chart format, templating, dependency management, and
-  release lifecycle for reproducible deployments.
-
-  Document: Helm 3 (CNCF Graduated, 2024)\
-  URL: <https://helm.sh/>
-
-## Observability
-
-- [OpenTelemetry] OpenTelemetry
-
-  CNCF observability framework providing vendor-neutral APIs, SDKs, and tools
-  for collecting traces, metrics, and logs. Defines OTLP (OpenTelemetry
-  Protocol) for exporting telemetry data. The emerging standard replacing
-  vendor-specific instrumentation.
-
-  Document: OpenTelemetry Specification 1.x (CNCF)\
-  URL: <https://opentelemetry.io/docs/specs/>
+## Standard
 
 - [CloudEvents] CloudEvents
 
@@ -49,41 +16,10 @@
   MQTT), and content modes enabling interoperable event-driven architectures.
 
   Document: CloudEvents 1.0.2 (CNCF, 2022)\
-  URL: <https://cloudevents.io/>
-
-- [Prometheus] Prometheus Exposition Format
-
-  CNCF standard for metrics exposition. Defines a text-based and protobuf format
-  for exposing application metrics (counters, gauges, histograms, summaries)
-  scraped by monitoring systems. The dominant metrics format in cloud-native
-  environments.
-
-  Document: OpenMetrics 1.0 (CNCF)\
-  URL: <https://openmetrics.io/>
-
-## Operating System Interfaces
-
-- [POSIX] Portable Operating System Interface
-
-  IEEE/ISO standard defining a portable OS API for Unix-like systems. Covers
-  system calls, shell commands, threading (pthreads), file I/O, signals, and
-  inter-process communication. Required by AUTOSAR Adaptive, QNX, and
-  safety-critical RTOS platforms.
-
-  Document: IEEE 1003.1-2017 / ISO/IEC 9945\
-  URL: <https://pubs.opengroup.org/onlinepubs/9699919799/>
-
-## Database and Query
-
-- [SQL] Structured Query Language
-
-  ISO standard for relational database management. Defines data definition,
-  manipulation, querying, access control, and transaction management. The
-  universal language for structured data operations across all major RDBMS
-  platforms.
-
-  Document: ISO/IEC 9075:2023\
-  URL: <https://www.iso.org/standard/76583.html>
+  URL: <https://cloudevents.io/>\
+  Label: Standard\
+  Keywords: CloudEvents, CNCF, event format, transport bindings, HTTP, AMQP,
+  Kafka, MQTT, event-driven architecture
 
 - [GraphQL] GraphQL
 
@@ -93,21 +29,86 @@
   mobile applications.
 
   Document: GraphQL Specification (June 2024)\
-  URL: <https://spec.graphql.org/>
+  URL: <https://spec.graphql.org/>\
+  Label: Standard\
+  Keywords: GraphQL, query language, API, strongly typed schema, introspection,
+  subscriptions, REST alternative
 
-## Infrastructure as Code
+- [Helm] Helm — Kubernetes Package Manager
 
-- [OpenTofu] OpenTofu (Terraform-compatible IaC)
+  CNCF standard for packaging, distributing, and managing Kubernetes
+  applications. Defines chart format, templating, dependency management, and
+  release lifecycle for reproducible deployments.
 
-  Open-source infrastructure as code tool for provisioning and managing cloud
-  resources declaratively. Uses HCL (HashiCorp Configuration Language) to define
-  infrastructure across AWS, Azure, GCP, and on-premises providers with state
-  management and plan/apply workflow.
+  Document: Helm 3 (CNCF Graduated, 2024)\
+  URL: <https://helm.sh/>\
+  Label: Standard\
+  Keywords: Helm, Kubernetes, package manager, chart, templating, CNCF,
+  deployment, release lifecycle
 
-  Document: OpenTofu 1.x (Linux Foundation)\
-  URL: <https://opentofu.org/>
+- [Kubernetes-API] Kubernetes API
 
-## Service Mesh and Networking
+  CNCF standard API for container orchestration. Defines declarative resource
+  management for pods, services, deployments, and custom resources. The de facto
+  standard for deploying, scaling, and managing containerised applications.
+
+  Document: Kubernetes API v1.31 (2024)\
+  URL: <https://kubernetes.io/docs/reference/kubernetes-api/>\
+  Label: Standard\
+  Keywords: Kubernetes, container orchestration, pods, services, deployments,
+  declarative, CNCF, scaling
+
+- [OCI] Open Container Initiative
+
+  Linux Foundation standards defining container image format and runtime
+  specification. Ensures portability of container images across Docker, Podman,
+  containerd, and CRI-O runtimes. The foundational standard for cloud-native
+  containerisation.
+
+  Document: OCI Image Spec 1.1 / Runtime Spec 1.2 (2024)\
+  URL: <https://opencontainers.org/>\
+  Label: Standard\
+  Keywords: OCI, container image, runtime specification, Docker, Podman,
+  containerd, CRI-O, Linux Foundation, cloud-native
+
+- [OpenTelemetry] OpenTelemetry
+
+  CNCF observability framework providing vendor-neutral APIs, SDKs, and tools
+  for collecting traces, metrics, and logs. Defines OTLP (OpenTelemetry
+  Protocol) for exporting telemetry data. The emerging standard replacing
+  vendor-specific instrumentation.
+
+  Document: OpenTelemetry Specification 1.x (CNCF)\
+  URL: <https://opentelemetry.io/docs/specs/>\
+  Label: Standard\
+  Keywords: OpenTelemetry, observability, traces, metrics, logs, OTLP, CNCF,
+  telemetry, instrumentation
+
+- [POSIX] Portable Operating System Interface
+
+  IEEE/ISO standard defining a portable OS API for Unix-like systems. Covers
+  system calls, shell commands, threading (pthreads), file I/O, signals, and
+  inter-process communication. Required by AUTOSAR Adaptive, QNX, and
+  safety-critical RTOS platforms.
+
+  Document: IEEE 1003.1-2017 / ISO/IEC 9945\
+  URL: <https://pubs.opengroup.org/onlinepubs/9699919799/>\
+  Label: Standard\
+  Keywords: POSIX, operating system API, Unix, pthreads, file I/O, signals, IPC,
+  IEEE, ISO, RTOS
+
+- [Prometheus] Prometheus Exposition Format
+
+  CNCF standard for metrics exposition. Defines a text-based and protobuf format
+  for exposing application metrics (counters, gauges, histograms, summaries)
+  scraped by monitoring systems. The dominant metrics format in cloud-native
+  environments.
+
+  Document: OpenMetrics 1.0 (CNCF)\
+  URL: <https://openmetrics.io/>\
+  Label: Standard\
+  Keywords: Prometheus, OpenMetrics, metrics, counters, gauges, histograms,
+  monitoring, CNCF, cloud-native
 
 - [SMI] Service Mesh Interface
 
@@ -117,4 +118,35 @@
   implementations.
 
   Document: SMI v0.6 (CNCF)\
-  URL: <https://smi-spec.io/>
+  URL: <https://smi-spec.io/>\
+  Label: Standard\
+  Keywords: service mesh, SMI, Kubernetes, traffic control, Istio, Linkerd,
+  CNCF, traffic split, traffic metrics
+
+- [SQL] Structured Query Language
+
+  ISO standard for relational database management. Defines data definition,
+  manipulation, querying, access control, and transaction management. The
+  universal language for structured data operations across all major RDBMS
+  platforms.
+
+  Document: ISO/IEC 9075:2023\
+  URL: <https://www.iso.org/standard/76583.html>\
+  Label: Standard\
+  Keywords: SQL, relational database, data definition, data manipulation,
+  querying, transactions, ISO, RDBMS
+
+## Publication
+
+- [OpenTofu] OpenTofu (Terraform-compatible IaC)
+
+  Open-source infrastructure as code tool for provisioning and managing cloud
+  resources declaratively. Uses HCL (HashiCorp Configuration Language) to define
+  infrastructure across AWS, Azure, GCP, and on-premises providers with state
+  management and plan/apply workflow.
+
+  Document: OpenTofu 1.x (Linux Foundation)\
+  URL: <https://opentofu.org/>\
+  Label: Publication\
+  Keywords: OpenTofu, infrastructure as code, IaC, Terraform, HCL, AWS, Azure,
+  GCP, state management, declarative provisioning
