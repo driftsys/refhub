@@ -40,6 +40,27 @@
   Document: ISO 12100:2010\
   URL: https://www.iso.org/standard/51528.html
 
+- [IEC-61800-5-2] Adjustable speed electrical power drive systems — Functional
+  safety requirements
+
+  Functional safety requirements for adjustable speed power drive systems.
+  Defines safety functions and SIL capability for drive systems used in
+  machinery, industrial automation, and process control.
+
+  Document: IEC 61800-5-2:2016\
+  URL: https://webstore.iec.ch/en/publication/25498\
+  Derived-from: IEC-61508
+
+- [IEC-62443] Industrial communication networks — IT security for networks and
+  systems
+
+  Comprehensive series for industrial automation and control system (IACS)
+  cybersecurity. Defines security levels (SL 1-4), zones and conduits,
+  requirements for operators, integrators, and component suppliers.
+
+  Document: IEC 62443 (series)\
+  URL: https://webstore.iec.ch/en/publication/33615
+
 - [ISO-13849-1] Safety of machinery — Safety-related parts of control systems —
   Part 1
 
@@ -50,3 +71,41 @@
   Document: ISO 13849-1:2023\
   URL: https://www.iso.org/standard/73481.html\
   Derived-from: ISO-12100
+
+## Nuclear
+
+- [IEC-61513] Nuclear power plants — Instrumentation and control important to
+  safety — General requirements for systems
+
+  Defines requirements for I&C systems important to nuclear safety. Specifies
+  system architecture, design, qualification, and V&V requirements for
+  safety-classified systems in nuclear power plants.
+
+  Document: IEC 61513:2011\
+  URL: https://webstore.iec.ch/en/publication/5533\
+  Derived-from: IEC-61508
+
+- [IEC-60880] Nuclear power plants — Instrumentation and control systems
+  important to safety — Software aspects for computer-based systems performing
+  category A functions
+
+  Software requirements for the highest safety category (A) in nuclear power
+  plants. Specifies rigorous software lifecycle processes, formal methods,
+  defensive programming, and independence requirements for reactor protection
+  systems.
+
+  Document: IEC 60880:2006+AMD1:2022\
+  URL: https://webstore.iec.ch/en/publication/67281\
+  Derived-from: IEC-61513
+
+## Regulation
+
+- [EU-Machinery-Regulation] Regulation on machinery products
+
+  EU regulation replacing the Machinery Directive 2006/42/EC. Establishes
+  essential health and safety requirements for machinery including digital
+  components, AI-based safety functions, and cybersecurity. Introduces mandatory
+  third-party conformity assessment for high-risk machinery.
+
+  Document: Regulation (EU) 2023/1230\
+  URL: https://eur-lex.europa.eu/eli/reg/2023/1230/oj
