@@ -31,7 +31,9 @@
 
   Defines a measurement process applicable to system and software engineering.
   Provides a framework for defining measures, collecting data, and using
-  measurement results to support decision-making.
+  measurement results to support decision-making. In practice, organizations use
+  it to build measurement programmes that track project health, quality, and
+  process performance with well-defined information needs and indicators.
 
   Document: ISO/IEC/IEEE 15939:2017\
   URL: https://www.iso.org/standard/71197.html
@@ -39,9 +41,11 @@
 - [ISO-16085] Systems and software engineering — Life cycle processes — Risk
   management
 
-  Defines processes for managing risk in system and software life cycles.
-  Applicable to any organization involved in development, operation, or
-  maintenance of systems.
+  Defines processes for managing risk in system and software life cycles. Unlike
+  ISO 31000, which provides general risk management principles for any domain,
+  ISO 16085 prescribes concrete activities — risk identification, analysis,
+  treatment, and monitoring — tailored to technical development phases and
+  integrated with engineering life cycle processes.
 
   Document: ISO/IEC/IEEE 16085:2021\
   URL: https://www.iso.org/standard/74371.html
@@ -63,7 +67,7 @@
   cycles across organizational contexts.
 
   Document: ISO/IEC/IEEE 24748-1:2024\
-  URL: <https://www.iso.org/standard/84729.html>\
+  URL: https://www.iso.org/standard/84729.html\
   Derived-from: ISO-15288
 
 ## Model-Based Systems Engineering

@@ -11,11 +11,14 @@
 
 - [ISO-15504] Information technology — Process assessment
 
-  Framework for process assessment. The basis from which Automotive SPICE is
-  derived. Superseded by the ISO/IEC 33001 series but still widely referenced.
+  Framework for assessing the capability of organizational processes against a
+  reference model. Practically, assessors use it to rate processes on a
+  six-level capability scale (0-5), identifying strengths, weaknesses, and
+  improvement actions. The basis from which Automotive SPICE is derived.
+  Superseded by the ISO/IEC 33001 series but still widely referenced.
 
   Document: ISO/IEC 15504 (series)\
-  URL: <https://www.iso.org/standard/60555.html>\
+  URL: https://www.iso.org/standard/60555.html\
   Status: Superseded\
   Superseded-by: ISO-33001
 
@@ -33,8 +36,11 @@
 - [ISO-25001] Systems and software engineering — SQuaRE — Planning and
   management
 
-  Requirements and guidance for managing the evaluation of software product
-  quality. Defines the framework for applying the SQuaRE series in practice.
+  Requirements and guidance for planning and managing software product quality
+  evaluation. Used by quality managers and process owners to establish a
+  structured evaluation programme based on the SQuaRE series, ensuring that
+  quality requirements are defined, measured, and tracked consistently across
+  projects and releases.
 
   Document: ISO/IEC 25001:2014\
   URL: https://www.iso.org/standard/64016.html
@@ -54,7 +60,7 @@
   UPPERCASE. Lowercase uses carry no special meaning. Updates RFC 2119.
 
   Document: RFC 8174 (2017)\
-  URL: <https://www.rfc-editor.org/rfc/rfc8174>\
+  URL: https://www.rfc-editor.org/rfc/rfc8174\
   Derived-from: RFC-2119
 
 - [ISO-33001] Information technology — Process assessment — Concepts and
@@ -293,5 +299,5 @@
   code quality assessment.
 
   Document: ISO/IEC 5055:2021\
-  URL: <https://www.iso.org/standard/80623.html>\
+  URL: https://www.iso.org/standard/80623.html\
   Derived-from: ISO-25010

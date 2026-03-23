@@ -12,11 +12,15 @@
 - [ISO-90003] Software engineering — Guidelines for the application of ISO 9001
   to computer software
 
-  Guidance for applying ISO 9001 to software development and maintenance. Maps
-  QMS requirements to software engineering practices.
+  Guidance for applying ISO 9001 to software development and maintenance.
+  Translates generic QMS requirements into software-specific practices covering
+  configuration management, reviews, testing, and release. Software
+  organizations use it to bridge the gap between ISO 9001 auditors and
+  engineering teams, ensuring that quality system controls map meaningfully to
+  actual development workflows.
 
   Document: ISO/IEC/IEEE 90003:2018\
-  URL: <https://www.iso.org/standard/74348.html>\
+  URL: https://www.iso.org/standard/74348.html\
   Derived-from: ISO-9001
 
 - [CMMI] Capability Maturity Model Integration
