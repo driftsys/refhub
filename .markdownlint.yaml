@@ -34,7 +34,7 @@ no-emphasis-as-heading: false
 no-space-in-emphasis: true
 emphasis-style: { style: underscore } # safety net
 strong-style: { style: asterisk } # safety net
-no-bare-urls: true
+no-bare-urls: false # URL: attributes use bare URLs by convention
 no-space-in-links: true
 no-empty-links: true
 no-alt-text: true
