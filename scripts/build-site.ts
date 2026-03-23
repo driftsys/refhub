@@ -336,11 +336,12 @@ function buildSearchIndex(allEntries: Entry[]): { entries: SearchEntry[] } {
 // HTML Templates
 // ---------------------------------------------------------------------------
 
-// Base path for all URLs — matches GitHub Pages deployment path
-const BASE = "/references";
+// Output subdirectory — configurable via env for CI
+const SITE_PREFIX = Deno.env.get("REFHUB_SITE_PREFIX") ?? "/references";
 
-function href(path: string): string {
-  return `${BASE}${path}`;
+// Relative root prefix, computed per page depth (0 = landing, 1 = domain/entry)
+function relRoot(depth: number): string {
+  return depth === 0 ? "." : "..";
 }
 
 function entrySlug(id: string): string {
@@ -350,8 +351,10 @@ function entrySlug(id: string): string {
 function layoutHtml(
   title: string,
   content: string,
+  depth: number,
   breadcrumbs?: { label: string; href?: string }[],
 ): string {
+  const root = relRoot(depth);
   const crumbs = breadcrumbs
     ? `<nav aria-label="breadcrumb"><ul>${breadcrumbs
         .map((b, i) =>
@@ -367,18 +370,18 @@ function layoutHtml(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="base-path" content="${BASE}">
+  <meta name="base-path" content="${root}">
   <title>${esc(title)}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="${href("/assets/vendor/pico.classless.min.css")}">
-  <link rel="stylesheet" href="${href("/assets/style.css")}">
+  <link rel="stylesheet" href="${root}/assets/vendor/pico.classless.min.css">
+  <link rel="stylesheet" href="${root}/assets/style.css">
 </head>
 <body>
   <header>
     <nav>
-      <ul><li><a href="${href("/")}"><strong>RefHub</strong></a></li></ul>
+      <ul><li><a href="${root}/"><strong>RefHub</strong></a></li></ul>
       <ul><li><a href="https://github.com/driftsys/refhub" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a></li></ul>
     </nav>
   </header>
@@ -410,7 +413,7 @@ function landingPageHtml(
         ? `<p>${esc(truncate(d.description, 120))}</p>`
         : "";
       return `<article class="domain-card">
-        <a href="${href(`/${d.slug}/`)}">
+        <a href="./${d.slug}/">
           <hgroup>
             <h3>${esc(d.title)}</h3>
             <p><small>${count} reference${count !== 1 ? "s" : ""}</small></p>
@@ -435,9 +438,9 @@ function landingPageHtml(
       ${domainCards}
     </div>
 
-    <script type="module" src="${href("/assets/search.js")}"></script>`;
+    <script type="module" src="./assets/search.js"></script>`;
 
-  return layoutHtml("RefHub — DriftSys Reference Registry", content);
+  return layoutHtml("RefHub — DriftSys Reference Registry", content, 0);
 }
 
 function domainPageHtml(
@@ -460,7 +463,7 @@ function domainPageHtml(
       const badge = entry.label ? labelBadge(entry.label) : "";
       const statusCls = entry.status === "Superseded" ? ' class="superseded"' : "";
       tableRows += `<tr${statusCls}>
-        <td><code><a href="${href(`/${entry.domain}/${entrySlug(entry.id)}.html`)}">${esc(entry.id)}</a></code></td>
+        <td><code><a href="./${entrySlug(entry.id)}.html">${esc(entry.id)}</a></code></td>
         <td>${esc(entry.title)}</td>
         <td>${badge}</td>
       </tr>\n`;
@@ -490,8 +493,9 @@ function domainPageHtml(
   return layoutHtml(
     `${domain.title} — RefHub`,
     content,
+    1,
     [
-      { label: "RefHub", href: href("/") },
+      { label: "RefHub", href: "../" },
       { label: domain.title },
     ],
   );
@@ -518,7 +522,7 @@ function entryPageHtml(
   if (entry.derivedFrom) {
     const target = entryMap.get(entry.derivedFrom);
     const link = target
-      ? `<a href="${href(`/${target.domain}/${entrySlug(target.id)}.html`)}"><code>${esc(entry.derivedFrom)}</code></a>`
+      ? `<a href="../${target.domain}/${entrySlug(target.id)}.html"><code>${esc(entry.derivedFrom)}</code></a>`
       : `<code>${esc(entry.derivedFrom)}</code>`;
     dlItems.push(`<dt>Derived from</dt><dd>${link}</dd>`);
   }
@@ -528,7 +532,7 @@ function entryPageHtml(
   if (entry.supersededBy) {
     const target = entryMap.get(entry.supersededBy);
     const link = target
-      ? `<a href="${href(`/${target.domain}/${entrySlug(target.id)}.html`)}"><code>${esc(entry.supersededBy)}</code></a>`
+      ? `<a href="../${target.domain}/${entrySlug(target.id)}.html"><code>${esc(entry.supersededBy)}</code></a>`
       : `<code>${esc(entry.supersededBy)}</code>`;
     dlItems.push(`<dt>Superseded by</dt><dd>${link}</dd>`);
   }
@@ -546,15 +550,16 @@ function entryPageHtml(
         ${dlItems.join("\n        ")}
       </dl>
 
-      <p><small>Domain: <a href="${href(`/${entry.domain}/`)}">${esc(entry.domainTitle)}</a> &middot; ${esc(entry.section)}</small></p>
+      <p><small>Domain: <a href="../${entry.domain}/">${esc(entry.domainTitle)}</a> &middot; ${esc(entry.section)}</small></p>
     </article>`;
 
   return layoutHtml(
     `${entry.id} — RefHub`,
     content,
+    1,
     [
-      { label: "RefHub", href: href("/") },
-      { label: entry.domainTitle, href: href(`/${entry.domain}/`) },
+      { label: "RefHub", href: "../" },
+      { label: entry.domainTitle, href: "./" },
       { label: entry.id },
     ],
   );
@@ -994,7 +999,7 @@ async function main(): Promise<void> {
 
   const now = new Date().toISOString();
   let filesWritten = 0;
-  const siteDir = `${outDir}${BASE}`;
+  const siteDir = `${outDir}${SITE_PREFIX}`;
 
   // --- JSON API ---
   // Global index

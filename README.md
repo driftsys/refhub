@@ -1,6 +1,8 @@
 # RefHub
 
 [![CI](https://github.com/driftsys/refhub/actions/workflows/ci.yaml/badge.svg)](https://github.com/driftsys/refhub/actions/workflows/ci.yaml)
+[![Pages](https://github.com/driftsys/refhub/actions/workflows/pages.yaml/badge.svg)](https://github.com/driftsys/refhub/actions/workflows/pages.yaml)
+[![Registry](https://img.shields.io/badge/registry-live-0072B2)](https://driftsys.github.io/refhub/references/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 DriftSys reference registry — standards, regulations, and process models.
