@@ -181,3 +181,39 @@
 
   Document: ISO/SAE 21434:2021\
   URL: https://www.iso.org/standard/70918.html
+
+## Safety of the Intended Functionality
+
+- [ISO-21448] Road vehicles — Safety of the intended functionality (SOTIF)
+
+  Addresses hazards caused by functional insufficiencies in the intended
+  functionality or by reasonably foreseeable misuse, even in the absence of
+  faults. Complements ISO 26262 for systems with AI, sensors, and complex
+  algorithms (ADAS, autonomous driving).
+
+  Document: ISO 21448:2022\
+  URL: https://www.iso.org/standard/77490.html
+
+## Type Approval
+
+- [UN-R155] Uniform provisions concerning the approval of vehicles with regards
+  to cyber security
+
+  UN regulation mandating cybersecurity management systems for vehicle type
+  approval. Requires OEMs to demonstrate cyber risk management processes across
+  the vehicle lifecycle. Mandatory in the EU since July 2024.
+
+  Document: UN Regulation No. 155\
+  URL:
+  https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155
+
+- [UN-R156] Uniform provisions concerning the approval of vehicles with regards
+  to software update
+
+  UN regulation mandating software update management systems for vehicle type
+  approval. Requires OEMs to demonstrate safe handling of over-the-air (OTA) and
+  workshop software updates.
+
+  Document: UN Regulation No. 156\
+  URL:
+  https://unece.org/transport/documents/2021/03/standards/un-regulation-no-156
