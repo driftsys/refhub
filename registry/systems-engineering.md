@@ -45,3 +45,67 @@
 
   Document: ISO/IEC/IEEE 16085:2021\
   URL: https://www.iso.org/standard/74371.html
+
+- [ISO-15026] Systems and software engineering — Systems and software assurance
+
+  Multi-part standard for assurance of systems and software. Defines assurance
+  cases, confidence arguments, and integrity levels used to demonstrate that
+  systems satisfy dependability and security requirements.
+
+  Document: ISO/IEC/IEEE 15026 (series, 2022)\
+  URL: https://www.iso.org/standard/81647.html
+
+- [ISO-24748-1] Systems and software engineering — Life cycle management — Part
+  1: Guidelines for life cycle management
+
+  Guidance for applying ISO 15288 and ISO 12207 life cycle processes. Provides
+  practical advice on tailoring, staging, and managing system and software life
+  cycles across organizational contexts.
+
+  Document: ISO/IEC/IEEE 24748-1:2024\
+  URL: https://www.iso.org/standard/84729.html\
+  Derived-from: ISO-15288
+
+## Model-Based Systems Engineering
+
+- [SysML] OMG Systems Modeling Language
+
+  General-purpose graphical modelling language for systems engineering. Extends
+  a subset of UML with requirements, parametric constraints, and allocation
+  diagrams. Widely used for specifying, analysing, and verifying complex
+  systems.
+
+  Document: OMG SysML 2.0 (2024)\
+  URL: https://www.omg.org/spec/SysML/
+
+- [ISO-10303] Industrial automation systems and integration — Product data
+  representation and exchange (STEP)
+
+  Comprehensive standard for product data exchange across the lifecycle. Defines
+  application protocols for 3D geometry, product structure, configuration
+  management, and manufacturing information enabling tool- independent data
+  interchange.
+
+  Document: ISO 10303 (series)\
+  URL: https://www.iso.org/standard/84898.html
+
+## Safety and Dependability
+
+- [IEC-61025] Fault tree analysis (FTA)
+
+  Defines the fault tree analysis method for system dependability assessment.
+  Specifies symbols, notation, and procedures for constructing and evaluating
+  fault trees to identify combinations of events leading to a defined undesired
+  event.
+
+  Document: IEC 61025:2006\
+  URL: https://webstore.iec.ch/en/publication/4311
+
+- [IEC-60812] Failure modes and effects analysis (FMEA and FMECA)
+
+  Defines procedures for failure mode and effects analysis. Specifies a
+  systematic method for identifying potential failure modes, their causes and
+  effects, and ranking by severity, occurrence, and detectability.
+
+  Document: IEC 60812:2018\
+  URL: https://webstore.iec.ch/en/publication/26359
