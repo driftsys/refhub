@@ -17,7 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       # Future: run markspec book build here to generate
       # /book/ (HTML), /api/ (JSON), /docs/ (PDF)
       # For now, deploy references.md as-is
