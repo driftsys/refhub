@@ -2,7 +2,7 @@
 name: io.driftsys.refhub
 version: 0.1.0
 category: manifest
-description: DriftSys reference registry — standards, regulations, and process models
+description: DriftSys reference registry — standards, regulations, and technical publications
 license: MIT
 homepage: https://driftsys.github.io/refhub
 repository: https://github.com/driftsys/refhub

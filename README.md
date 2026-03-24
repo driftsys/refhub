@@ -5,7 +5,8 @@
 [![Registry](https://img.shields.io/badge/registry-live-0072B2)](https://driftsys.github.io/refhub/refs/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-DriftSys reference registry — standards, regulations, and process models.
+DriftSys reference registry — standards, regulations, and technical
+publications.
 
 ## Entry format
 

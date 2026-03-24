@@ -458,16 +458,10 @@ function searchSchemaV1(): object {
 const SITE_PREFIX = Deno.env.get("REFHUB_SITE_PREFIX") ?? "";
 
 // Relative path back to site root, computed per page depth
-// depth 0 = root, 1 = refs/, 2 = refs/{domain}/
+// depth 0 = root (landing), 1 = refs/, 2 = refs/{domain}/
 function relRoot(depth: number): string {
   if (depth === 0) return ".";
   return Array(depth).fill("..").join("/");
-}
-
-// Relative path back to refs/ from a page
-function relRefs(depth: number): string {
-  if (depth <= 1) return ".";
-  return Array(depth - 1).fill("..").join("/");
 }
 
 function entrySlug(id: string): string {
@@ -496,7 +490,7 @@ function layoutHtml(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="base-path" content="${relRefs(depth)}">
+  <meta name="base-path" content="${root}">
   <meta name="api-base" content="${root}/api">
   <title>${esc(title)}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -552,7 +546,7 @@ function landingPageHtml(
     .join("\n");
 
   const content = `
-    <p class="lead">DriftSys reference registry — standards, regulations, and process models.</p>
+    <p class="lead">DriftSys reference registry — standards, regulations, and technical publications.</p>
 
     <div class="filter-bar">
       <input type="search" id="search-input" placeholder="Search ${totalEntries} references\u2026" autocomplete="off">
