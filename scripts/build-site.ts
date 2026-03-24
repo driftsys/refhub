@@ -454,12 +454,20 @@ function searchSchemaV1(): object {
 // HTML Templates
 // ---------------------------------------------------------------------------
 
-// Output subdirectory — configurable via env for CI
-const SITE_PREFIX = Deno.env.get("REFHUB_SITE_PREFIX") ?? "/references";
+// Output subdirectory — configurable via env for CI (empty = site at root)
+const SITE_PREFIX = Deno.env.get("REFHUB_SITE_PREFIX") ?? "";
 
-// Relative root prefix, computed per page depth (0 = landing, 1 = domain/entry)
+// Relative path back to site root, computed per page depth
+// depth 0 = root, 1 = refs/, 2 = refs/{domain}/
 function relRoot(depth: number): string {
-  return depth === 0 ? "." : "..";
+  if (depth === 0) return ".";
+  return Array(depth).fill("..").join("/");
+}
+
+// Relative path back to refs/ from a page
+function relRefs(depth: number): string {
+  if (depth <= 1) return ".";
+  return Array(depth - 1).fill("..").join("/");
 }
 
 function entrySlug(id: string): string {
@@ -488,7 +496,8 @@ function layoutHtml(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="base-path" content="${root}">
+  <meta name="base-path" content="${relRefs(depth)}">
+  <meta name="api-base" content="${root}/api">
   <title>${esc(title)}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -499,7 +508,7 @@ function layoutHtml(
 <body>
   <header>
     <nav>
-      <ul><li><a href="${root}/"><strong>RefHub</strong></a></li></ul>
+      <ul><li><a href="${root}/refs/"><strong>RefHub</strong></a></li></ul>
       <ul><li><a href="https://github.com/driftsys/refhub" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a></li></ul>
     </nav>
   </header>
@@ -556,9 +565,9 @@ function landingPageHtml(
       ${domainCards}
     </div>
 
-    <script type="module" src="./assets/search.js"></script>`;
+    <script type="module" src="../assets/search.js"></script>`;
 
-  return layoutHtml("RefHub — DriftSys Reference Registry", content, 0);
+  return layoutHtml("RefHub — DriftSys Reference Registry", content, 1);
 }
 
 function domainPageHtml(
@@ -611,7 +620,7 @@ function domainPageHtml(
   return layoutHtml(
     `${domain.title} — RefHub`,
     content,
-    1,
+    2,
     [
       { label: "RefHub", href: "../" },
       { label: domain.title },
@@ -674,7 +683,7 @@ function entryPageHtml(
   return layoutHtml(
     `${entry.id} — RefHub`,
     content,
-    1,
+    2,
     [
       { label: "RefHub", href: "../" },
       { label: entry.domainTitle, href: "./" },
@@ -935,7 +944,8 @@ dl dd kbd {
 
 function searchJs(): string {
   return `// RefHub search — powered by minisearch
-const BASE = document.querySelector("meta[name='base-path']")?.content || "";
+const BASE = document.querySelector("meta[name='base-path']")?.content || ".";
+const API_BASE = document.querySelector("meta[name='api-base']")?.content || "../api";
 import MiniSearch from "./vendor/minisearch.esm.min.js";
 
 const input = document.getElementById("search-input");
@@ -948,7 +958,7 @@ let selectedIdx = -1;
 
 async function init() {
   if (ms) return;
-  const res = await fetch(BASE + "/api/search.json");
+  const res = await fetch(API_BASE + "/search.json");
   const data = await res.json();
   entries = data.entries;
   ms = new MiniSearch({
@@ -1119,25 +1129,21 @@ async function main(): Promise<void> {
   let filesWritten = 0;
   const siteDir = `${outDir}${SITE_PREFIX}`;
 
-  // --- JSON API ---
-  // Global index
+  // --- JSON API (global) ---
   await writeFile(
     `${siteDir}/api/index.json`,
     JSON.stringify(buildGlobalIndex(domains, allEntries, now), null, 2),
   );
-  filesWritten++;
-
-  // Search index
   await writeFile(
     `${siteDir}/api/search.json`,
     JSON.stringify(buildSearchIndex(allEntries)),
   );
-  filesWritten++;
+  filesWritten += 2;
 
-  // Per-domain indexes and entry files
+  // --- JSON API (refs) ---
   for (const domain of domains) {
     await writeFile(
-      `${siteDir}/api/${domain.slug}/index.json`,
+      `${siteDir}/api/refs/${domain.slug}/index.json`,
       JSON.stringify(buildDomainIndex(domain, now), null, 2),
     );
     filesWritten++;
@@ -1145,7 +1151,7 @@ async function main(): Promise<void> {
     for (const section of domain.sections) {
       for (const entry of section.entries) {
         await writeFile(
-          `${siteDir}/api/${domain.slug}/${entrySlug(entry.id)}.json`,
+          `${siteDir}/api/refs/${domain.slug}/${entrySlug(entry.id)}.json`,
           JSON.stringify(buildEntryJson(entry), null, 2),
         );
         filesWritten++;
@@ -1153,27 +1159,31 @@ async function main(): Promise<void> {
     }
   }
 
-  // --- HTML ---
-  // Landing page
+  // --- HTML (root redirect) ---
   await writeFile(
     `${siteDir}/index.html`,
+    `<!DOCTYPE html><meta http-equiv="refresh" content="0;url=refs/"><title>Redirecting…</title><p><a href="refs/">RefHub</a></p>`,
+  );
+  filesWritten++;
+
+  // --- HTML (refs) ---
+  await writeFile(
+    `${siteDir}/refs/index.html`,
     landingPageHtml(domains, allEntries.length),
   );
   filesWritten++;
 
-  // Domain pages
   for (const domain of domains) {
     await writeFile(
-      `${siteDir}/${domain.slug}/index.html`,
+      `${siteDir}/refs/${domain.slug}/index.html`,
       domainPageHtml(domain, entryMap),
     );
     filesWritten++;
 
-    // Entry pages
     for (const section of domain.sections) {
       for (const entry of section.entries) {
         await writeFile(
-          `${siteDir}/${domain.slug}/${entrySlug(entry.id)}.html`,
+          `${siteDir}/refs/${domain.slug}/${entrySlug(entry.id)}.html`,
           entryPageHtml(entry, entryMap),
         );
         filesWritten++;
@@ -1196,7 +1206,7 @@ async function main(): Promise<void> {
   );
   filesWritten += 3;
 
-  // --- Assets ---
+  // --- Assets (at root) ---
   await copyFile(
     `${root}/assets/vendor/pico.classless.min.css`,
     `${siteDir}/assets/vendor/pico.classless.min.css`,

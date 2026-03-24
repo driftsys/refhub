@@ -66,7 +66,7 @@ vendored in `assets/vendor/`.
 
 The site is deployed to GitHub Pages via `.github/workflows/pages.yaml`. The
 output directory is `_site/`. The output subdirectory is configurable via the
-`REFHUB_SITE_PREFIX` environment variable (defaults to `/references`).
+`REFHUB_SITE_PREFIX` environment variable (defaults to empty — site at root).
 
 ### 2.3 Relative paths
 

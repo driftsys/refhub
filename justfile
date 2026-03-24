@@ -8,11 +8,11 @@ lint:
 
 # Build static site
 site:
-    deno run --allow-read --allow-write scripts/build-site.ts
+    deno run --allow-read --allow-write --allow-env scripts/build-site.ts
 
 # Build and serve locally
 dev: site
-    open http://localhost:8000/references/
+    open http://localhost:8000/refs/
     deno run --allow-net --allow-read scripts/dev-server.ts
 
 # Run all checks
