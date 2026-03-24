@@ -231,14 +231,7 @@ function isMetadataLine(line: string): boolean {
 // JSON Output
 // ---------------------------------------------------------------------------
 
-const SCHEMA_BASE = "https://driftsys.github.io/schemas/references";
-
-interface EntryJson extends Entry {
-  $schema: string;
-}
-
 interface IndexJson {
-  $schema: string;
   scope: string;
   generated: string;
   count: number;
@@ -259,8 +252,8 @@ interface IndexJson {
   }[];
 }
 
-function buildEntryJson(entry: Entry): EntryJson {
-  return { $schema: `${SCHEMA_BASE}/entry/v1.json`, ...entry };
+function buildEntryJson(entry: Entry): Entry {
+  return { ...entry };
 }
 
 function buildGlobalIndex(
@@ -269,7 +262,6 @@ function buildGlobalIndex(
   now: string,
 ): IndexJson {
   return {
-    $schema: `${SCHEMA_BASE}/index/v1.json`,
     scope: "global",
     generated: now,
     count: allEntries.length,
@@ -287,7 +279,6 @@ function buildGlobalIndex(
 function buildDomainIndex(domain: Domain, now: string): IndexJson {
   const entries = domain.sections.flatMap((s) => s.entries);
   return {
-    $schema: `${SCHEMA_BASE}/index/v1.json`,
     scope: domain.slug,
     generated: now,
     count: entries.length,
