@@ -401,8 +401,11 @@ interface SearchEntry {
   keywords?: string[];
 }
 
-function buildSearchIndex(allEntries: Entry[]): { entries: SearchEntry[] } {
+function buildSearchIndex(
+  allEntries: Entry[],
+): { $schema: string; entries: SearchEntry[] } {
   return {
+    $schema: `${SCHEMA_BASE}/search/v1.json`,
     entries: allEntries.map((e) => ({
       id: e.id,
       title: e.title,
@@ -412,6 +415,38 @@ function buildSearchIndex(allEntries: Entry[]): { entries: SearchEntry[] } {
       ...(e.label ? { label: e.label } : {}),
       ...(e.keywords ? { keywords: e.keywords } : {}),
     })),
+  };
+}
+
+function searchSchemaV1(): object {
+  return {
+    $schema: "https://json-schema.org/draft/2020-12/schema",
+    $id: "search/v1.json",
+    title: "RefHub Search Index",
+    description: "Flat list of entries optimised for client-side search.",
+    type: "object",
+    required: ["entries"],
+    properties: {
+      $schema: { type: "string" },
+      entries: {
+        type: "array",
+        items: {
+          type: "object",
+          required: ["id", "title", "domain", "domainTitle", "section"],
+          properties: {
+            id: { type: "string" },
+            title: { type: "string" },
+            domain: { type: "string" },
+            domainTitle: { type: "string" },
+            section: { type: "string" },
+            label: { type: "string" },
+            keywords: { type: "array", items: { type: "string" } },
+          },
+          additionalProperties: true,
+        },
+      },
+    },
+    additionalProperties: true,
   };
 }
 
@@ -1155,7 +1190,11 @@ async function main(): Promise<void> {
     `${siteDir}/schemas/index/v1.json`,
     JSON.stringify(indexSchemaV1(), null, 2),
   );
-  filesWritten += 2;
+  await writeFile(
+    `${siteDir}/schemas/search/v1.json`,
+    JSON.stringify(searchSchemaV1(), null, 2),
+  );
+  filesWritten += 3;
 
   // --- Assets ---
   await copyFile(
