@@ -231,7 +231,11 @@ function isMetadataLine(line: string): boolean {
 // JSON Output
 // ---------------------------------------------------------------------------
 
+// Schema URL base — published alongside the site
+const SCHEMA_BASE = "./schemas";
+
 interface IndexJson {
+  $schema: string;
   scope: string;
   generated: string;
   count: number;
@@ -252,8 +256,12 @@ interface IndexJson {
   }[];
 }
 
-function buildEntryJson(entry: Entry): Entry {
-  return { ...entry };
+interface EntryJson extends Entry {
+  $schema: string;
+}
+
+function buildEntryJson(entry: Entry): EntryJson {
+  return { $schema: `${SCHEMA_BASE}/entry/v1.json`, ...entry };
 }
 
 function buildGlobalIndex(
@@ -262,6 +270,7 @@ function buildGlobalIndex(
   now: string,
 ): IndexJson {
   return {
+    $schema: `${SCHEMA_BASE}/index/v1.json`,
     scope: "global",
     generated: now,
     count: allEntries.length,
@@ -279,6 +288,7 @@ function buildGlobalIndex(
 function buildDomainIndex(domain: Domain, now: string): IndexJson {
   const entries = domain.sections.flatMap((s) => s.entries);
   return {
+    $schema: `${SCHEMA_BASE}/index/v1.json`,
     scope: domain.slug,
     generated: now,
     count: entries.length,
@@ -296,6 +306,88 @@ function summaryEntry(
     section: e.section,
     ...(e.label ? { label: e.label } : {}),
     url: e.url,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// JSON Schemas
+// ---------------------------------------------------------------------------
+
+function entrySchemaV1(): object {
+  return {
+    $schema: "https://json-schema.org/draft/2020-12/schema",
+    $id: "entry/v1.json",
+    title: "RefHub Entry",
+    description: "A single reference entry (standard, regulation, or publication).",
+    type: "object",
+    required: ["id", "title", "abstract", "document", "url"],
+    properties: {
+      $schema: { type: "string" },
+      id: { type: "string", pattern: "^[A-Za-z0-9-]+$", description: "Unique entry identifier (slug)." },
+      title: { type: "string", description: "Full title." },
+      abstract: { type: "string", description: "2-3 sentence description of intent and scope." },
+      domain: { type: "string", description: "Domain slug." },
+      domainTitle: { type: "string", description: "Human-readable domain title." },
+      section: { type: "string", description: "Section name (Standard, Regulation, Publication)." },
+      document: { type: "string", description: "Official document name and version." },
+      url: { type: "string", format: "uri", description: "URL to the official source." },
+      label: { type: "string", description: "Entry classification." },
+      keywords: { type: "array", items: { type: "string" }, description: "Topic tags." },
+      status: { type: "string", description: "e.g. Superseded." },
+      supersededBy: { type: "string", description: "ID of the replacement entry." },
+      derivedFrom: { type: "string", description: "ID of the parent standard." },
+    },
+    additionalProperties: true,
+  };
+}
+
+function indexSchemaV1(): object {
+  return {
+    $schema: "https://json-schema.org/draft/2020-12/schema",
+    $id: "index/v1.json",
+    title: "RefHub Index",
+    description: "Global or per-domain index of reference entries.",
+    type: "object",
+    required: ["scope", "generated", "count", "entries"],
+    properties: {
+      $schema: { type: "string" },
+      scope: { type: "string", description: "\"global\" or a domain slug." },
+      generated: { type: "string", format: "date-time" },
+      count: { type: "integer", minimum: 0 },
+      domains: {
+        type: "array",
+        description: "Present only in the global index.",
+        items: {
+          type: "object",
+          required: ["slug", "title", "count"],
+          properties: {
+            slug: { type: "string" },
+            title: { type: "string" },
+            description: { type: "string" },
+            count: { type: "integer", minimum: 0 },
+            sections: { type: "array", items: { type: "string" } },
+          },
+          additionalProperties: true,
+        },
+      },
+      entries: {
+        type: "array",
+        items: {
+          type: "object",
+          required: ["id", "title", "domain", "url"],
+          properties: {
+            id: { type: "string" },
+            title: { type: "string" },
+            domain: { type: "string" },
+            section: { type: "string" },
+            label: { type: "string" },
+            url: { type: "string", format: "uri" },
+          },
+          additionalProperties: true,
+        },
+      },
+    },
+    additionalProperties: true,
   };
 }
 
@@ -1053,6 +1145,17 @@ async function main(): Promise<void> {
       }
     }
   }
+
+  // --- Schemas ---
+  await writeFile(
+    `${siteDir}/schemas/entry/v1.json`,
+    JSON.stringify(entrySchemaV1(), null, 2),
+  );
+  await writeFile(
+    `${siteDir}/schemas/index/v1.json`,
+    JSON.stringify(indexSchemaV1(), null, 2),
+  );
+  filesWritten += 2;
 
   // --- Assets ---
   await copyFile(
