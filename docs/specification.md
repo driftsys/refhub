@@ -1,187 +1,160 @@
-# RefHub API Specification
+# RefHub Specification
 
-RefHub publishes a read-only JSON API alongside the static site. The API enables
-tooling to resolve reference entries, build traceability links, and power
-client-side search without requiring a backend.
-
----
-
-## Part 1 — Principles
-
-### 1.1 Immutability
-
-Every published API version is immutable. Fields may be added to future versions
-but existing fields shall not be removed or change semantics within the same
-major version.
-
-### 1.2 Forward compatibility
-
-All JSON schemas use `additionalProperties: true`. Consumers must ignore unknown
-fields so that new fields can be introduced without breaking existing clients.
-
-### 1.3 Relative paths
-
-All internal references (including `$schema`) use relative paths. The API works
-regardless of the deployment base URL.
-
-### 1.4 No authentication
-
-The API is fully public. No authentication or rate limiting is applied.
+RefHub is the DriftSys implicit fallback registry for standards, regulations,
+and publications. It implements the MarkSpec registry API contract and publishes
+a static browsing site. Deployed via GitHub Pages with no server-side
+dependencies.
 
 ---
 
-## Part 2 — Endpoints
+## Part 1 — Registry content
 
-The API is served under `api/` relative to the site root.
+### 1.1 Domain organisation
 
-### 2.1 Global index
+The registry is organised into domain files under `registry/`. Each domain file
+covers a coherent subject area (e.g., automotive, cybersecurity-privacy,
+energy).
 
-**Path:** `api/index.json`\
-**Schema:** `schemas/index/v1.json`
+Each domain file shall contain:
 
-Returns the full registry index including all domains and a summary of every
-entry.
+- An H1 title
+- A 2-3 sentence description of the domain scope
+- A **Contents:** line linking to the sections present
+- Up to three sections in order: `## Standard`, `## Regulation`,
+  `## Publication`
+- Entries sorted alphabetically by ID within each section
+- Empty sections omitted
 
-_Table: Global index fields_
+### 1.2 Entry format
 
-| Field       | Type    | Required | Description                         |
-| ----------- | ------- | -------- | ----------------------------------- |
-| `$schema`   | string  | no       | Relative path to the index schema   |
-| `scope`     | string  | yes      | Always `"global"` for this endpoint |
-| `generated` | string  | yes      | ISO 8601 timestamp of the build     |
-| `count`     | integer | yes      | Total number of entries             |
-| `domains`   | array   | no       | List of domain summaries            |
-| `entries`   | array   | yes      | List of entry summaries             |
+Each entry shall have:
 
-Each domain summary contains:
+- A display ID matching `[A-Za-z0-9-]+`
+- A title
+- An abstract of 2-3 sentences describing intent and scope
+- Mandatory metadata: `Document`, `URL`, `Label`, `Keywords`
+- Optional metadata: `Derived-from`, `Status`, `Superseded-by`
 
-_Table: Domain summary fields_
+### 1.3 Classification
 
-| Field         | Type    | Required | Description                                                |
-| ------------- | ------- | -------- | ---------------------------------------------------------- |
-| `slug`        | string  | yes      | Domain file stem (e.g., `automotive`)                      |
-| `title`       | string  | yes      | Human-readable domain title                                |
-| `description` | string  | no       | Domain description paragraph                               |
-| `count`       | integer | yes      | Number of entries in the domain                            |
-| `sections`    | array   | no       | Section names present (e.g., `["Standard", "Regulation"]`) |
+Entries are classified into one of three types:
 
-Each entry summary contains:
-
-_Table: Entry summary fields (index)_
-
-| Field     | Type   | Required | Description                                            |
-| --------- | ------ | -------- | ------------------------------------------------------ |
-| `id`      | string | yes      | Entry identifier (e.g., `ISO-26262`)                   |
-| `title`   | string | yes      | Full entry title                                       |
-| `domain`  | string | yes      | Domain slug                                            |
-| `section` | string | no       | Section name (`Standard`, `Regulation`, `Publication`) |
-| `label`   | string | no       | Entry classification                                   |
-| `url`     | string | yes      | URL to the official source                             |
-
-### 2.2 Domain index
-
-**Path:** `api/{domain-slug}/index.json`\
-**Schema:** `schemas/index/v1.json`
-
-Returns the index for a single domain. Same schema as the global index but
-`scope` is the domain slug and `domains` is absent.
-
-### 2.3 Entry detail
-
-**Path:** `api/{domain-slug}/{entry-id}.json`\
-**Schema:** `schemas/entry/v1.json`
-
-Returns the full detail for a single entry.
-
-_Table: Entry detail fields_
-
-| Field          | Type   | Required | Description                                  |
-| -------------- | ------ | -------- | -------------------------------------------- |
-| `$schema`      | string | no       | Relative path to the entry schema            |
-| `id`           | string | yes      | Entry identifier                             |
-| `title`        | string | yes      | Full entry title                             |
-| `abstract`     | string | yes      | 2-3 sentence description of intent and scope |
-| `domain`       | string | no       | Domain slug                                  |
-| `domainTitle`  | string | no       | Human-readable domain title                  |
-| `section`      | string | no       | Section name                                 |
-| `document`     | string | yes      | Official document name and version           |
-| `url`          | string | yes      | URL to the official source                   |
-| `label`        | string | no       | Entry classification                         |
-| `keywords`     | array  | no       | Topic tags                                   |
-| `status`       | string | no       | e.g., `Superseded`                           |
-| `supersededBy` | string | no       | ID of the replacement entry                  |
-| `derivedFrom`  | string | no       | ID of the parent standard                    |
-
-### 2.4 Search index
-
-**Path:** `api/search.json`\
-**Schema:** `schemas/search/v1.json`
-
-Returns a flat list of all entries optimised for client-side search. This
-endpoint is designed for use with MiniSearch or similar libraries.
-
-_Table: Search index fields_
-
-| Field     | Type   | Required | Description                        |
-| --------- | ------ | -------- | ---------------------------------- |
-| `$schema` | string | no       | Relative path to the search schema |
-| `entries` | array  | yes      | List of search entries             |
-
-Each search entry contains:
-
-_Table: Search entry fields_
-
-| Field         | Type   | Required | Description                    |
-| ------------- | ------ | -------- | ------------------------------ |
-| `id`          | string | yes      | Entry identifier               |
-| `title`       | string | yes      | Full entry title               |
-| `domain`      | string | yes      | Domain slug                    |
-| `domainTitle` | string | yes      | Human-readable domain title    |
-| `section`     | string | yes      | Section name                   |
-| `label`       | string | no       | Entry classification           |
-| `keywords`    | array  | no       | Topic tags for search boosting |
+- **Standard** — normative technical specifications published by standards
+  bodies or industry consortia (ISO, IEC, IEEE, SAE, RFCs, AUTOSAR, ASPICE)
+- **Regulation** — legally binding rules (EU directives and regulations, UN
+  regulations, national laws, US CFR)
+- **Publication** — everything else: frameworks, guides, knowledge bases, vendor
+  guidelines (NIST SPs, OWASP, MITRE ATT&CK, design systems)
 
 ---
 
-## Part 3 — Schemas
+## Part 2 — Static site
 
-JSON schemas are published alongside the site under `schemas/`.
+### 2.1 Build
 
-_Table: Published schemas_
+The site is built by `scripts/build-site.ts` using Deno. The build parses
+`registry/*.md` and generates:
 
-| Schema    | Path                     | Description                |
-| --------- | ------------------------ | -------------------------- |
-| Entry v1  | `schemas/entry/v1.json`  | Single reference entry     |
-| Index v1  | `schemas/index/v1.json`  | Global or per-domain index |
-| Search v1 | `schemas/search/v1.json` | Client-side search index   |
+- Prerendered HTML pages (landing, domain, entry)
+- A JSON API (global index, per-domain indexes, per-entry detail, search index)
+- JSON schemas describing the API
 
-All schemas follow [JSON Schema 2020-12]. Required fields are the minimum set
-needed for a valid entry. All schemas permit additional properties for forward
-compatibility.
+The build shall complete without network access. All dependencies (CSS, JS) are
+vendored in `assets/vendor/`.
 
-### 3.1 Versioning
+### 2.2 Deployment
 
-Schemas are versioned by path: `schemas/{type}/v{major}.json`. A new major
-version is required when:
+The site is deployed to GitHub Pages via `.github/workflows/pages.yaml`. The
+output directory is `_site/`. The output subdirectory is configurable via the
+`REFHUB_SITE_PREFIX` environment variable (defaults to `/references`).
 
-- A required field is removed
-- A field changes type or semantics
-- A structural change breaks existing consumers
+### 2.3 Relative paths
 
-Adding optional fields or new endpoints does not require a version bump.
+All internal links (CSS, JS, navigation, breadcrumbs, cross-domain references)
+shall use relative paths. The site shall render correctly regardless of the
+deployment base URL, including when served from the local filesystem.
 
 ---
 
-## Part 4 — Entry identifiers
+## Part 3 — Pages
 
-Entry IDs are slugs matching `[A-Za-z0-9-]+`. They use hyphens to separate
-components: `ISO-26262-6`, `DO-178C`, `ASPICE-SWE-1`, `RFC-2119`.
+### 3.1 Landing page
 
-The entry JSON filename is the lowercase form of the ID:
-`api/automotive/iso-26262.json`.
+The landing page shall display:
 
-IDs are unique within a domain but may appear in multiple domains when a
-standard is cross-referenced (e.g., `IEC-61513` in both `energy` and
-`functional-safety`).
+- Project title and description
+- A search bar with client-side full-text search across all entries
+- Total counts (domains, entries)
+- A grid of domain cards, each showing title, entry count, and a truncated
+  description
 
-[JSON Schema 2020-12]: https://json-schema.org/draft/2020-12/schema
+### 3.2 Domain page
+
+Each domain page shall display:
+
+- Breadcrumb navigation (RefHub > Domain)
+- Domain title and entry count
+- Domain description
+- A table of entries grouped by section (Standard, Regulation, Publication) with
+  columns: ID (linked), Title, Label badge
+
+### 3.3 Entry page
+
+Each entry page shall display:
+
+- Breadcrumb navigation (RefHub > Domain > Entry ID)
+- Entry ID and title
+- Abstract
+- Metadata as a definition list: Document, URL, Label, Keywords, Derived-from
+  (linked when target exists), Status, Superseded-by (linked when target exists)
+- Domain link and section name
+
+---
+
+## Part 4 — Search
+
+### 4.1 Client-side search
+
+Search shall run entirely in the browser using [MiniSearch]. The search index
+(`api/search.json`) is fetched on first interaction.
+
+### 4.2 Search fields
+
+Search shall query: entry ID (boosted 3x), title (boosted 2x), keywords (boosted
+1.5x), and domain title. Fuzzy matching and prefix matching shall be enabled.
+
+### 4.3 Search results
+
+Results shall display up to 20 matches. Each result shows the entry ID, title,
+domain title, and label badge. Results support keyboard navigation (arrow keys,
+Enter, Escape).
+
+---
+
+## Part 5 — JSON API
+
+The site shall publish a read-only JSON API implementing the MarkSpec registry
+contract. The API enables tooling to resolve reference entries, build
+traceability links, and power client-side search. Schemas will eventually be
+defined in the MarkSpec schemas repository.
+
+### 5.1 Endpoints
+
+- `api/index.json` — global index with all domains and entry summaries
+- `api/{domain}/index.json` — per-domain index
+- `api/{domain}/{entry-id}.json` — full entry detail
+- `api/search.json` — search-optimised flat list
+
+### 5.2 Schemas
+
+JSON schemas shall be published at `schemas/` alongside the site:
+
+- `schemas/entry/v1.json`
+- `schemas/index/v1.json`
+- `schemas/search/v1.json`
+
+Schemas use `additionalProperties: true` for forward compatibility. Required
+fields are the minimum set for a valid document. Schema definitions are
+generated during build and published alongside the site.
+
+[MiniSearch]: https://lucaong.github.io/minisearch/
