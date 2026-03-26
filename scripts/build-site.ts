@@ -956,6 +956,7 @@ async function init() {
   const data = await res.json();
   entries = data.entries;
   ms = new MiniSearch({
+    idField: "_id",
     fields: ["id", "title", "domainTitle", "keywordsStr"],
     storeFields: ["id", "title", "domain", "domainTitle", "section", "label"],
     searchOptions: {
@@ -983,7 +984,7 @@ function render(results) {
     .slice(0, 20)
     .map(
       (r, i) =>
-        \`<a href="\${BASE}/\${r.domain}/\${r.id.toLowerCase()}.html" data-idx="\${i}">
+        \`<a href="./\${r.domain}/\${r.id.toLowerCase()}.html" data-idx="\${i}">
           <span class="sr-id">\${r.id}</span>
           <span class="sr-title">\${r.title}</span>
           <span class="sr-domain">\${r.domainTitle}</span>

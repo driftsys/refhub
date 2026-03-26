@@ -20,7 +20,9 @@
   ],
   "excludes": [
     "**/node_modules",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "playwright-report",
+    "test-results"
   ],
   "plugins": [
     "https://plugins.dprint.dev/markdown-0.20.0.wasm",
