@@ -22,7 +22,7 @@ jobs:
         with:
           deno-version: v2.x
       - run: deno run --allow-read --allow-write --allow-env scripts/build-site.ts
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v4
         with:
           path: '_site'
